@@ -1,0 +1,14 @@
+{
+  "id": "eset",
+  "name": "ESET, spol. s r.o.",
+  "overview": "Slovenská spoločnosť zaoberajúca sa kybernetickou bezpečnosťou, založená v roku 1992. Dnes globálna firma s pobočkami po celom svete.",
+  "founded": 1992,
+  "milestones": [
+    { "year": 1987, "event": "Vytvorenie programu NOD" },
+    { "year": 1992, "event": "Založenie spoločnosti ESET" },
+    { "year": 1998, "event": "Získanie prvej certifikácie VB100" },
+    { "year": 2008, "event": "Otvorenie pobočky v USA" },
+    { "year": 2017, "event": "Otvorenie výskumného centra v Bratislave" }
+  ],
+  "projects": ["eset-nod"]
+}

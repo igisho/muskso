@@ -1,0 +1,12 @@
+{
+  "id": "photorobot",
+  "title": "Photorobot",
+  "type": "application",
+  "year_start": 1995,
+  "authors": ["Ľubomír Ostradický"],
+  "tags": ["forensics", "police", "composite"],
+  "status": "verified",
+  "platform": "Windows",
+  "summary": "Softvér na tvorbu identikit portrétov používaný políciou vo viacerých krajinách sveta. Slovenský produkt, ktorý sa presadil globálne.",
+  "sources": ["https://www.photorobot.com"]
+}

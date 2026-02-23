@@ -1,0 +1,16 @@
+{
+  "id": "dokonala-vrazda-ii-bukapao",
+  "title": "Dokonalá Vražda II - Bukapao",
+  "type": "game",
+  "year_start": 1988,
+  "authors": ["Ultrasoft"],
+  "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum",
+  "summary": "Pokračovanie slovenskej textovej adventúry Dokonalá Vražda, uvádzané v SCD archíve hier.",
+  "sources": [
+    "https://scd.sk/hra/dokonala-vrazda-ii-bukapao/",
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+  ],
+  "company": "ultrasoft"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "eset-nod",
+  "title": "ESET NOD",
+  "type": "application",
+  "year_start": 1987,
+  "year_end": 1995,
+  "authors": ["Peter Paško", "Miroslav Trnka"],
+  "tags": ["antivirus", "security", "dos"],
+  "status": "verified",
+  "platform": "MS-DOS",
+  "summary": "Jeden z prvých antivírusových programov na svete, vytvorený na Slovensku. NOD (Nemocnica na Okraji Disku) sa stal základom celosvetovo úspešnej firmy ESET.",
+  "sources": ["https://www.eset.com/sk/o-nas/historia/"],
+  "company": "eset"
+}

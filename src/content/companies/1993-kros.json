@@ -1,0 +1,12 @@
+{
+  "id": "kros",
+  "name": "KROS a.s.",
+  "overview": "Slovenská softvérová firma z Žiliny, špecializujúca sa na ekonomický a stavebný softvér. Patrí medzi najväčšie softvérové firmy na Slovensku.",
+  "founded": 1993,
+  "milestones": [
+    { "year": 1993, "event": "Založenie spoločnosti" },
+    { "year": 1995, "event": "Prvá verzia CENKROS" },
+    { "year": 2005, "event": "Presun na webové technológie" }
+  ],
+  "projects": ["kros-cenkros"]
+}

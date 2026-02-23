@@ -1,0 +1,13 @@
+{
+  "id": "altky-media-platform",
+  "title": "Altky.sk",
+  "type": "application",
+  "year_start": 2024,
+  "authors": ["Igor Sovcik"],
+  "tags": ["media", "ai", "automation", "news", "platform"],
+  "status": "draft",
+  "platform": "Web",
+  "summary": "AI-driven mediálna platforma zameraná na automatizovanú tvorbu a distribúciu technologického obsahu.",
+  "sources": ["https://altky.sk"],
+  "company": "altky"
+}

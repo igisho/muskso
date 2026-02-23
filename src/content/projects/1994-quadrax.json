@@ -1,0 +1,12 @@
+{
+  "id": "quadrax",
+  "title": "Quadrax",
+  "type": "game",
+  "year_start": 1994,
+  "authors": ["Marián Ferko", "David Ďurčák"],
+  "tags": ["game", "puzzle", "slovakia", "retro"],
+  "status": "verified",
+  "platform": "PC",
+  "summary": "Výrazná slovenská logická hra z 90. rokov, ktorá sa zaradila medzi známe domáce tituly.",
+  "sources": ["https://scd.sk/hra/quadrax/"]
+}

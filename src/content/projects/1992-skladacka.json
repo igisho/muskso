@@ -1,0 +1,16 @@
+{
+  "id": "skladacka",
+  "title": "Skladačka",
+  "type": "game",
+  "year_start": 1992,
+  "authors": ["Mikuláš Zalaj", "Michal Hlaváč"],
+  "tags": ["game", "slovakia", "puzzle", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Slovenská puzzle hra (Jigsaw) z 8-bitovej éry domácej tvorby.",
+  "sources": [
+    "https://scd.sk/hra/skladacka/",
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+  ],
+  "company": "delta-soft"
+}

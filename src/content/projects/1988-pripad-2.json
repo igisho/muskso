@@ -1,0 +1,16 @@
+{
+  "id": "pripad-2",
+  "title": "Prípad 2",
+  "type": "game",
+  "year_start": 1988,
+  "authors": ["Jozef Záhumenský", "Julo Kaliský"],
+  "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Slovenská textová adventúra štúdia Shrap Software, súčasť prekladového projektu do angličtiny.",
+  "sources": [
+    "https://scd.sk/hra/pripad-2/",
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+  ],
+  "company": "shrap-software"
+}

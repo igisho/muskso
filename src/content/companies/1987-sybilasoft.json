@@ -1,0 +1,11 @@
+{
+  "id": "sybilasoft",
+  "name": "Sybilasoft",
+  "overview": "Kľúčová skupina autorov slovenských textových adventúr v období 8-bitových počítačov.",
+  "founded": 1987,
+  "milestones": [
+    { "year": 1987, "event": "Vznik prvých hier ako Stensontron a Tria" },
+    { "year": 1988, "event": "Vydanie Šatochin" }
+  ],
+  "projects": ["stensontron", "tria", "satochin", "plutonia"]
+}

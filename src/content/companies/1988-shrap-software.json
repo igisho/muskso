@@ -1,0 +1,10 @@
+{
+  "id": "shrap-software",
+  "name": "Shrap Software",
+  "overview": "Slovenská autorská skupina textových adventúr pre ZX Spectrum.",
+  "founded": 1988,
+  "milestones": [
+    { "year": 1988, "event": "Vydanie Prípad 2" }
+  ],
+  "projects": ["pripad-2"]
+}

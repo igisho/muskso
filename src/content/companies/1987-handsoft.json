@@ -1,0 +1,10 @@
+{
+  "id": "handsoft",
+  "name": "Handsoft",
+  "overview": "Raná slovenská herná skupina spojená s tvorbou titulov pre ZX Spectrum.",
+  "founded": 1987,
+  "milestones": [
+    { "year": 1987, "event": "Vydanie hry Lodičky" }
+  ],
+  "projects": ["lodicky"]
+}

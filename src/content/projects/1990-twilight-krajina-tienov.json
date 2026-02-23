@@ -1,0 +1,13 @@
+{
+  "id": "twilight-krajina-tienov",
+  "title": "Twilight - Krajina Tieňov",
+  "type": "game",
+  "year_start": 1990,
+  "authors": ["Ultrasoft"],
+  "tags": ["game", "slovakia", "retro", "adventure"],
+  "status": "verified",
+  "platform": "ZX Spectrum",
+  "summary": "Slovenská hra štúdia Ultrasoft zaradená v archíve SCD 8-bit.",
+  "sources": ["https://scd.sk/hra/twilight-krajina-tienov/"],
+  "company": "ultrasoft"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "agent-99",
+  "title": "Agent 99",
+  "type": "game",
+  "year_start": 1988,
+  "authors": ["Tomáš Lahola", "Štefan Holakovský"],
+  "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Slovenská textová adventúra z obdobia 8-bitových domácich hier.",
+  "sources": [
+    "https://scd.sk/hra/agent-99/",
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+  ],
+  "company": "alkohol-soft"
+}

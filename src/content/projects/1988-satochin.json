@@ -1,0 +1,16 @@
+{
+  "id": "satochin",
+  "title": "Šatochin",
+  "type": "game",
+  "year_start": 1988,
+  "authors": ["Sybilasoft"],
+  "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum",
+  "summary": "Kľúčová slovenská textová adventúra z 8-bitovej éry, súčasť projektu anglických lokalizácií.",
+  "sources": [
+    "https://scd.sk/hra/satochin/",
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+  ],
+  "company": "sybilasoft"
+}

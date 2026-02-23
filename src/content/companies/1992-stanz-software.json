@@ -1,0 +1,10 @@
+{
+  "id": "stanz-software",
+  "name": "Stanz Software",
+  "overview": "Slovenské štúdio spojené s titulom Crux 92.",
+  "founded": 1992,
+  "milestones": [
+    { "year": 1992, "event": "Vydanie hry Crux 92" }
+  ],
+  "projects": ["crux-92"]
+}

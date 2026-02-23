@@ -1,0 +1,12 @@
+{
+  "id": "aquanoid",
+  "title": "Aquanoid",
+  "type": "game",
+  "year_start": 1992,
+  "authors": ["Ján Machaj"],
+  "tags": ["game", "breakout", "dos", "shareware"],
+  "status": "verified",
+  "platform": "MS-DOS",
+  "summary": "Populárna slovenská hra typu breakout/arkanoid pre MS-DOS. Bola šírená ako shareware a získala si obľubu po celom svete.",
+  "sources": ["https://www.mobygames.com/game/aquanoid"]
+}

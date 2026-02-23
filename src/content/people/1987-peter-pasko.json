@@ -1,0 +1,8 @@
+{
+  "id": "peter-pasko",
+  "name": "Peter Paško",
+  "bio": "Spoluzakladateľ spoločnosti ESET a spoluautor programu NOD. Pôsobil aj ako riaditeľ spoločnosti.",
+  "roles": ["Programátor", "Spoluzakladateľ ESET", "CEO"],
+  "periods": ["1987–súčasnosť"],
+  "projects": ["eset-nod"]
+}

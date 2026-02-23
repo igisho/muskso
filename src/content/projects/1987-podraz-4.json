@@ -1,0 +1,16 @@
+{
+  "id": "podraz-4",
+  "title": "Podraz 4",
+  "type": "game",
+  "year_start": 1987,
+  "authors": ["Anton Tokár"],
+  "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Klasický slovenský titul z 80. rokov, uvádzaný aj v projekte anglických lokalizácií.",
+  "sources": [
+    "https://scd.sk/hra/podraz-4/",
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+  ],
+  "company": "antok-software"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "axons",
+  "title": "Axons",
+  "type": "game",
+  "year_start": 1992,
+  "authors": ["Ľubomír Salanci"],
+  "tags": ["game", "slovakia", "retro", "arcade", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Slovenský titul z 8-bitovej produkcie začiatku 90. rokov.",
+  "sources": ["https://scd.sk/hra/axons/"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "gratex-sofia",
+  "title": "SOFIA",
+  "type": "system",
+  "year_start": 2001,
+  "authors": ["Gratex International"],
+  "tags": ["banking", "financial", "enterprise"],
+  "status": "verified",
+  "platform": "Java",
+  "summary": "Bankový informačný systém vyvinutý na Slovensku, ktorý sa používal vo viacerých bankách v strednej Európe.",
+  "sources": ["https://www.gratex.com"],
+  "company": "gratex"
+}

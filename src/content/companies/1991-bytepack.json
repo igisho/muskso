@@ -1,0 +1,10 @@
+{
+  "id": "bytepack",
+  "name": "Bytepack",
+  "overview": "Slovenské štúdio vývoja hier pre ZX Spectrum, aktívne najmä začiatkom 90. rokov.",
+  "founded": 1991,
+  "milestones": [
+    { "year": 1992, "event": "Vydanie hry Octopussy" }
+  ],
+  "projects": ["octopussy"]
+}

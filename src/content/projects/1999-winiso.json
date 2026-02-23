@@ -1,0 +1,12 @@
+{
+  "id": "winiso",
+  "title": "WinISO",
+  "type": "utility",
+  "year_start": 1999,
+  "authors": ["Peter Štrba"],
+  "tags": ["iso", "cd", "utility", "windows"],
+  "status": "draft",
+  "platform": "Windows",
+  "summary": "Nástroj na prácu s ISO obrazmi diskov, jeden z prvých svojho druhu. Umožňoval vytváranie, úpravu a konverziu ISO súborov.",
+  "sources": []
+}

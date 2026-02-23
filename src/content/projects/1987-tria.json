@@ -1,0 +1,16 @@
+{
+  "id": "tria",
+  "title": "Tria",
+  "type": "game",
+  "year_start": 1987,
+  "authors": ["Sybilasoft"],
+  "tags": ["game", "text-adventure", "slovakia", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum",
+  "summary": "Slovenský 8-bitový titul zo zoznamu historických hier preložených do angličtiny.",
+  "sources": [
+    "https://scd.sk/hra/tria/",
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+  ],
+  "company": "sybilasoft"
+}

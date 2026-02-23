@@ -1,0 +1,10 @@
+{
+  "id": "gratex",
+  "name": "Gratex International",
+  "overview": "Slovenská technologická spoločnosť zameraná na informačné systémy pre finančný a verejný sektor.",
+  "founded": 1989,
+  "milestones": [
+    { "year": 2001, "event": "Nasadenie bankového systému SOFIA" }
+  ],
+  "projects": ["gratex-sofia"]
+}

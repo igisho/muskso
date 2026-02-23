@@ -1,0 +1,13 @@
+{
+  "id": "kros-cenkros",
+  "title": "CENKROS",
+  "type": "application",
+  "year_start": 1993,
+  "authors": ["KROS a.s."],
+  "tags": ["construction", "budgeting", "enterprise"],
+  "status": "verified",
+  "platform": "Windows",
+  "summary": "Rozpočtovací softvér pre stavebníctvo, ktorý sa stal štandardom na Slovensku. Používa ho väčšina stavebných firiem v krajine.",
+  "sources": ["https://www.kros.sk"],
+  "company": "kros"
+}

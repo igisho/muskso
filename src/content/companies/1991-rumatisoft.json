@@ -1,0 +1,10 @@
+{
+  "id": "rumatisoft",
+  "name": "Rumatisoft",
+  "overview": "Slovenské štúdio z 90. rokov, známe titulom Logic pre ZX Spectrum.",
+  "founded": 1991,
+  "milestones": [
+    { "year": 1991, "event": "Vydanie hry Logic" }
+  ],
+  "projects": ["logic"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "miroslav-trnka",
+  "name": "Miroslav Trnka",
+  "bio": "Spoluzakladateľ spoločnosti ESET, spoluautor antivírusového programu NOD. Jeden z priekopníkov kybernetickej bezpečnosti na Slovensku.",
+  "roles": ["Programátor", "Spoluzakladateľ ESET"],
+  "periods": ["1987–súčasnosť"],
+  "projects": ["eset-nod"]
+}

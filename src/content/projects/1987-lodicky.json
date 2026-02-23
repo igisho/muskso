@@ -1,0 +1,13 @@
+{
+  "id": "lodicky",
+  "title": "Lodičky",
+  "type": "game",
+  "year_start": 1987,
+  "authors": ["Andrej Hrmo"],
+  "tags": ["game", "slovakia", "retro", "strategy", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Raná slovenská hra zo spektrum éry, vydaná pod štúdiom Handsoft.",
+  "sources": ["https://scd.sk/hra/lodicky/"],
+  "company": "handsoft"
+}

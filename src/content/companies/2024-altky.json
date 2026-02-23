@@ -1,0 +1,11 @@
+{
+  "id": "altky",
+  "name": "ALTKY.SK",
+  "overview": "Slovenský AI-driven mediálny projekt orientovaný na automatizáciu obsahu a technologické inovácie.",
+  "founded": 2024,
+  "milestones": [
+    { "year": 2024, "event": "Vznik ALTKY.SK" },
+    { "year": 2025, "event": "Rozšírenie AI pipeline pre publikovanie" }
+  ],
+  "projects": ["altky-media-platform"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "towdie",
+  "title": "Towdie",
+  "type": "game",
+  "year_start": 1990,
+  "authors": ["DSA Computer Graphics"],
+  "tags": ["game", "slovakia", "retro", "8-bit"],
+  "status": "verified",
+  "platform": "ZX Spectrum",
+  "summary": "Slovenský titul z obdobia formovania lokálnej 8-bitovej hernej scény.",
+  "sources": ["https://scd.sk/hra/towdie/"],
+  "company": "dsa-computer-graphics"
+}

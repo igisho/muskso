@@ -1,0 +1,10 @@
+{
+  "id": "delta-soft",
+  "name": "Delta Soft",
+  "overview": "Slovenské štúdio známe puzzle hrami pre ZX Spectrum.",
+  "founded": 1989,
+  "milestones": [
+    { "year": 1992, "event": "Vydanie hry Skladačka" }
+  ],
+  "projects": ["skladacka"]
+}

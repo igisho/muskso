@@ -1,0 +1,13 @@
+{
+  "id": "kliatba-noci",
+  "title": "Kliatba Noci",
+  "type": "game",
+  "year_start": 1990,
+  "authors": ["DSA Computer Graphics", "Microtech Systems"],
+  "tags": ["game", "slovakia", "retro", "adventure"],
+  "status": "verified",
+  "platform": "ZX Spectrum",
+  "summary": "Domáca slovenská hra uvedená v expozícii SCD o 8-bitovej hernej tvorbe.",
+  "sources": ["https://scd.sk/hra/kliatba-noci/"],
+  "company": "dsa-computer-graphics"
+}

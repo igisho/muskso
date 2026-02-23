@@ -1,0 +1,8 @@
+{
+  "id": "igor-sovcik",
+  "name": "Igor Sovcik",
+  "bio": "Lead Java Developer, CMO a technologický tvorca. Zakladateľ portálu MUSKSO.sk a spoluzakladateľ viacerých technologických projektov.",
+  "roles": ["Tvorca portálu MUSKSO.sk", "Lead Java Developer", "CMO", "Founder"],
+  "periods": ["2010-súčasnosť"],
+  "projects": ["muskso-portal", "altky-media-platform", "starers-glasses"]
+}

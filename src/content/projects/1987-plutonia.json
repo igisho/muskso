@@ -1,0 +1,16 @@
+{
+  "id": "plutonia",
+  "title": "Plutonia",
+  "type": "game",
+  "year_start": 1987,
+  "authors": ["Martin Sústrik"],
+  "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Raná slovenská hra skupiny Sybilasoft z obdobia textových adventúr.",
+  "sources": [
+    "https://scd.sk/hra/plutonia/",
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+  ],
+  "company": "sybilasoft"
+}

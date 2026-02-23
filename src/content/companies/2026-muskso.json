@@ -1,0 +1,11 @@
+{
+  "id": "muskso",
+  "name": "MUSKSO.sk",
+  "overview": "Komunitný digitálny archív slovenského softvéru zameraný na dokumentovanie projektov, ľudí a firiem, ktoré formovali slovenskú technologickú scénu.",
+  "founded": 2026,
+  "milestones": [
+    { "year": 2026, "event": "Spustenie domény muskso.sk" },
+    { "year": 2026, "event": "Publikovanie prvých exponátov a profilov" }
+  ],
+  "projects": ["muskso-portal"]
+}

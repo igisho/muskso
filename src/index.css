@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Museum palette: warm whites, deep charcoal, indigo primary, amber accent */
+    --background: 40 20% 97%;
+    --foreground: 220 20% 12%;
+
+    --card: 40 15% 95%;
+    --card-foreground: 220 20% 12%;
+
+    --popover: 40 20% 97%;
+    --popover-foreground: 220 20% 12%;
+
+    /* Deep indigo – formal, museum-grade */
+    --primary: 228 35% 22%;
+    --primary-foreground: 40 20% 97%;
+
+    --secondary: 40 12% 92%;
+    --secondary-foreground: 220 20% 18%;
+
+    --muted: 40 10% 90%;
+    --muted-foreground: 220 10% 46%;
+
+    /* Amber/ochre accent – curatorial label feel */
+    --accent: 38 72% 50%;
+    --accent-foreground: 220 20% 10%;
+
+    --destructive: 0 65% 48%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 40 12% 88%;
+    --input: 40 12% 88%;
+    --ring: 228 35% 22%;
+
+    --radius: 0.25rem;
+
+    /* Museum-specific tokens */
+    --museum-wall: 40 20% 97%;
+    --museum-label: 40 30% 94%;
+    --museum-gold: 38 72% 50%;
+    --museum-ink: 220 20% 12%;
+    --museum-stone: 220 10% 46%;
+    --museum-verified: 145 50% 36%;
+    --museum-disputed: 0 65% 48%;
+    --museum-draft: 38 72% 50%;
+
+    --sidebar-background: 40 15% 95%;
+    --sidebar-foreground: 220 20% 18%;
+    --sidebar-primary: 228 35% 22%;
+    --sidebar-primary-foreground: 40 20% 97%;
+    --sidebar-accent: 40 12% 92%;
+    --sidebar-accent-foreground: 220 20% 18%;
+    --sidebar-border: 40 12% 88%;
+    --sidebar-ring: 228 35% 22%;
+  }
+
+  .dark {
+    --background: 220 20% 8%;
+    --foreground: 40 15% 92%;
+
+    --card: 220 18% 12%;
+    --card-foreground: 40 15% 92%;
+
+    --popover: 220 20% 8%;
+    --popover-foreground: 40 15% 92%;
+
+    --primary: 40 20% 90%;
+    --primary-foreground: 220 20% 8%;
+
+    --secondary: 220 15% 16%;
+    --secondary-foreground: 40 15% 92%;
+
+    --muted: 220 15% 16%;
+    --muted-foreground: 220 10% 58%;
+
+    --accent: 38 72% 50%;
+    --accent-foreground: 220 20% 8%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 40 15% 92%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 40 20% 90%;
+
+    --museum-wall: 220 20% 8%;
+    --museum-label: 220 18% 14%;
+    --museum-gold: 38 72% 50%;
+    --museum-ink: 40 15% 92%;
+    --museum-stone: 220 10% 58%;
+    --museum-verified: 145 50% 36%;
+    --museum-disputed: 0 62% 40%;
+    --museum-draft: 38 72% 50%;
+
+    --sidebar-background: 220 18% 10%;
+    --sidebar-foreground: 40 15% 92%;
+    --sidebar-primary: 40 20% 90%;
+    --sidebar-primary-foreground: 220 20% 8%;
+    --sidebar-accent: 220 15% 16%;
+    --sidebar-accent-foreground: 40 15% 92%;
+    --sidebar-border: 220 15% 20%;
+    --sidebar-ring: 40 20% 90%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .museum-label {
+    @apply bg-museum-label border border-border px-4 py-3 font-mono text-xs uppercase tracking-widest;
+  }
+
+  .museum-divider {
+    @apply w-full h-px bg-border my-8;
+  }
+
+  .museum-section {
+    @apply max-w-6xl mx-auto px-6 py-16 md:py-24;
+  }
+
+  .museum-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+  }
+
+  .exhibit-card {
+    @apply bg-card border border-border p-0 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .facts-row {
+    @apply flex justify-between items-baseline py-2 border-b border-border text-sm;
+  }
+
+  .facts-label {
+    @apply font-mono text-xs uppercase tracking-wider text-muted-foreground;
+  }
+
+  .facts-value {
+    @apply font-body text-foreground;
+  }
+}

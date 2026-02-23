@@ -1,0 +1,10 @@
+{
+  "id": "antok-software",
+  "name": "Antok Software",
+  "overview": "Autorská značka stojaca za titulmi série Podraz.",
+  "founded": 1987,
+  "milestones": [
+    { "year": 1987, "event": "Vydanie hry Podraz 4" }
+  ],
+  "projects": ["podraz-4"]
+}

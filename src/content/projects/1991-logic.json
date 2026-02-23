@@ -1,0 +1,13 @@
+{
+  "id": "logic",
+  "title": "Logic",
+  "type": "game",
+  "year_start": 1991,
+  "authors": ["Rudolf Priečinský"],
+  "tags": ["game", "slovakia", "retro", "logic", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Slovenská logická hra od štúdia Rumatisoft, prezentovaná v SCD archíve.",
+  "sources": ["https://scd.sk/hra/logic/"],
+  "company": "rumatisoft"
+}

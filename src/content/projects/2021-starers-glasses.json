@@ -1,0 +1,12 @@
+{
+  "id": "starers-glasses",
+  "title": "STARERS",
+  "type": "application",
+  "year_start": 2021,
+  "authors": ["Igor Sovcik"],
+  "tags": ["3d-print", "open-source", "design", "product", "lenses", "generator"],
+  "status": "draft",
+  "platform": "Cross-platform",
+  "summary": "Open-source projekt dostupných 3D tlačených rámov okuliarov s nástrojom na generovanie šošoviek pre 3D tlač a nadväzným osadením optických šošoviek.",
+  "sources": ["https://starers.eu", "https://starers.eu/generator"]
+}

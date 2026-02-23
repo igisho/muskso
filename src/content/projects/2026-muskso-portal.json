@@ -1,0 +1,13 @@
+{
+  "id": "muskso-portal",
+  "title": "MUSKSO.sk",
+  "type": "application",
+  "year_start": 2026,
+  "authors": ["Igor Sovcik"],
+  "tags": ["archive", "open-source", "community", "react", "vite"],
+  "status": "verified",
+  "platform": "Web",
+  "summary": "Komunitný portál digitálneho archívu slovenského softvéru. Projekt prepája historické exponáty, ľudí, firmy a dokumentáciu pre prispievateľov.",
+  "sources": ["https://muskso.sk"],
+  "company": "muskso"
+}

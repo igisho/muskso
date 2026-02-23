@@ -1,0 +1,13 @@
+{
+  "id": "crux-92",
+  "title": "Crux 92",
+  "type": "game",
+  "year_start": 1992,
+  "authors": ["Stanz Software"],
+  "tags": ["game", "slovakia", "retro", "pc"],
+  "status": "verified",
+  "platform": "PC",
+  "summary": "Slovenská hra z počiatku 90. rokov prezentovaná v archíve SCD Výstava 8-bit.",
+  "sources": ["https://scd.sk/hra/crux-92/"],
+  "company": "stanz-software"
+}

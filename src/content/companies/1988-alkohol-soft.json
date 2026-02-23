@@ -1,0 +1,10 @@
+{
+  "id": "alkohol-soft",
+  "name": "Alkohol Soft",
+  "overview": "Slovenská skupina vývojárov textových adventúr z konca 80. rokov.",
+  "founded": 1988,
+  "milestones": [
+    { "year": 1988, "event": "Vydanie Agent 99" }
+  ],
+  "projects": ["agent-99"]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dsa-computer-graphics",
+  "name": "DSA Computer Graphics",
+  "overview": "Slovenské štúdio hernej tvorby pre 8-bitové platformy v prelomovom období 80. a 90. rokov.",
+  "founded": 1990,
+  "milestones": [
+    { "year": 1992, "event": "Vydanie hry Prvá Akcia" }
+  ],
+  "projects": ["prva-akcia", "kliatba-noci", "towdie"]
+}

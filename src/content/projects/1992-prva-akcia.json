@@ -1,0 +1,13 @@
+{
+  "id": "prva-akcia",
+  "title": "Prvá Akcia",
+  "type": "game",
+  "year_start": 1992,
+  "authors": ["Radoslav Maruša"],
+  "tags": ["game", "slovakia", "retro", "action", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Slovenská akčná hra z domácej 8-bitovej scény vydaná pod Ultrasoft.",
+  "sources": ["https://scd.sk/hra/prva-akcia/"],
+  "company": "dsa-computer-graphics"
+}

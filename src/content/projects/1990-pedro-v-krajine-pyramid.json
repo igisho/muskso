@@ -1,0 +1,12 @@
+{
+  "id": "pedro-v-krajine-pyramid",
+  "title": "Pedro v krajine pyramíd",
+  "type": "game",
+  "year_start": 1990,
+  "authors": ["Gold Storm"],
+  "tags": ["game", "slovakia", "retro", "adventure"],
+  "status": "verified",
+  "platform": "ZX Spectrum",
+  "summary": "Slovenská hra z domácej produkcie, uvedená v SCD výbere historických titulov.",
+  "sources": ["https://scd.sk/hra/pedro-v-krajine-pyramid/"]
+}

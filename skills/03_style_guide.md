@@ -1,49 +1,39 @@
-# 03 – Style Guide
+# 03 - Style guide
 
-## Tón
+## Ton textu
 
-- **Faktický**, nie propagačný
-- Múzeum, nie startup landing page
-- Ak je niečo sporné, napíš "podľa dostupných zdrojov" alebo označ ako `disputed`
+- fakticky, neutralny, vecny,
+- ziadny marketingovy jazyk,
+- pri neistote explicitne uviest kontext alebo status `draft/disputed`.
 
-## Headings
+## Pisanie do projektu
 
-- H1: Len názov projektu (1x)
-- H2: Hlavné sekcie (O projekte, Vplyv, Technológie, Zdroje)
-- H3: Podsekcie podľa potreby
-- Nepreskakuj úrovne (H1 → H3)
+- `summary`: kratke zhrnutie (max 300 znakov),
+- `storyMarkdown`: dlhy popis vo formate Markdown (volitelne),
+- preferuj kratke odseky a konkretne tvrdenia.
 
-## Obrázky
+## Markdown odporucania (`storyMarkdown`)
 
-- Uložiť v `media/` priečinku exponátu
-- Max 2 MB na súbor
-- Formáty: PNG, JPG, WebP, SVG
-- Alt text je povinný: `![Popis obrázku](./media/file.png)`
-- Screenshoty sú preferované pred logami
+- pouzivaj `##` a `###` pre sekcie,
+- zoznamy pre metodiku, kroky, obmedzenia,
+- linky pis ako plne URL,
+- nepis HTML, pokial to nie je nevyhnutne.
 
-## Linkovanie
+## Obrazky
 
-- Externé linky: vždy plná URL
-- Interné linky: relatívne cesty
-- Citácie: na konci v sekcii Zdroje
-
-## Citácie
-
-```markdown
-## Zdroje
-- [ESET: História](https://www.eset.com/sk/o-nas/historia/)
-- [MobyGames: Aquanoid](https://www.mobygames.com/game/aquanoid)
-```
+- cover ukladaj do `public/projects/`,
+- v JSON pouzi `cover: "/projects/<nazov-suboru>.png"`,
+- pomer pre cover odporucany 16:9,
+- v UI sa obrazok oreze cez `object-cover`.
 
 ## DO
 
-- Písať v slovenčine
-- Uvádzať roky a fakty
-- Používať krátke odseky (max 4 vety)
+- uvadzaj zdroje ku klucovym tvrdeniam,
+- udrzuj konzistentne nazvy a terminologiu,
+- pis v slovencine.
 
 ## DON'T
 
-- Nepoužívať superlatives bez zdroja ("najlepší", "prvý")
-- Nepísať v 1. osobe
-- Nepoužívať emoji
-- Nepoužívať marketing speak
+- neprehanaj "vplyv a vyznam" bez dokazov,
+- nepouzivaj superlativy bez zdrojov,
+- nenechavaj dlhy text v `summary`.

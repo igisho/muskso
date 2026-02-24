@@ -1,13 +1,21 @@
 import { useParams, Link } from "react-router-dom";
+import { lazy, Suspense, useEffect, useState } from "react";
 import Layout from "@/components/layout/Layout";
 import FactsPanel from "@/components/museum/FactsPanel";
 import ExhibitIdCard from "@/components/museum/ExhibitIdCard";
 import ExhibitCard from "@/components/museum/ExhibitCard";
 import { heritageItems } from "@/data/repository";
 
+const MarkdownStory = lazy(() => import("@/components/museum/MarkdownStory"));
+
 const ProjectDetail = () => {
   const { id } = useParams();
   const item = heritageItems.find((h) => h.id === id);
+  const [coverLoadFailed, setCoverLoadFailed] = useState(false);
+
+  useEffect(() => {
+    setCoverLoadFailed(false);
+  }, [item?.cover, item?.id]);
 
   if (!item) {
     return (
@@ -23,6 +31,8 @@ const ProjectDetail = () => {
   const related = heritageItems
     .filter((h) => h.id !== item.id && h.tags.some((t) => item.tags.includes(t)))
     .slice(0, 3);
+
+  const showCover = Boolean(item.cover) && !coverLoadFailed;
 
   return (
     <Layout>
@@ -42,7 +52,17 @@ const ProjectDetail = () => {
           {/* Left: cover + gallery */}
           <div className="lg:col-span-2">
             <div className="aspect-[16/9] bg-muted border border-border flex items-center justify-center mb-6">
-              <span className="font-display text-4xl font-semibold text-muted-foreground/50">{item.title}</span>
+              {showCover ? (
+                <img
+                  src={item.cover}
+                  alt={`${item.title} cover`}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                  onError={() => setCoverLoadFailed(true)}
+                />
+              ) : (
+                <span className="font-display text-4xl font-semibold text-muted-foreground/50">{item.title}</span>
+              )}
             </div>
 
             {/* Exhibit ID Card */}
@@ -53,21 +73,20 @@ const ProjectDetail = () => {
               <section>
                 <h2 className="font-display text-2xl font-semibold mb-4">O projekte</h2>
                 <p className="text-muted-foreground leading-relaxed">{item.summary}</p>
-                <p className="text-muted-foreground leading-relaxed mt-4">
-                  Tento exponát je súčasťou digitálneho archívu slovenského softvéru. Informácie boli zozbierané
-                  z verejne dostupných zdrojov a príspevkov komunity.
-                </p>
               </section>
 
-              <div className="museum-divider" />
+              {item.storyMarkdown && (
+                <>
+                  <div className="museum-divider" />
 
-              <section>
-                <h2 className="font-display text-2xl font-semibold mb-4">Vplyv a význam</h2>
-                <p className="text-muted-foreground leading-relaxed">
-                  {item.title} predstavuje dôležitý míľnik v histórii slovenského softvérového priemyslu. 
-                  Projekt prispel k rozvoju technológií na Slovensku a inšpiroval ďalšie generácie vývojárov.
-                </p>
-              </section>
+                  <section>
+                    <h2 className="font-display text-2xl font-semibold mb-4">Detailný popis</h2>
+                    <Suspense fallback={<p className="text-sm text-muted-foreground">Načítavam formátovaný obsah...</p>}>
+                      <MarkdownStory content={item.storyMarkdown} />
+                    </Suspense>
+                  </section>
+                </>
+              )}
 
               <div className="museum-divider" />
 

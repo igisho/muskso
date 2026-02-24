@@ -1,41 +1,40 @@
-# 04 – Práva a licencovanie
+# 04 - Prava a licencovanie
 
-## Čo MÔŽEME hostovať
+## Co mozeme hostovat
 
-- Screenshoty softvéru (fair use / dokumentačný účel)
-- Skeny manuálov (ak je autor súhlasný alebo je to public domain)
-- Logá (ak je to na dokumentačný účel)
-- Originálny text napísaný prispievateľom
+- texty vytvorene prispievatelmi,
+- metadata JSON zaznamov,
+- screenshoty a cover obrazky na dokumentacny ucel,
+- odkazy na externe zdroje.
 
-## Čo len LINKUJEME
+## Co len linkujeme
 
-- Proprietárny softvér (binárky)
-- Celé manuály pod copyrightom
-- Videá na YouTube/iných platformách
-- Články tretích strán
+- proprietarne binarky (`.exe`, `.dll`, `.zip`),
+- cele clanky tretich stran,
+- videa z platforiem tretich stran,
+- materialy bez prava na zverejnenie.
 
-## Potvrdenie práv
+## Povinnost pri PR
 
-Pri PR musí prispievateľ potvrdiť:
+Prispievatel musi potvrdit, ze:
 
-> "Potvrdzujem, že mám právo zdieľať priložený obsah, alebo je obsah použitý na dokumentačné účely v súlade s fair use."
+- ma pravo obsah zverejnit, alebo
+- pouzity material je v sulade s dokumentacnym/fair-use ucelom.
 
-## Licencie v projekte
+## Licencne minimum pre projekt
 
-| Čo | Licencia |
-|----|----------|
-| Kód webu | MIT |
-| Obsah (texty, metadata) | CC BY-SA 4.0 |
-| Médiá (obrázky) | Podľa pôvodnej licencie, dokumentačný účel |
+- kod webu: MIT (`LICENSE`),
+- obsah/datove zaznamy: CC BY-SA 4.0 (`LICENSE-CONTENT`),
+- media: podla povodnej licencie so zdrojom.
 
 ## DO
 
-- Uvádzať pôvod každého obrázku
-- Používať vlastné screenshoty kde je to možné
-- Linkovat na originálne zdroje
+- vzdy uvadzaj povod obrazkov a tvrdeni,
+- pri pochybnosti radsej linkuj, nehostuj,
+- drzi sa minimalizmu: hostuj len to, co je potrebne.
 
 ## DON'T
 
-- Nehostovať .exe, .dll, .zip súbory
-- Nekopírovať celé články tretích strán
-- Nepoužívať obrázky bez uvedenia zdroja
+- nehostuj binarky,
+- nekopiruj chraneny obsah bez opravnenia,
+- neodstranuj attribution pri prevzatom materiale.

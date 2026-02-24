@@ -1,68 +1,40 @@
-# 07 – Taxonómia
+# 07 - Taxonomia
 
-## Kontrolovaný slovník
+## Odporucane hodnoty `type`
 
-### type (typ projektu)
+- `application`
+- `game`
+- `utility`
+- `system`
 
-| Hodnota | Popis |
-|---------|-------|
-| `application` | Desktopová alebo serverová aplikácia |
-| `game` | Hra (akákoľvek platforma) |
-| `utility` | Nástroj / utilita |
-| `system` | Systémový softvér, OS, driver |
-| `library` | Knižnica, framework, SDK |
-| `other` | Iné (vysvetliť v story) |
+Poznamka: schema dnes povoluje lubovolny string, ale preferujeme konzistentne hodnoty z tohto zoznamu.
 
-### status
+## `status`
 
-| Hodnota | Popis | Požiadavky |
-|---------|-------|------------|
-| `draft` | Nový, neoverený | Žiadne špeciálne |
-| `verified` | Overený maintainerom | Aspoň 1 funkčný zdroj |
-| `disputed` | Sporné tvrdenia | Vysvetlenie v story |
+- `draft` - novy/neovereny zaznam
+- `verified` - overeny zaznam so zdrojmi
+- `disputed` - sporne tvrdenia alebo nejasny povod
 
-### platform
+## `platform` (priklady)
 
-Preferované hodnoty (nie je striktný enum):
+- `MS-DOS`, `Windows`, `Linux`, `Java`, `Web`, `Android`, `iOS`, `Cross-platform`, `Embedded`, `PC`, `ZX Spectrum 128K, ZX Spectrum 48K`
 
-- `MS-DOS`
-- `Windows`
-- `Linux`
-- `macOS`
-- `Java`
-- `Web`
-- `Android`
-- `iOS`
-- `Cross-platform`
-- `Mainframe`
-- `Embedded`
+## `tags`
 
-### tags
+Pravidla:
 
-Pravidlá pre tagy:
-- Malé písmená, bez diakritiky
-- Pomlčky namiesto medzier
-- Max 10 tagov na exponát
-- Používať existujúce tagy kde je to možné
+- lowercase, bez diakritiky,
+- pomlcky namiesto medzier,
+- odporucane max ~10 tagov,
+- pouzivaj existujuce tagy pred vytvaranim novych.
 
-Bežné tagy:
+Priklady:
 
-| Kategória | Tagy |
-|-----------|------|
-| Typ | antivirus, game, database, editor, browser |
-| Technológia | dos, windows, java, web, mobile |
-| Odvetvie | banking, construction, education, healthcare |
-| Distribúcia | shareware, freeware, commercial, open-source |
-| Éra | 80s, 90s, 2000s, 2010s |
+- technologia: `ai`, `automation`, `local-llm`, `jmix`, `web`
+- domena: `security`, `forensics`, `banking`, `media`
+- distribucia: `open-source`, `commercial`, `shareware`
 
-## DO
+## Textove polia
 
-- Kontrolovať existujúce tagy pred vytvorením nových
-- Používať najšpecifickejší tag (nie `software`, ale `antivirus`)
-- Konzistentne používať anglické tagy
-
-## DON'T
-
-- Nevytvárať duplicitné tagy (anti-virus vs antivirus)
-- Nepoužívať príliš všeobecné tagy (app, program)
-- Nepoužívať viac ako 10 tagov
+- `summary`: kratke zhrnutie (max 300)
+- `storyMarkdown`: detailny formatovany popis (volitelne)

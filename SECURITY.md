@@ -5,7 +5,7 @@
 Ak nájdete bezpečnostnú zraniteľnosť v tomto projekte, prosím:
 
 1. **NEOTVÁRAJTE verejný issue**
-2. Napíšte email na: [security@example.com]
+2. Napíšte email na: [security@muskso.sk]
 3. Popíšte problém a kroky na reprodukciu
 4. Počkajte na odpoveď (do 48 hodín)
 

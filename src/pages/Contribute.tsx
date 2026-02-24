@@ -14,6 +14,7 @@ const checklist = [
   "Názov súboru je YYYY-slug.json alebo YYYY-MM-slug.json",
   "Pole id sa zhoduje so slugom v názve súboru",
   "Sú vyplnené povinné polia podľa schémy",
+  "Pri dlhom texte je použitý storyMarkdown (Markdown)",
   "Je uvedený aspoň 1 dôveryhodný zdroj",
   "Prešli skripty: validate:content, lint, test, build",
   "PR obsahuje stručný popis zmien a dôvod",

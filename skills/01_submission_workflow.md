@@ -1,44 +1,35 @@
-# 01 – Submission Workflow
+# 01 - Submission workflow
 
 ## Kroky
 
-1. **Fork** repozitára
-2. **Branch**: `add/<id>` (napr. `add/eset-nod`)
-3. **Vytvor priečinok**: `content/heritage/<id>/`
-4. **Pridaj súbory**:
-   - `meta.yaml` (povinné – viď 02_content_schema.md)
-   - `story.md` (povinné – viď 03_style_guide.md)
-   - `media/` (voliteľné)
-5. **Otvor PR** s názvom `add: <Title>`
-6. **Vyplň PR checklist**
+1. Fork repozitara.
+2. Vytvor branch: `add/<id-zaznamu>`.
+3. Pridaj alebo uprav JSON subor v jednom z priecinkov:
+   - `src/content/projects/`
+   - `src/content/people/`
+   - `src/content/companies/`
+4. Dodrz nazov suboru: `YYYY-slug.json` alebo `YYYY-MM-slug.json`.
+5. Over, ze `slug` v nazve sa rovna `id` v obsahu.
+6. Spusti lokalne validacie.
+7. Otvor PR do `main` s popisom zmien a zdrojov.
 
-## PR Checklist
+## PR checklist
 
-- [ ] Priečinok je `content/heritage/<id>/`
-- [ ] `meta.yaml` má všetky povinné polia
-- [ ] `story.md` má sekcie: About, Impact, Tech, Sources
-- [ ] Obrázky < 2 MB, formáty PNG/JPG/WebP/SVG
-- [ ] Žiadne binárky (.exe, .dll, .zip)
-- [ ] Status = `draft` pre nové submission
-- [ ] Aspoň 1 zdroj uvedený
-- [ ] ID je slug (malé písmená, pomlčky, bez diakritiky)
+- [ ] Zmena je vecne ohranicena (bez nesuvisiacich suborov)
+- [ ] Naming konvencia je dodrzana
+- [ ] Referencie medzi `projects/people/companies` su validne
+- [ ] `summary` je kratky (max 300 znakov)
+- [ ] Dlhe texty su v `storyMarkdown`
+- [ ] Prechadzaju `validate:content`, `lint`, `test`, `build`
 
 ## DO
 
-- Jeden PR = jeden exponát
-- Uvádzať zdroje ku každému tvrdeniu
-- Používať slug ako ID (napr. `eset-nod`)
+- Jeden PR = jedna tematicka zmena.
+- Pri novom projekte pridaj aspon 1 URL v `sources`.
+- Ak si nie si isty, pouzi `status: "draft"`.
 
 ## DON'T
 
-- Nemeniť existujúce exponáty v tom istom PR
-- Nepoužívať diakritiku v ID
-- Neposielať PR bez meta.yaml
-
-## Common failures
-
-| Chyba | Oprava |
-|-------|--------|
-| Chýba meta.yaml | Pridaj do root priečinka exponátu |
-| ID s diakritikou | Nahraď za ASCII ekvivalent |
-| PR mení viac priečinkov | Rozdeľ na viac PR |
+- Nepouzivaj `meta.yaml` ani `story.md` (uz sa nepouzivaju).
+- Nepouzivaj diakritiku v `id`.
+- Nepridavaj `node_modules`, `dist` ani binarne subory.

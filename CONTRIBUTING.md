@@ -42,6 +42,13 @@ Príklady:
 - platné referencie (`person.projects`, `company.projects`, `project.company`),
 - aspoň 1 zdroj v poli `sources`.
 
+Pre projekty môžete pridať aj:
+
+- `cover` - cesta k obrázku v `public/` (napr. `/projects/moj-projekt-cover.png`),
+- `storyMarkdown` - dlhší formátovaný popis projektu v Markdowne.
+
+Poznámka: `summary` je krátke zhrnutie s limitom 300 znakov.
+
 ## Lokálna validácia pred PR
 
 ```bash
@@ -63,5 +70,10 @@ npm run build
 
 - Necommitujte `node_modules`, build output ani binárky
 - Pri neistote pridajte záznam ako `status: "draft"`
+
+## Licencie príspevkov
+
+- Príspevky do kódu sa publikujú pod MIT (`LICENSE`).
+- Príspevky do obsahu (najmä `src/content/**` a dokumentácia) sa publikujú pod CC BY-SA 4.0 (`LICENSE-CONTENT`).
 
 Ďakujeme za váš príspevok.

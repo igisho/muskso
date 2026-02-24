@@ -62,6 +62,13 @@ npm run validate:content # validácia dát archívu
 
 Konvencie kontroluje `npm run validate:content`.
 
+## Formát textu projektu
+
+- `summary` slúži ako krátky text pre výpisy a úvod detailu projektu,
+- `summary` má limit 300 znakov,
+- voliteľné pole `storyMarkdown` slúži na dlhší formátovaný popis (Markdown) v detaile projektu,
+- odporúčanie: `summary` držať stručné, detailnejší obsah písať do `storyMarkdown`.
+
 ## Ako prispieť cez PR
 
 1. vytvorte branch vo svojom fork-u,
@@ -78,3 +85,8 @@ Konvencie kontroluje `npm run validate:content`.
 - TanStack Query
 - Tailwind CSS + shadcn/ui
 - Vitest + Testing Library
+
+## Licencie
+
+- Kód projektu: MIT (`LICENSE`)
+- Obsah a dátové záznamy: CC BY-SA 4.0 (`LICENSE-CONTENT`)

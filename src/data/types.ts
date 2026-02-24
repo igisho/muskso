@@ -9,6 +9,7 @@ export interface Heritage {
   status: "verified" | "draft" | "disputed";
   platform: string;
   summary: string;
+  storyMarkdown?: string;
   cover?: string;
   sources: string[];
   company?: string;

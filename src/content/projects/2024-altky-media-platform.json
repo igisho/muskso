@@ -4,10 +4,17 @@
   "type": "application",
   "year_start": 2024,
   "authors": ["Igor Sovcik"],
-  "tags": ["media", "ai", "automation", "news", "platform"],
-  "status": "draft",
+  "tags": ["media", "ai", "automation", "news", "platform", "agentic", "jmix", "local-llm", "ghost-cms"],
+  "status": "verified",
   "platform": "Web",
-  "summary": "AI-driven mediálna platforma zameraná na automatizovanú tvorbu a distribúciu technologického obsahu.",
-  "sources": ["https://altky.sk"],
+  "summary": "Experimentálny vedecký projekt pre zlepšenie dostupnosti informácií cez AI lokalizované sumáre dlhého obsahu pre slovenského čitateľa.",
+  "storyMarkdown": "## Projektová filozofia\n\nAltky.sk je experimentálny vedecký projekt, ktorého cieľom je sprístupniť hodnotný obsah ľuďom, ktorí nemajú čas sledovať dlhé zdrojové materiály. Namiesto nahrádzania pôvodných autorov slúži ako orientačný most: poskytne rýchly prehľad, upozorní na kľúčové body a motivuje čitateľa ísť do originálneho zdroja, ak ho téma zaujme hlbšie.\n\nProjekt je postavený na princípe transparentnosti. Otvorene komunikuje, že AI výstup môže obsahovať nepresnosti, môže strácať kontext a vždy závisí od kvality vstupných zdrojov. Cieľom nie je tváriť sa ako neomylná redakcia, ale ponúknuť praktický nástroj pre kriticky mysliaceho používateľa.\n\n## Metodika a pipeline\n\nObsah vzniká ako lokalizovaný a štruktúrovaný sumár vybraných zdrojov. Proces je navrhnutý tak, aby bol reprodukovateľný a auditovateľný:\n\n- výber relevantných zdrojov,\n- agentické spracovanie do prehľadného textu,\n- interné kvalitatívne signály (napr. kredibilita argumentácie, miera zaujatosti, úplnosť kontextu),\n- publikovanie s jasným upozornením na limity AI.\n\nTakto je možné dlhodobo porovnávať kvalitu výstupov a priebežne upravovať metodiku bez ručnej improvizácie pri každom článku.\n\n## Technologický základ\n\nAltky.sk je poháňané platformou **Align** ([align.altky.sk](https://align.altky.sk/)), ktorú Igor Sovcik vyvinul ako 100% agentickú publikačnú platformu.\n\nSystém beží na lokálnom modeli a technológii **JMIX**, čo prináša:\n\n- kontrolu nad prevádzkou a dátovým tokom,\n- predvídateľné náklady,\n- nižšiu prevádzkovú a environmentálnu stopu oproti ťažkým cloudovým pipeline.\n\n## Na čo je Altky.sk určené\n\nAltky.sk je doplnkový informačný nástroj: rýchly vstup do témy, nie autoritatívny zdroj pravdy. Jeho hodnota je v dostupnosti, rýchlosti orientácie a otvorene komunikovaných limitoch.",
+  "cover": "/projects/altky-media-platform-cover.png",
+  "sources": [
+    "https://altky.sk",
+    "https://altky.sk/altky-sk-ako-funguje-nas-obsah-jeho-rizika-a-obmedzenia/",
+    "https://align.altky.sk/",
+    "https://web.archive.org/web/20260101134024/https://altky.sk/"
+  ],
   "company": "altky"
 }

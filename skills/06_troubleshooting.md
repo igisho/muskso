@@ -1,43 +1,30 @@
-# 06 – Troubleshooting
+# 06 - Troubleshooting
 
-## Najčastejšie CI chyby a opravy
+## Najcastejsie chyby pri `validate:content`
 
-### meta.yaml validation failed
+| Chyba | Pricina | Oprava |
+|---|---|---|
+| `Invalid project filename` | zly format nazvu suboru | pouzi `YYYY-slug.json` alebo `YYYY-MM-slug.json` |
+| `Invalid ... filename year` | rok v nazve nesedi s datami | zosulad rok v nazve s `year_start`/`founded` |
+| `Invalid ... filename slug` | slug sa nezhoduje s `id` | oprav nazov suboru alebo `id` |
+| `references missing project` | neplatna referencia | oprav `person.projects` alebo `company.projects` |
+| `references missing company` | projekt odkazuje na neexistujucu firmu | pridaj firmu alebo odstran `company` |
 
-| Chyba | Príčina | Oprava |
-|-------|---------|--------|
-| `missing field: id` | Chýba pole `id` | Pridaj `id: slug-projektu` |
-| `missing field: authors` | Chýba pole `authors` | Pridaj `authors:` s aspoň 1 položkou |
-| `invalid type` | Neplatná hodnota `type` | Použi: application, game, utility, system, library, other |
-| `invalid status` | Neplatná hodnota `status` | Použi: draft, verified, disputed |
-| `invalid YAML` | Syntax chyba | Skontroluj odsadenie (2 medzery) |
+## Build/test chyby
 
-### Build errors
+| Chyba | Pricina | Oprava |
+|---|---|---|
+| lint error | porusene pravidla kodu | oprav kod podla hlasenia ESLint |
+| failing test | regresia funkcionality | oprav test alebo implementaciu |
+| build warning chunk size | velke kniznice v main bundle | lazy-load tazke komponenty |
 
-| Chyba | Príčina | Oprava |
-|-------|---------|--------|
-| `file too large` | Obrázok > 2 MB | Zmenši obrázok alebo použi WebP |
-| `forbidden file type` | .exe/.dll/.zip súbor | Odstráň binárku, len linkuj |
-| `duplicate id` | ID už existuje | Zmeň ID na unikátne |
-
-### PR issues
-
-| Chyba | Príčina | Oprava |
-|-------|---------|--------|
-| `changes in multiple dirs` | PR mení viac exponátov | Rozdeľ na viac PR |
-| `merge conflict` | Konflikt s main | Rebase na main |
-| `missing checklist` | Nevyplnený PR template | Vyplň checklist |
-
-## Quick fixes
+## Rychly postup opravy
 
 ```bash
-# Rebase na main
-git fetch origin
-git rebase origin/main
-
-# Zmenšiť obrázok
-convert image.png -resize 1200x image.png
-
-# Validovať YAML
-python -c "import yaml; yaml.safe_load(open('meta.yaml'))"
+npm run validate:content
+npm run lint
+npm test
+npm run build
 ```
+
+Ak chyba pretrvava, zmensi scope PR na jednu vec a skus znovu.

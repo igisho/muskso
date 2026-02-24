@@ -10,16 +10,16 @@ const LicensePage = () => (
         <div>
           <h2 className="font-display text-2xl mb-3">Kód projektu</h2>
           <p className="text-muted-foreground">
-            Zdrojový kód repozitára je určený na otvorenú spoluprácu. Pri ďalšom použití zachovajte
-            informácie o autorstve a históriu zmien.
+            Zdrojový kód repozitára je licencovaný pod MIT licenciou. Podrobnosti nájdete v súbore
+            LICENSE v koreňovom priečinku repozitára.
           </p>
         </div>
 
         <div>
           <h2 className="font-display text-2xl mb-3">Obsah archívu</h2>
           <p className="text-muted-foreground">
-            Texty, obrázky a metadáta o historických projektoch môžu mať odlišné licenčné podmienky
-            podľa pôvodu materiálu. Pri každom zázname uvádzajte zdroje a práva na použitie.
+            Textový obsah a dátové záznamy projektu sú licencované pod CC BY-SA 4.0. Podrobnosti sú
+            v súbore LICENSE-CONTENT. Pri každom zázname uvádzajte zdroje a pôvod materiálu.
           </p>
         </div>
 

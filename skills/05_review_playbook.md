@@ -1,59 +1,39 @@
-# 05 – Review Playbook
+# 05 - Review playbook
 
-## Ako posudzovať PR
+## 1) Struktura a schema (automatizovatelne)
 
-### 1. Štruktúra (automatizovateľné)
+- [ ] subor je v spravnom priecinku (`projects|people|companies`)
+- [ ] nazov suboru je `YYYY(-MM)-slug.json`
+- [ ] slug v nazve sa rovna `id`
+- [ ] `npm run validate:content` prechadza
 
-- [ ] PR mení len jeden priečinok v `content/`
-- [ ] Existuje `meta.yaml` a `story.md`
-- [ ] ID v meta.yaml sa zhoduje s názvom priečinka
-- [ ] Všetky povinné polia v meta.yaml sú vyplnené
-- [ ] Žiadne zakázané súbory (.exe, .dll, .zip)
-- [ ] Obrázky < 2 MB
+## 2) Kvalita obsahu (manualne)
 
-### 2. Kvalita obsahu (manuálne)
+- [ ] text je fakticky, nie promo
+- [ ] `summary` je vecne, kratke (<= 300)
+- [ ] dlhy obsah je v `storyMarkdown`
+- [ ] tvrdenia maju zdroje (`sources`)
 
-- [ ] Tón je faktický, nie propagačný
-- [ ] Story má všetky povinné sekcie (About, Impact, Tech, Sources)
-- [ ] Headings dodržiavajú hierarchiu
-- [ ] Text je v slovenčine
-- [ ] Krátke odseky (max 4 vety)
+## 3) Referencna integrita
 
-### 3. Fakty a zdroje
+- [ ] `project.company` existuje vo firmach
+- [ ] `person.projects` ukazuje na existujuce projekty
+- [ ] `company.projects` ukazuje na existujuce projekty
 
-- [ ] Tvrdenia sú podložené zdrojmi
-- [ ] Zdroje sú funkčné URLs
-- [ ] Sporné tvrdenia sú označené
-- [ ] Roky a mená sú správne
+## 4) Prava a media
 
-### 4. Práva
+- [ ] cover/media maju jasny povod
+- [ ] bez binarok a zakazanych suborov
+- [ ] bez obsahu porusujuceho prava tretich stran
 
-- [ ] Obrázky majú uvedený zdroj
-- [ ] Prispievateľ potvrdil práva
-- [ ] Žiadny copyrighted obsah bez fair use
+## 5) Technicke minimum pred merge
 
-### 5. Technické
+- [ ] `npm run lint`
+- [ ] `npm test`
+- [ ] `npm run build`
 
-- [ ] CI build prechádza
-- [ ] Žiadne merge konflikty
-- [ ] meta.yaml je validný YAML
+## Vysledok review
 
-## Výsledok review
-
-| Výsledok | Akcia |
-|----------|-------|
-| Všetko OK | Approve + merge |
-| Drobné chyby | Request changes s konkrétnymi opravami |
-| Závažné problémy | Request changes + vysvetlenie |
-| Porušenie práv | Close PR + vysvetlenie |
-
-## DO
-
-- Dávať konštruktívnu spätnú väzbu
-- Citovať konkrétne riadky
-- Navrhovať opravy
-
-## DON'T
-
-- Neodmietať bez vysvetlenia
-- Neschvaľovať bez kontroly zdrojov
+- approve: vecne spravne + vsetky kontroly zelene
+- request changes: konkretne body s navrhom opravy
+- close: porusenie prav alebo zjavne nevhodny obsah

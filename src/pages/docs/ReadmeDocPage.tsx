@@ -40,6 +40,7 @@ npm run dev`}
             <li>vytvorte branch a pridajte JSON záznam do <code className="font-mono text-xs">src/content</code>,</li>
             <li>dodržte názov súboru <code className="font-mono text-xs">YYYY-slug.json</code> (alebo <code className="font-mono text-xs">YYYY-MM-slug.json</code>),</li>
             <li>slug v názve musí byť rovnaký ako pole <code className="font-mono text-xs">id</code> v súbore,</li>
+            <li>krátky text dávajte do <code className="font-mono text-xs">summary</code>, dlhý formátovaný popis do <code className="font-mono text-xs">storyMarkdown</code>,</li>
             <li>spustite validáciu a testy pred otvorením pull requestu.</li>
           </ul>
         </div>

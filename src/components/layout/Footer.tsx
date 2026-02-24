@@ -24,7 +24,7 @@ const Footer = () => (
           <h4 className="font-mono text-xs uppercase tracking-widest text-muted-foreground mb-3">Projekt</h4>
           <div className="space-y-2">
             <a href="https://muskso.sk" target="_blank" rel="noopener noreferrer" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">muskso.sk</a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">GitHub</a>
+            <a href="https://github.com/igisho/muskso" target="_blank" rel="noopener noreferrer" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">GitHub</a>
             <Link to="/docs" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Pre prispievateľov</Link>
             <Link to="/docs" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Pre agentov</Link>
           </div>

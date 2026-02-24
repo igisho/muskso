@@ -73,7 +73,7 @@ const Contribute = () => (
             Dokumentácia <ArrowRight size={14} />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/igisho/muskso"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-border text-foreground px-6 py-3 text-sm font-medium hover:bg-card transition-colors"

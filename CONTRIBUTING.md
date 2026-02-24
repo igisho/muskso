@@ -1,95 +1,67 @@
-# Ako prispieť do Slovak Software Museum
+# Ako prispieť do MUSKSO
 
-Ďakujeme za váš záujem o zachovanie slovenského softvérového dedičstva!
+Ďakujeme, že pomáhate rozširovať archív slovenského softvéru.
 
 ## Pred začiatkom
 
-- Prečítajte si [Code of Conduct](./CODE_OF_CONDUCT.md)
-- Pozrite si existujúce exponáty v `content/heritage/`
-- Uistite sa, že váš exponát ešte nie je v archíve
+- Prečítajte si `CODE_OF_CONDUCT.md`
+- Overte, že záznam ešte v archíve nie je
+- Pripravte si dôveryhodné zdroje (aspoň 1)
 
-## Postup pridania exponátu
-
-### 1. Fork a branch
+## Workflow (fork -> branch -> PR)
 
 ```bash
-git clone https://github.com/<your-fork>/slovak-software-museum.git
-cd slovak-software-museum
-git checkout -b add/<id-projektu>
+git clone https://github.com/<your-fork>/muskso.git
+cd muskso
+git checkout -b add/<id-zaznamu>
 ```
 
-### 2. Vytvorte priečinok
+Po dokončení zmien otvorte Pull Request do `igisho/muskso`.
 
-```
-content/heritage/<id>/
-├── meta.yaml
-├── story.md
-└── media/
-    └── (obrázky, max 2 MB každý)
-```
+## Kde pridávať obsah
 
-**ID (slug):** malé písmená, pomlčky, bez diakritiky. Napr. `eset-nod`, `aquanoid`.
+- Projekty: `src/content/projects/`
+- Ľudia: `src/content/people/`
+- Firmy/štúdiá: `src/content/companies/`
 
-### 3. Vyplňte meta.yaml
+Každý súbor je jeden JSON záznam.
 
-```yaml
-id: vas-projekt
-title: Názov projektu
-type: application
-year_start: 1995
-authors:
-  - Meno Autora
-tags:
-  - relevant-tag
-status: draft
-platform: Windows
-sources:
-  - https://zdroj.com
-```
+## Konvencia názvu súborov
 
-**Povinné polia:** id, title, type, year_start, authors, tags, status, platform, sources
+- `YYYY-slug.json` alebo `YYYY-MM-slug.json`
+- `slug` v názve musí byť rovnaký ako pole `id` v JSON
 
-### 4. Napíšte story.md
+Príklady:
 
-Minimálna štruktúra:
+- `1992-prva-akcia.json`
+- `2024-altky-media-platform.json`
 
-```markdown
-# Názov projektu
+## Minimálne požiadavky na JSON
 
-## O projekte
-Čo to bolo, prečo vzniklo.
+- vyplnené povinné polia podľa schémy,
+- platné referencie (`person.projects`, `company.projects`, `project.company`),
+- aspoň 1 zdroj v poli `sources`.
 
-## Vplyv a význam
-Ako ovplyvnilo slovenský softvérový priemysel.
+## Lokálna validácia pred PR
 
-## Technológie
-Aké technológie boli použité.
-
-## Zdroje
-- [Odkaz na zdroj](https://...)
+```bash
+npm run validate:content
+npm run lint
+npm test
+npm run build
 ```
 
-### 5. Otvorte Pull Request
+## PR checklist
 
-- PR názov: `add: Názov projektu`
-- Vyplňte PR template checklist
-- PR musí obsahovať zmeny len v jednom priečinku
+- [ ] Zmeny sú iba k veci (bez nesúvisiacich úprav)
+- [ ] Názvy súborov dodržujú konvenciu
+- [ ] `id` v JSON sedí so slugom v názve
+- [ ] Prešli `validate:content`, `lint`, `test`, `build`
+- [ ] PR obsahuje stručný popis zmien a zdrojov
 
-## Pravidlá pre médiá
+## Poznámky
 
-- Max 2 MB na obrázok
-- Formáty: PNG, JPG, WebP, SVG
-- Žiadne binárne súbory (.exe, .dll, .zip)
-- Screenshoty a manuály môžete hostovať priamo
-- Proprietárny obsah len linkujte, nehostujte
+- Necommitujte `node_modules`, build output ani binárky
+- Pri neistote pridajte záznam ako `status: "draft"`
 
-## Review proces
-
-1. Automatická validácia (CI)
-2. Review maintainerom alebo agentom
-3. Kontrola faktov a zdrojov
-4. Merge do main → automatický deploy
-
-## Otázky?
-
-Otvorte issue na GitHub.
+Ďakujeme za váš príspevok.

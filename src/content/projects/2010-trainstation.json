@@ -1,0 +1,25 @@
+{
+  "id": "trainstation",
+  "title": "TrainStation",
+  "type": "application",
+  "year_start": 2010,
+  "importance": 4,
+  "authors": ["Pixel Federation"],
+  "tags": ["gaming", "simulation", "trains", "mobile", "facebook"],
+  "status": "verified",
+  "platform": "iOS, Android, Facebook, Web",
+  "summary": "TrainStation je železničná simulácia od Pixel Federation. Hráči spravujú vlaky a železnice naprieč históriou. Hra má viac ako 140 miliónov hráčov worldwide.",
+  "storyMarkdown": "## Vznik\n\nTrainStation bola prvou úspešnou hrou slovenského štúdia Pixel Federation. Vydaná bola v roku 2010 najprv ako prehliadacia hra na Facebooku, neskôr bola portovaná na iOS a Android.\n\n## Herný koncept\n\nHra je železničná simulácia, kde hráči:\n- Nakupujú a spravujú vlaky\n- Budujú železničné trate\n- Obsluhujú stanice\n- Postupujú naprieč históriou železníc od parných lokomotív po moderné vlaky\n\n## Úspech\n\nTrainStation sa stala vlajkovou loďou Pixel Federation:\n- V roku 2012 sa štúdio stalo jedným z top 20 herných vývojárov na Facebooku v EMEA regióne\n- Hra má spolu s pokračovaním TrainStation 2 viac ako 140 miliónov hráčov\n- K dispozícii je aj pokračovanie TrainStation 2\n\n## Platformy\n\nHra je dostupná na:\n- Facebook (pôvodne)\n- iOS\n- Android\n- Web\n\n## Súčasnosť\n\nTrainStation naďalej žije a vyvíja sa, s pravidelnými aktualizáciami a novým obsahom. Hra si udržiava vernú komunitu hráčov už viac ako 10 rokov.",
+  "cover": "/projects/trainstation-cover.png",
+  "coverAlt": "Hlavná stránka TrainStation s vlakovou tematikou.",
+  "coverCredit": "Vlastný capture z webu pixelfederation.com pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://portal.pixelfederation.com/games/trainstation",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely.",
+  "sources": [
+    "https://portal.pixelfederation.com/games/trainstation",
+    "https://en.wikipedia.org/wiki/Pixel_Federation",
+    "https://blog.pixelfederation.com/15-years-of-pixel-federation/"
+  ],
+  "company": "pixel-federation"
+}

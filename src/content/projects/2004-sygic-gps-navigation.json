@@ -1,0 +1,28 @@
+{
+  "id": "sygic-gps-navigation",
+  "title": "Sygic GPS Navigation",
+  "type": "application",
+  "year_start": 2004,
+  "importance": 5,
+  "authors": ["Michal Štencl", "Martin Kališ", "Peter Pecho"],
+  "tags": ["gps", "navigation", "mobile", "ios", "android", "offline-maps"],
+  "status": "verified",
+  "platform": "iOS, Android, Windows Mobile, Symbian, Linux",
+  "summary": "Sygic je svetovo najinštalovanejšia offline GPS navigácia pre mobily. V roku 2009 vydali prvú iPhone navigáciu na svete a dnes má aplikácia viac ako 200 miliónov používateľov v 115 krajinách.",
+  "storyMarkdown": "## Vznik a founders\n\nSygic založili v roku 2004 v Bratislave traja Slovakci: Michal Štencl, Martin Kališ a Peter Pecho. Štencl začal programovať vo veku 8 rokov na Commodore 128 a vo veku 13 rokov napísal vlastný operačný systém. Namiesto presídlenia do Silicon Valley sa rozhodol zostať na Slovensku a budovať globálny produkt z Bratislavy.\n\n## Prielom v roku 2009\n\nPrvým veľkým míľnikom bolo vydanie prvej GPS navigácie pre iPhone na svete v roku 2009. Sygic sa stal druhou aplikáciou dostupnou pre Android. Tento raný vstup do smartfónovej éry im dal náskok, ktorý si udržiavajú dodnes.\n\n## Rast a ocenenia\n\nSpoločnosť sa každoročne umiestňuje v rebríčku Deloitte Fast 50 CEE od roku 2007. V roku 2015 dosiahla 100 miliónov stiahnutí a v roku 2024/2026 prekročila 200 miliónov aktívnych používateľov.\n\nV roku 2016 získala Sygic ocenenie \"Slovenská IT spoločnosť roka\" a v roku 2022/2023 získala ocenenie \"Best Managed Company\".\n\n## Partnerské integrácie\n\nSygic spolupracuje s významnými partnermi:\n- **Samsara** (2022) - integrácia navigácie do Connected Operations Cloud\n- **P3** (2023) - Android Automotive IVI pre veľké vozidlá\n- **what3words** (2025) - presná lokalizácia pre Premium+ používateľov\n- **GreenWay** - EV nabíjacie stanice\n- **Eurowag** (2022) - strategická akvizícia pre riešenia mobility\n\n## Produktové portfolio\n\nSygic ponúka viacero produktov:\n- GPS Navigation (hlavná aplikácia)\n- Truck & Caravan Navigation\n- Travel\n- Fuelio\n- Enterprise SDKs\n- Automotívne riešenia (CarPlay, Android Auto, Android Automotive OS)\n\n## Súčasný stav\n\nSygic zamestnáva viac ako 200 ľudí, z toho približne 80% v R&D. Spoločnosť je považovaná za #2 globálneho navigačného trhu a vedúcu nišovú značku v automobilovej navigácii popri Garmin.",
+  "cover": "/projects/sygic-gps-navigation-cover.png",
+  "coverAlt": "Domovská stránka Sygic s ponukou produktov GPS navigácie.",
+  "coverCredit": "Vlastný capture z webu sygic.com pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.sygic.com/",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely.",
+  "sources": [
+    "https://www.sygic.com/",
+    "https://www.sygic.com/about",
+    "https://www.bbc.com/news/business-28371752",
+    "https://en.wikipedia.org/wiki/Sygic",
+    "https://www.sygic.com/press",
+    "https://what3words.com/news/navigation/sygic-gps-navigation-adopts-what3words-location-technology"
+  ],
+  "company": "sygic"
+}

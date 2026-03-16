@@ -1,0 +1,15 @@
+{
+  "id": "sygic",
+  "name": "Sygic a.s.",
+  "overview": "Sygic je slovenská spoločnosť vyvíjajúca GPS navigačné aplikácie. Založená v roku 2004, dnes s viac ako 200 miliónmi používateľov worldwide.",
+  "founded": 2004,
+  "milestones": [
+    { "year": 2004, "event": "Založenie spoločnosti v Bratislave" },
+    { "year": 2009, "event": "Vydanie prvej iPhone GPS navigácie na svete" },
+    { "year": 2015, "event": "100 miliónov stiahnutí" },
+    { "year": 2016, "event": "Akvizícia Tripomatic, ocenenie Slovak IT Company of the Year" },
+    { "year": 2022, "event": "Partnerstvo so Samsara, strategická spolupráca s Eurowag" },
+    { "year": 2025, "event": "Integrácia what3words" }
+  ],
+  "projects": ["sygic-gps-navigation"]
+}

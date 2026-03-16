@@ -1,0 +1,14 @@
+{
+  "id": "pixel-federation",
+  "name": "Pixel Federation, s.r.o.",
+  "overview": "Pixel Federation je slovenské herné štúdio založené v roku 2007. Vytvorilo populárne hry ako TrainStation a Diggy's Adventure s viac ako 140 miliónmi hráčov.",
+  "founded": 2007,
+  "milestones": [
+    { "year": 2007, "event": "Založenie spoločnosti v Bratislave" },
+    { "year": 2010, "event": "Vydanie TrainStation" },
+    { "year": 2012, "event": "Vydanie Diggy's Adventure" },
+    { "year": 2017, "event": "Uznané ako fastest growing tech startup v CEE" },
+    { "year": 2022, "event": "15 rokov na trhu, 140 miliónov hráčov" }
+  ],
+  "projects": ["trainstation", "diggys-adventure"]
+}

@@ -7,10 +7,21 @@
   "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
   "status": "verified",
   "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
-  "summary": "Slovenská textová adventúra z obdobia 8-bitových domácich hier.",
+  "summary": "Textová adventúra Agent 99 z roku 1988 od Tomáša Laholu a Štefana Holakovského patrí k ranej slovenskej tvorbe pre ZX Spectrum. Dej zasadený do Československa roku 2072 neskôr sprístupnila aj anglická lokalizácia projektu SCD a SGDA.",
+  "storyMarkdown": "## Základné údaje\n\nAgent 99 je slovenská textová adventúra z roku 1988. Slovenské centrum dizajnu ju eviduje pod autormi Tomáš Lahola a Štefan Holakovský a pod štúdiom Alkohol Soft. Hra je archivovaná pre platformu ZX Spectrum.\n\n## Námet hry\n\nPodľa archívnych záznamov je dej zasadený do Československa roku 2072. Hráč ako Agent 99 preniká do základne zločineckej organizácie, aby zničil hlavný počítač a zabránil plánovanému softvérovému útoku na firmu Alkohol Soft.\n\n## Hrateľnosť a dobový kontext\n\nAgent 99 patrí medzi textové adventúry, teda žáner typický pre ranú domácu 8-bitovú tvorbu. Dochované zdroje uvádzajú, že hra pracuje s časovým limitom, čo zvyšuje náročnosť postupu.\n\n## Novodobá archivácia\n\nHra je súčasťou výskumu a archivácie Slovenského centra dizajnu. V roku 2021 vznikla v spolupráci Slovak Game Developers Association a Slovak Design Museum jej hrateľná anglická lokalizácia, ktorá pomohla sprístupniť titul aj mimo slovenského prostredia.",
+  "cover": "/projects/agent-99-cover.png",
+  "coverAlt": "Archivovaná úvodná obrazovka hry Agent 99 zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný loading screen zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/agent-99/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
   "sources": [
     "https://scd.sk/hra/agent-99/",
-    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period/",
+    "https://scd.sk/vystava/8-bit/",
+    "https://spectrumcomputing.co.uk/entry/5938",
+    "https://solutionarchive.com/game/id%2C2462/Agent+99.html",
+    "https://herniarcheolog.blogspot.com/2018/04/hra-195-agent-99-1988.html"
   ],
   "company": "alkohol-soft"
 }

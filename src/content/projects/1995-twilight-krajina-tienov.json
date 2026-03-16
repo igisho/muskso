@@ -1,0 +1,27 @@
+{
+  "id": "twilight-krajina-tienov",
+  "title": "Twilight - Krajina Tieňov",
+  "type": "game",
+  "year_start": 1995,
+  "authors": ["Ľubomír Dekan", "Radoslav Javor", "Norbert Grellneth"],
+  "tags": ["game", "slovakia", "retro", "adventure", "sci-fi", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Twilight - Krajina Tieňov je slovenská sci-fi grafická adventúra pre ZX Spectrum, vydaná firmou Ultrasoft v roku 1995. Hráč sa vracia na Zem po viac než 400 rokoch a pátra po príčine zmiznutia pozemskej civilizácie.",
+  "storyMarkdown": "## Základné údaje\n\nTwilight - Krajina Tieňov je slovenská sci-fi grafická adventúra pre ZX Spectrum. Archívne zdroje ju uvádzajú ako titul vydaný firmou Ultrasoft v roku 1995.\n\n## Autori a podoba hry\n\nS hrou sú spájaní Ľubomír Dekan, Radoslav Javor a Norbert Grellneth. ZX-Art uvádza rozdelenie rolí na kód a text, grafiku a koncept, a hudbu.\n\n## Námet a hranie\n\nPodľa dobového návodu sa hlavný hrdina vracia na Zem po viac než 400 rokoch od prvej medzihviezdnej expedície. Po pristátí skúma opustené prostredie a hľadá odpoveď na otázku, čo sa stalo s pozemskou civilizáciou. Hra je rozdelená na viac častí, pričom ďalšie časti sa odomykajú kódmi.\n\n## Archívne doloženie\n\nHra je doložená v archíve Slovenského centra dizajnu, vo World of Spectrum aj na ZX-Art. Akademický článok z UKF ju zároveň uvádza medzi skúmanými slovenskými hrami 90. rokov.",
+  "cover": "/projects/twilight-krajina-tienov-cover.jpg",
+  "coverAlt": "Archivovaný obal alebo inlay hry Twilight - Krajina Tieňov z archívu World of Spectrum.",
+  "coverCredit": "Archivovaný sken obalu z World of Spectrum / Spectrum Computing.",
+  "coverSourceUrl": "https://worldofspectrum.org/archive/software/games/twilight-krajina-tienov-ultrasoft-2",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného herného archívu, zdroj uvedený.",
+  "sources": [
+    "https://scd.sk/hra/twilight-krajina-tienov/",
+    "https://worldofspectrum.org/archive/software/games/twilight-krajina-tienov-ultrasoft-2",
+    "https://zxart.ee/eng/software/games/adventure/prikljuchenija-point-and-click/twilight-krajina-tienov/",
+    "https://www.worldofspectrum.org/pub/sinclair/games-info/t/Twilight-KrajinaTienov.txt",
+    "https://www.bridge.ff.ukf.sk/index.php/bridge/article/download/54/48",
+    "https://visiongame.cz/hra/twilight-krajina-tienov/"
+  ],
+  "company": "ultrasoft"
+}

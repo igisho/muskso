@@ -3,10 +3,24 @@
   "title": "Photorobot",
   "type": "application",
   "year_start": 1995,
+  "importance": 4,
   "authors": ["Ľubomír Ostradický"],
   "tags": ["forensics", "police", "composite"],
-  "status": "verified",
-  "platform": "Windows",
-  "summary": "Softvér na tvorbu identikit portrétov používaný políciou vo viacerých krajinách sveta. Slovenský produkt, ktorý sa presadil globálne.",
-  "sources": ["https://www.photorobot.com"]
+  "status": "disputed",
+  "platform": "Neznáme",
+  "summary": "Záznam opisuje softvér na skladanie podôb podozrivých, no otvorené zdroje zatiaľ nepotvrdili autorstvo Ľubomíra Ostradického ani samostatne doložený produktový názov Photorobot z roku 1995.",
+  "storyMarkdown": "## Kontext\n\nV 90. rokoch sa pri policajnej práci rozširovali počítačové systémy na skladanie podôb podozrivých z databáz očí, nosov, úst a ďalších čŕt. Išlo o digitálne pokračovanie starších identikitov a photofitov.\n\n## Dobové nasadenie\n\nArchívny článok Los Angeles Times z marca 1995 opisuje, že LAPD používalo podobný program na vytváranie kompozitov v priebehu hodín po trestnom čine. Softvér pracoval s črtami prevzatými z policajných booking fotografií a mal pomôcť rýchlejšie šíriť podobizne podozrivých.\n\n## Miesto v dejinách forenzných kompozitov\n\nNeskoršia odborná literatúra tieto nástroje označuje ako feature-based facial composite systems. Vývoj potom smeroval k holistickým systémom, ktoré sa snažili lepšie zodpovedať tomu, ako si svedkovia pamätajú tvár ako celok.\n\n## Poznámka k atribúcii\n\nOtvorené spoľahlivé zdroje, ktoré sa podarilo dohľadať, zatiaľ nepotvrdili autorstvo Ľubomíra Ostradického ani samostatne doložený produktový názov Photorobot. Záznam preto ostáva v spornom stave, kým sa neobjaví primárny doklad.",
+  "cover": "/projects/photorobot-cover.png",
+  "coverAlt": "Capture archívneho článku Los Angeles Times o policajnom softvéri na tvorbu kompozitných portrétov z roku 1995.",
+  "coverCredit": "Vlastný capture z archívneho článku Los Angeles Times ako kontextový vizuál k spornému záznamu.",
+  "coverSourceUrl": "https://www.latimes.com/archives/la-xpm-1995-03-05-ci-39461-story.html",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture použitého zdroja pre dokumentačné účely s uvedením URL.",
+  "sources": [
+    "https://www.photorobot.com/manuals/about-photorobot-company-history-documentation",
+    "https://www.photorobot.com/impressum",
+    "https://www.latimes.com/archives/la-xpm-1995-03-05-ci-39461-story.html",
+    "https://nij.ojp.gov/library/publications/facesketchid-system-matching-facial-composites-mugshots",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6724553/"
+  ]
 }

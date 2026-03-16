@@ -3,14 +3,24 @@
   "title": "Dokonalá Vražda II - Bukapao",
   "type": "game",
   "year_start": 1988,
-  "authors": ["Ultrasoft"],
+  "authors": ["Ľudovít Wittek", "Ultrasoft"],
   "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
   "status": "verified",
-  "platform": "ZX Spectrum",
-  "summary": "Pokračovanie slovenskej textovej adventúry Dokonalá Vražda, uvádzané v SCD archíve hier.",
+  "platform": "ZX Spectrum 48K",
+  "summary": "Slovenská textovo-obrázková adventúra Ľudovíta Witteka pre ZX Spectrum. Pokračovanie Dokonalej vraždy posúva hráča na ostrov Bukapao do gangsterskej paródie; archívy ju viažu k roku 1988, komerčné vydanie Ultrasoftu je doložené okolo 1990-1991.",
+  "storyMarkdown": "## Identita\n\nDokonalá Vražda II - Bukapao je slovenská textovo-obrázková adventúra pre ZX Spectrum, spájaná s autorom Ľudovítom Wittekom. V archívoch vystupuje ako pokračovanie hry Dokonalá vražda.\n\n## Námet\n\nHra je zasadená do parodického gangsterského príbehu. Hráč vystupuje ako člen Cosa Nostry, ktorý prichádza na tichomorský ostrov Bukapao s cieľom odstrániť prezidenta Amatoma Bugampu.\n\n## Vydanie a zachovanie\n\nScene archívy kladú pôvod hry do roku 1988. Slovenské centrum dizajnu zároveň eviduje kazetové vydanie Ultrasoftu z roku 1990 a zachované obalové skeny aj obrazovky ukazujú komerčnú podobu neskoršej distribúcie.",
+  "cover": "/projects/dokonala-vrazda-ii-bukapao-cover.jpg",
+  "coverAlt": "Archivovaný predný obal hry Dokonalá Vražda II - Bukapao zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný sken obalu zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/dokonala-vrazda-ii-bukapao/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
   "sources": [
     "https://scd.sk/hra/dokonala-vrazda-ii-bukapao/",
-    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+    "https://spectrumcomputing.co.uk/entry/6194/ZX-Spectrum/Dokonal%C3%A1_vra%C5%BEda_II-Bukapao",
+    "https://worldofspectrum.org/archive/software/text-adventures/dokonala-vrazda-ii-bukapao-ultrasoft-2",
+    "https://visiongame.cz/hra/dokonala-vrazda-ii-bukapao/",
+    "https://herniarcheolog.blogspot.com/2018/05/hra-204-dokonala-vrazda-2-bukapao-1988.html"
   ],
   "company": "ultrasoft"
 }

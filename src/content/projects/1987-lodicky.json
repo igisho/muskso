@@ -6,8 +6,21 @@
   "authors": ["Andrej Hrmo"],
   "tags": ["game", "slovakia", "retro", "strategy", "zx-spectrum"],
   "status": "verified",
-  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
-  "summary": "Raná slovenská hra zo spektrum éry, vydaná pod štúdiom Handsoft.",
-  "sources": ["https://scd.sk/hra/lodicky/"],
+  "platform": "ZX Spectrum 48K",
+  "summary": "Slovenská hra Lodičky pre ZX Spectrum 48K z roku 1987, pripisovaná Andrejovi Hrmovi. Archívy ju vedú ako jednohráčovú adaptáciu papierovej hry v slovenčine; pri vydavateľovi sa zdroje rozchádzajú medzi Handsoft a Andsoft.",
+  "storyMarkdown": "## Základné údaje\n\nLodičky je slovenská hra pre ZX Spectrum 48K, datovaná do roku 1987. Archívne zdroje ju pripisujú autorovi Andrejovi Hrmovi a uvádzajú slovenčinu ako jazyk hlášok.\n\n## Hrateľnosť\n\nIde o počítačovú verziu papierovej hry lodičky. Zachované popisy hovoria o jednohráčovej hre proti počítaču; dobový spôsob ovládania a hlášky zahŕňajú výrazy ako Ideš, voda, zásah a zásah topí sa.\n\n## Zachovanie\n\nHra sa zachovala v archívoch pre ZX Spectrum, kde je dostupná aspoň vo formátoch TAP a TZX. Dochované sú aj obrazové materiály, najmä načítavacia obrazovka a záber z hry.\n\n## Poznámka k vydavateľovi\n\nPri vydavateľovi sa zdroje nezhodujú. Niektoré archívy uvádzajú Handsoft (Slovakia), iné Andsoft. Túto nejasnosť je vhodné priznať a bez ďalšieho dôkazu sa neprikláňať len k jednej variante.",
+  "cover": "/projects/lodicky-cover.png",
+  "coverAlt": "Archivovaná loading obrazovka hry Lodičky zo ZX Spectrum databázy Spectrum Computing.",
+  "coverCredit": "Archivovaný loading screen zo Spectrum Computing.",
+  "coverSourceUrl": "https://spectrumcomputing.co.uk/entry/0002916/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného záznamu Spectrum Computing, zdroj uvedený.",
+  "sources": [
+    "https://spectrumcomputing.co.uk/entry/0002916/",
+    "https://web.archive.org/web/20180312054209/http://www.worldofspectrum.org/infoseekid.cgi?id=0002916",
+    "https://cs.speccy.cz/?scn=1",
+    "https://zxart.ee/eng/authors/a/andrej-hrmo/",
+    "https://herniarcheolog.blogspot.com/2017/09/hra-117-lodicky-1987.html"
+  ],
   "company": "handsoft"
 }

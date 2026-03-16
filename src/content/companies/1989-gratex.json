@@ -4,7 +4,9 @@
   "overview": "Slovenská technologická spoločnosť zameraná na informačné systémy pre finančný a verejný sektor.",
   "founded": 1989,
   "milestones": [
-    { "year": 2001, "event": "Nasadenie bankového systému SOFIA" }
+    { "year": 1992, "event": "Workflow automatizácia pre VÚB" },
+    { "year": 2001, "event": "Gratex Knowledge Office.NET v oficiálnej firemnej časovej osi" },
+    { "year": 2004, "event": "Systém PIS pre Eximbanku" }
   ],
   "projects": ["gratex-sofia"]
 }

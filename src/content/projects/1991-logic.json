@@ -3,11 +3,25 @@
   "title": "Logic",
   "type": "game",
   "year_start": 1991,
-  "authors": ["Rudolf Priečinský"],
+  "authors": ["Gustáv Harton", "Rudolf Priečinský", "Michal Hlaváč"],
   "tags": ["game", "slovakia", "retro", "logic", "zx-spectrum"],
   "status": "verified",
   "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
-  "summary": "Slovenská logická hra od štúdia Rumatisoft, prezentovaná v SCD archíve.",
-  "sources": ["https://scd.sk/hra/logic/"],
+  "summary": "Logic je slovenská logická hra pre ZX Spectrum od Gustáva Hartona a Rudolfa Priečinského, vydaná firmou Ultrasoft na začiatku 90. rokov. Ide o počítačové spracovanie hry Logik s nastaviteľnými pravidlami; v BiT 05/92 získala 91 %.",
+  "storyMarkdown": "## Základné info\n\nLogic je slovenská logická hra pre ZX Spectrum, spájaná s autormi Gustáv Harton a Rudolf Priečinský. Ako vydavateľ alebo distribútor sa uvádza Ultrasoft. Datácie sa v archívnych zdrojoch mierne líšia: časť databáz uvádza rok 1990, iné 1991.\n\n## O čom hra je\n\nIde o počítačové spracovanie stolovej hry Logik. Hráč háda kombináciu piatich farebných kolíkov, respektíve číslic 1 až 8. Hra umožňuje meniť pravidlá, napríklad opakovanie farieb, prázdne políčka alebo voľbu, či kombináciu pripraví program alebo druhý hráč.\n\n## Dobové prijatie\n\nHra sa objavila aj v dobovej tlači. V časopise BiT 05/92 vyšla recenzia verzie pre ZX Spectrum s hodnotením 91 %, čo naznačuje veľmi priaznivé prijatie vtedajšou domácou scénou.",
+  "cover": "/projects/logic-cover.jpg",
+  "coverAlt": "Archivovaný predný obal hry Logic zo ZX Spectrum archívu.",
+  "coverCredit": "Archivovaný sken obalu zo Spectrum Computing / World of Spectrum.",
+  "coverSourceUrl": "https://spectrumcomputing.co.uk/entry/2917/ZX-Spectrum/Logic",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného herného archívu, zdroj uvedený.",
+  "sources": [
+    "https://visiongame.cz/hra/logic/",
+    "https://visiongame.cz/studio/rumatisoft/",
+    "https://worldofspectrum.net/item/0002917/",
+    "https://worldofspectrum.net/publisher/14925/",
+    "https://www.oldgames.sk/mag/bit-8/review/4413/",
+    "https://maps.speccy.cz/temp/ZXSpectrumEmulator(Ultrasoft).pdf"
+  ],
   "company": "rumatisoft"
 }

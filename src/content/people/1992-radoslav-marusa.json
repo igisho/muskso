@@ -1,8 +1,8 @@
 {
   "id": "radoslav-marusa",
   "name": "Radoslav Maruša",
-  "bio": "Autor slovenskej 8-bitovej hry Prvá Akcia.",
+  "bio": "Autor slovenských 8-bitových hier Prvá Akcia a Kliatba Noci.",
   "roles": ["Herný vývojár"],
   "periods": ["90. roky"],
-  "projects": ["prva-akcia"]
+  "projects": ["prva-akcia", "kliatba-noci"]
 }

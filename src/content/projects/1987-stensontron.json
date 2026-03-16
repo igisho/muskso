@@ -3,14 +3,24 @@
   "title": "Stensontron",
   "type": "game",
   "year_start": 1987,
-  "authors": ["Sybilasoft"],
+  "authors": ["Martin Sústrik", "Juraj Sústrik", "Pavol Čejka"],
   "tags": ["game", "text-adventure", "slovakia", "zx-spectrum"],
   "status": "verified",
-  "platform": "ZX Spectrum",
-  "summary": "Skorá slovenská hra zo zoznamu lokalizovaných titulov projektu SGDA a Slovenského centra dizajnu.",
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Stensontron je slovenská textová adventúra pre ZX Spectrum z roku 1987, spájaná so skupinou Sybilasoft a autorom Martinom Sústrikom. Hra sa zachovala v archívnych zbierkach a v roku 2023 vyšla aj v anglickej reedícii.",
+  "storyMarkdown": "## Základné údaje\n\nStensontron je slovenská textová adventúra z roku 1987. Archívne záznamy ju spájajú so skupinou Sybilasoft alebo Sibylasoft a s platformou ZX Spectrum.\n\n## Autorstvo a kontext\n\nSlovenské centrum dizajnu uvádza autora Martina Sústrika. Spectrum Computing dopĺňa podrobnejšie kredity: Martin Sústrik ako autor kódu a konceptu, Juraj Sústrik a Pavol Čejka ako autori príbehových textov. Jaroslav Švelch zaraďuje hru medzi science-fiction adventúry skupiny Sybilasoft z roku 1987.\n\n## Zachovanie\n\nHra sa zachovala v archívnych a preservation databázach vrátane Slovenského centra dizajnu, Spectrum Computing a ZX-Art. Vďaka nim sú dostupné dobové súbory aj obrazové ukážky.\n\n## Novšie sprístupnenie\n\nV roku 2023 bola hra znovu sprístupnená aj v anglickej lokalizácii v projekte Slovak Game Developers Association a Slovenského múzea dizajnu.",
+  "cover": "/projects/stensontron-cover.png",
+  "coverAlt": "Archivovaná loading obrazovka hry Stensontron z inštitucionálneho archívu Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný loading screen zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/stensontron/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
   "sources": [
     "https://scd.sk/hra/stensontron/",
-    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+    "https://sgda.sk/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period/",
+    "https://spectrumcomputing.co.uk/entry/7047/ZX-Spectrum/Stensontron",
+    "https://zxart.ee/eng/software/games/interaktivnaja-literatura/text-only/stensontron/",
+    "https://dokumen.pub/gaming-the-iron-curtain-how-teenagers-and-amateurs-in-communist-czechoslovakia-claimed-the-medium-of-computer-games-0262038846-9780262038843.html"
   ],
   "company": "sybilasoft"
 }

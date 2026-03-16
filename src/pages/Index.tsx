@@ -7,7 +7,15 @@ import { useState } from "react";
 
 const Index = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const featured = heritageItems.filter((h) => h.status === "verified").slice(0, 3);
+  const featured = [...heritageItems]
+    .filter((h) => h.status === "verified")
+    .sort(
+      (a, b) =>
+        (b.importance ?? 0) - (a.importance ?? 0) ||
+        a.year_start - b.year_start ||
+        a.title.localeCompare(b.title)
+    )
+    .slice(0, 3);
   const latest = [...heritageItems]
     .sort((a, b) => b.year_start - a.year_start || a.title.localeCompare(b.title))
     .slice(0, 4);

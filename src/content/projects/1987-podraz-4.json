@@ -6,11 +6,21 @@
   "authors": ["Anton Tokár"],
   "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
   "status": "verified",
-  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
-  "summary": "Klasický slovenský titul z 80. rokov, uvádzaný aj v projekte anglických lokalizácií.",
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Slovenská hra Podraz 4 od Antona Tokára vyšla v roku 1987 pre ZX Spectrum. Archívy ju radia k domácim textovým adventúram; v novšom výskume sa uvádza aj ako osobitý hackingový titul a súčasť línie hier Antok Software.",
+  "storyMarkdown": "## Základné údaje\n\nPodraz 4 je slovenská hra z roku 1987, spájaná s autorom Antonom Tokárom a štúdiom Antok Software. Dochované archívne záznamy ju viažu k platforme ZX Spectrum a k vydaniu na kazete.\n\n## Typ hry a zaradenie\n\nRetro databázy ju zaraďujú medzi textové adventúry alebo text-only adventure. Databáza CASA zároveň upozorňuje, že nejde celkom o tradičnú textovku, ale skôr o hackingovo ladený phone game.\n\n## Kontext série\n\nV archívoch je Podraz 4 súčasťou línie hier Antok Software, ku ktorej patria aj Podraz 5 a Podraz 6. Akademický výskum zároveň pripomína, že v československej scéne existovali dve odlišné hry s názvom Podraz 4, čo ukazuje nejednotné číslovanie pokračovaní vtedajších textových hier.\n\n## Novšie sprístupnenie\n\nSlovenské centrum dizajnu a partnerské databázy evidujú aj novodobé anglické sprístupnenie hry pod názvom The Stig 4. Ide o súčasť projektu, ktorý sprístupňuje rané slovenské digitálne hry pre výskum a medzinárodné publikum.",
+  "cover": "/projects/podraz-4-cover.png",
+  "coverAlt": "Archivovaná loading obrazovka hry Podraz 4 zo ZX Spectrum databázy Spectrum Computing.",
+  "coverCredit": "Archivovaný loading screen zo Spectrum Computing.",
+  "coverSourceUrl": "https://spectrumcomputing.co.uk/entry/3789/ZX-Spectrum/Podraz_4",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného záznamu Spectrum Computing, zdroj uvedený.",
   "sources": [
     "https://scd.sk/hra/podraz-4/",
-    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+    "https://spectrumcomputing.co.uk/entry/3789/ZX-Spectrum/Podraz_4",
+    "https://worldofspectrum.org/archive/publishers/Antok-Software",
+    "https://solutionarchive.com/game/id%2C3262/Podraz+4.html",
+    "https://ironcurtain.svelch.com/wp-content/uploads/sites/4/2018/11/Svelch-IndianaJonesGamingGlobally.pdf"
   ],
   "company": "antok-software"
 }

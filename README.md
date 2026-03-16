@@ -42,6 +42,7 @@ npm run preview  # lokálny náhľad buildu
 npm run lint     # linting
 npm test         # testy (vitest)
 npm run validate:content # validácia dát archívu
+npm run audit:content    # backlog neúplných projektov podľa priority
 ```
 
 ## Štruktúra projektu

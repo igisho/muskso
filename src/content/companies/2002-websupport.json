@@ -1,0 +1,15 @@
+{
+  "id": "websupport",
+  "name": "Websupport, s.r.o.",
+  "overview": "Websupport je najväčší poskytovateľ webhostingových služieb a registrácie domén na Slovensku. Založený v roku 2002, spravuje viac ako 160 000 domén.",
+  "founded": 2002,
+  "milestones": [
+    { "year": 2002, "event": "Založenie spoločnosti" },
+    { "year": 2011, "event": "Rozšírenie do Česka, Maďarska, Rakúska" },
+    { "year": 2013, "event": "8. miesto v Deloitte Fast 50 CEE" },
+    { "year": 2019, "event": "Akvizícia spoločnosťou Loopia Group" },
+    { "year": 2021, "event": "Rebranding a nová vizuálna identita" },
+    { "year": 2024, "event": "Stal sa súčasťou team.blue" }
+  ],
+  "projects": ["websupport"]
+}

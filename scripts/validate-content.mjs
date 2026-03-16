@@ -13,6 +13,7 @@ const heritageSchema = z.object({
   type: z.string().min(1),
   year_start: z.number().int(),
   year_end: z.number().int().optional(),
+  importance: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5)]).optional(),
   authors: z.array(z.string().min(1)).min(1),
   tags: z.array(z.string().min(1)),
   status: z.enum(["verified", "draft", "disputed"]),
@@ -20,6 +21,11 @@ const heritageSchema = z.object({
   summary: z.string().min(1).max(300),
   storyMarkdown: z.string().min(1).optional(),
   cover: z.string().optional(),
+  coverAlt: z.string().min(1).optional(),
+  coverCredit: z.string().min(1).optional(),
+  coverSourceUrl: z.string().url().optional(),
+  coverOrigin: z.enum(["official", "archive", "own-capture", "press", "unknown"]).optional(),
+  coverLicense: z.string().min(1).optional(),
   sources: z.array(z.string().url()),
   company: z.string().optional(),
 });
@@ -133,6 +139,24 @@ const run = async () => {
   for (const project of projectRecords) {
     if (project.company && !companyIds.has(project.company)) {
       throw new Error(`Project ${project.id} references missing company ${project.company}`);
+    }
+
+    if (project.cover) {
+      if (!project.cover.startsWith("/")) {
+        throw new Error(`Project ${project.id} has invalid cover path. Use a public path starting with /`);
+      }
+
+      if (!project.coverAlt) {
+        throw new Error(`Project ${project.id} has cover but missing coverAlt`);
+      }
+
+      if (!project.coverCredit) {
+        throw new Error(`Project ${project.id} has cover but missing coverCredit`);
+      }
+
+      if (!project.coverOrigin) {
+        throw new Error(`Project ${project.id} has cover but missing coverOrigin`);
+      }
     }
   }
 

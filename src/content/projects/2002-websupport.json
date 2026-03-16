@@ -1,0 +1,26 @@
+{
+  "id": "websupport",
+  "title": "Websupport.sk",
+  "type": "application",
+  "year_start": 2002,
+  "importance": 4,
+  "authors": ["Michal Truban", "Pavel Stano"],
+  "tags": ["hosting", "webhosting", "domains", "cloud", "slovakia"],
+  "status": "verified",
+  "platform": "Web",
+  "summary": "Websupport je najväčší poskytovateľ webhostingových služieb a registrácie domén na Slovensku. Založený bol v roku 2002 a dnes spravuje viac ako 160 000 domén pre 120 000 zákazníkov.",
+  "storyMarkdown": "## Založenie\n\nWebsupport (pôvodne websuport.sk) vznikol 1. apríla 2002. Zakladatelia Michal Truban a Pavel Stano vtedy študovali strednú školu. Prvý produkt bol \"Neobmedzený webhosting\", ktorý bežal na serveri s diskovou kapacitou len 40 GB.\n\nZaujímavosťou je, že pôvodná doména bola websuport.sk - až neskôr sa zistilo, že správne je \"support\" s dvoma p.\n\n## Rast na slovenskom trhu\n\nPostupne sa Websupport stal jednotkou na slovenskom trhu webhostingu:\n\n- V roku 2011 začal pôsobiť aj v Česku, Maďarsku a Rakúsku\n- V roku 2012 sa stal predmetom kauzy Gorila vs. WebSupport\n- V roku 2013 sa stal 8. najrýchlejšie rastúcou IT firmou v strednej a východnej Európe podľa Deloitte Fast 50\n- V roku 2015 kúpil maďarskú spoločnosť FruitHosting (Gyümölcstárhely)\n- V roku 2017 získal Zlatý klinec za kampaň OverBot a spustil Bullshit Detector na boj proti dezinformáciám\n\n## Akvizície\n\nV roku 2019 sa Websupport stal súčasťou medzinárodnej skupiny Loopia Group (dánska investičná spoločnosť Axcel). V roku 2024 sa stal súčasťou team.blue, európskej skupiny poskytovateľov digitálnych služieb.\n\n## Produkty a služby\n\nWebsupport ponúka komplexný rad služieb:\n\n- Registrácia domén\n- Webhosting (zdieľaný, VPS, dedikované servery)\n- Cloudové riešenia\n- SSL certifikáty\n- Business Mail\n- Website Builder\n- WordPress hosting\n\n## Čísla\n\n- Viac ako 160 000 spravovaných domén\n- Viac ako 120 000 zákazníkov\n- Približne 60-90 zamestnancov\n- Najväčší poskytovateľ webhostingu na Slovensku\n\n## Rebranding\n\nV roku 2021 prešiel Websupport rebrandingom a predstavil novú vizuálnu identitu. Spoločnosť sa prezentuje ako moderný, zákaznícky orientovaný poskytovateľ digitálnych služieb.",
+  "cover": "/projects/websupport-cover.png",
+  "coverAlt": "Domovská stránka Websupport.sk s ponukou hostingových služieb.",
+  "coverCredit": "Vlastný capture z webu websupport.sk pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://websupport.sk/",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely.",
+  "sources": [
+    "https://websupport.sk/",
+    "https://websupport.sk/o-nas/",
+    "https://sk.wikipedia.org/wiki/Websupport",
+    "https://www.ithistory.org/db/companies/websupport"
+  ],
+  "company": "websupport"
+}

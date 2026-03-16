@@ -1,0 +1,24 @@
+{
+  "id": "diggys-adventure",
+  "title": "Diggy's Adventure",
+  "type": "application",
+  "year_start": 2012,
+  "importance": 4,
+  "authors": ["Pixel Federation"],
+  "tags": ["gaming", "puzzle", "adventure", "mobile", "casual"],
+  "status": "verified",
+  "platform": "iOS, Android, Facebook, Web",
+  "summary": "Diggy's Adventure je logická adventúra od Pixel Federation. Hráči pomáhajú Diggymu objavovať starovekécivilizácie, riešiť hádanky a hľadať poklady po celom svete.",
+  "storyMarkdown": "## Vznik\n\nDiggy's Adventure vydala v roku 2012 slovenská spoločnosť Pixel Federation. Hra kombinuje prvky logických puzzlov s adventúrovým príbehom a výskumom sveta.\n\n## Herný koncept\n\nHra ponúka:\n- Logické hádanky založené na fyzike\n- Výskum starovekých civilizácií (Egypt, Grécko, Vikingovia, etc.)\n- Questy a eventy\n- Kolekciu artefaktov\n- Príbehovú líniu\n\n## Úspech\n\nDiggy's Adventure je jednou z najúspešnejších hier Pixel Federation:\n- Viac ako 140 miliónov hráčov celkovo (spolu s ostatnými hrami štúdia)\n- Pravidelné eventy a aktualizácie\n- Dlhodobá popularita - hra existuje už viac ako 10 rokov\n\n## Platformy\n\nHra je dostupná na:\n- Facebook\n- iOS\n- Android\n- Web\n\n## Súčasnosť\n\nDiggy's Adventure naďalej žije s pravidelným obsahom. Hra je príkladom úspešnej long-tail stratégie Pixel Federation - budovanie hier s veľkým množstvom obsahu, ktoré hráči môžu hrať roky.",
+  "cover": "/projects/diggys-adventure-cover.png",
+  "coverAlt": "Hlavná stránka Diggy's Adventure s adventúrnou tematikou.",
+  "coverCredit": "Vlastný capture z webu pixelfederation.com pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://portal.pixelfederation.com/games/diggys-adventure",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely.",
+  "sources": [
+    "https://portal.pixelfederation.com/games/diggys-adventure",
+    "https://en.wikipedia.org/wiki/Pixel_Federation"
+  ],
+  "company": "pixel-federation"
+}

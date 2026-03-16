@@ -1,0 +1,25 @@
+{
+  "id": "innovatrics-biometric-sdk",
+  "title": "Innovatrics Biometric SDK",
+  "type": "application",
+  "year_start": 2004,
+  "importance": 5,
+  "authors": ["Innovatrics"],
+  "tags": ["biometrics", "fingerprint", "face-recognition", "sdk", "security", "identity"],
+  "status": "verified",
+  "platform": "Cross-platform (iOS, Android, Windows, Linux, Web)",
+  "summary": "Innovatrics Biometric SDK je softvérový vývojársky toolkit pre integráciu biometrických technológií. Algoritmy spoločnosti pravidelne dosahujú #1 pozície v NIST benchmarkoch.",
+  "storyMarkdown": "## Produkt\n\nInnovatrics vyvíja a predáva biometrické SDK (Software Development Kits), ktoré umožňujú vývojárom a firmám integrovať biometrické overovanie do ich aplikácií.\n\n## Typy SDK\n\nSpoločnosť ponúka:\n- **Fingerprint SDK** - rozpoznávanie odtlačkov prstov\n- **Face SDK** - rozpoznávanie tváre\n- **Iris SDK** - rozpoznávanie duhovky\n- **Palm SDK** - rozpoznávanie dlane (od 2025)\n\n## Technologické úspechy\n\nInnovatrics algoritmy sú pravidelne hodnotené ako najpresnejšie na svete:\n\n- **NIST MINEX III (2024)** - #1 pozícia pre algoritmus odtlačkov prstov\n- **NIST FRVT** - top pozície pre rozpoznávanie tváre\n- Presnosť až 99.98%\n\n## Využitie\n\nSDK sa používa v:\n- Národných ID systémoch\n- Bankovom sektore (KYC, overovanie klientov)\n- Telekomunikáciách\n- Hraničnej kontrole\n- Polícii a kriminalistike\n- Access control systémoch\n\n## ABIS Platforma\n\nOkrem SDK ponúka Innovatrics aj ABIS (Automated Biometric Identification System) - komplexnú platformu pre správu veľkých biometrických databáz pre vládne a bezpečnostné organizácie.\n\n## Worldwide reach\n\nProdukty Innovatrics používa viac ako 80 krajín a viac ako miliarda ľudí je zaregistrovaných v systémoch postavených na ich technológiách.",
+  "cover": "/projects/innovatrics-sdk-cover.png",
+  "coverAlt": "Domovská stránka Innovatrics s prehľadom biometrických riešení.",
+  "coverCredit": "Vlastný capture z webu innovatrics.com pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.innovatrics.com/",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely.",
+  "sources": [
+    "https://www.innovatrics.com/",
+    "https://www.innovatrics.com/about-us/",
+    "https://www.fit.vut.cz/cooperation/partner-detail/2033/.en"
+  ],
+  "company": "innovatrics"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "towdie",
+  "title": "Towdie",
+  "type": "game",
+  "year_start": 1994,
+  "authors": ["Ladislav Balara", "Dušan Balara", "Rasťo Chovanec", "DSA Computer Graphics"],
+  "tags": ["game", "slovakia", "retro", "8-bit", "platformer", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Towdie je slovenská plošinová adventúra pre ZX Spectrum od DSA Computer Graphics, vydaná firmou Ultrasoft v roku 1994. Dobové časopisy BiT ju výrazne chválili za detailnú grafiku a animácie; dnes je zachovaná v archívnych zbierkach.",
+  "storyMarkdown": "## Základné údaje\n\nTowdie je slovenská plošinová adventúra pre počítače ZX Spectrum 48K/128K. Hra vyšla v roku 1994, vydavateľom bol Ultrasoft a pôvodná cena bola 199 Sk.\n\n## Autori a spracovanie\n\nS hrou sú spojené mená Ladislav Balara, Dušan Balara a Rasťo Chovanec zo štúdia DSA Computer Graphics. Archívne záznamy pripisujú Ladislavovi Balarovi kód, Dušanovi Balarovi grafiku a Rasťovi Chovancovi hudbu a zvuky.\n\n## Dobové prijatie\n\nHra sa objavila v slovenskom časopise BiT už v preview v čísle 02/1994 a recenziu dostala v čísle 06/1994. Dobové texty vyzdvihovali najmä detailnú grafiku a animácie.\n\n## Zachovanie\n\nTowdie je dnes zdokumentovaná v archíve Slovenského centra dizajnu a v medzinárodných ZX Spectrum databázach. Dochovali sa aj obrazové materiály, kópie hry a odkazy na neskoršie reedície.",
+  "cover": "/projects/towdie-cover.jpg",
+  "coverAlt": "Archivovaný predný obal hry Towdie zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný sken obalu zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/towdie/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
+  "sources": [
+    "https://scd.sk/hra/towdie/",
+    "https://spectrumcomputing.co.uk/entry/5352/ZX-Spectrum/Towdie",
+    "https://archive.org/stream/bit-sk/Bit_1994-02_djvu.txt",
+    "https://archive.org/stream/bit-sk/Bit_1994-06_djvu.txt",
+    "https://zxinfo.dk/details/0005352",
+    "https://www.herniarcheolog.cz/2024/12/hra-1023-towdie-1994.html"
+  ],
+  "company": "dsa-computer-graphics"
+}

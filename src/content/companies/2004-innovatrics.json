@@ -1,0 +1,12 @@
+{
+  "id": "innovatrics",
+  "name": "Innovatrics, s.r.o.",
+  "overview": "Innovatrics je slovenská biometrická spoločnosť založená v roku 2004. Ich algoritmy pre rozpoznávanie odtlačkov prstov a tváre sú pravidelne hodnotené ako najpresnejšie na svete.",
+  "founded": 2004,
+  "milestones": [
+    { "year": 2004, "event": "Založenie spoločnosti v Bratislave" },
+    { "year": 2024, "event": "#1 pozícia v NIST MINEX III pre algoritmus odtlačkov prstov" },
+    { "year": 2025, "event": "Vydanie mobilnej technológie rozpoznávania dlane" }
+  ],
+  "projects": ["innovatrics-biometric-sdk"]
+}

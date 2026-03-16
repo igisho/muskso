@@ -4,11 +4,26 @@
   "type": "application",
   "year_start": 1987,
   "year_end": 1995,
+  "importance": 5,
   "authors": ["Peter Paško", "Miroslav Trnka"],
   "tags": ["antivirus", "security", "dos"],
   "status": "verified",
   "platform": "MS-DOS",
-  "summary": "Jeden z prvých antivírusových programov na svete, vytvorený na Slovensku. NOD (Nemocnica na Okraji Disku) sa stal základom celosvetovo úspešnej firmy ESET.",
-  "sources": ["https://www.eset.com/sk/o-nas/historia/"],
+  "summary": "NOD vznikol v roku 1987, keď Peter Paško a Miroslav Trnka po objavení vírusu Vienna vytvorili jeho detekciu a položili základy jedného z prvých československých antivírusov. Z projektu sa v roku 1992 stal ESET.",
+  "storyMarkdown": "## Vznik v roku 1987\n\nProjekt NOD vznikol v roku 1987. Peter Paško a Miroslav Trnka vtedy objavili vírus Vienna a napísali program na jeho detekciu. Podľa oficiálnej histórie ESET sa z tejto práce vyvinula prvá verzia antivírusu NOD.\n\n## Pôvod názvu\n\nMiroslav Trnka vysvetľuje názov NOD ako skratku z \"Nemocnica na okraji disku\". Odkazoval na dobovo známy seriál \"Nemocnica na okraji mesta\" a na predstavu, že antivírus má fungovať ako lekár pre digitálny svet.\n\n## Od amatérskeho projektu k firme\n\nPrvé verzie vznikali v podmienkach neskorého socialistického Československa, podľa Trnku aj v obývačke panelákového bytu. Keďže súkromné podnikanie nebolo pred rokom 1989 povolené, projekt sa komerčne rozvinul až po zmene režimu. V roku 1992 založili Miroslav Trnka, Peter Paško a Rudolf Hrubý firmu ESET.",
+  "cover": "/projects/eset-nod-cover.png",
+  "coverAlt": "Capture sekcie Historical designs z oficiálneho ESET Press Kitu s historickými vizuálmi produktov ESET.",
+  "coverCredit": "Vlastný capture z oficiálneho ESET Press Kitu pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.eset.com/ph/newsroom/press-kit/",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture z oficiálneho press kitu ESET s uvedením zdroja.",
+  "sources": [
+    "https://www.eset.com/ph/newsroom/press-kit/",
+    "https://www.eset.com/ch-en/about/",
+    "https://web-assets.eset.com/fileadmin/ESET/INT/Pages/About/new_design/annual-report-2023-eng.pdf",
+    "https://www.eset.com/fileadmin/ESET/SK/Docs/ESET-Sustainability-Report-Slovakia-2018.pdf",
+    "https://spectator.sme.sk/business/c/it-developer-miroslav-trnka-first-wanted-to-heal-computers-and-then-society",
+    "https://www.eset.com/us/about/30-years-it-security-anniversary/"
+  ],
   "company": "eset"
 }

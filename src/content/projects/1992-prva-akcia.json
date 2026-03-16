@@ -7,7 +7,20 @@
   "tags": ["game", "slovakia", "retro", "action", "zx-spectrum"],
   "status": "verified",
   "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
-  "summary": "Slovenská akčná hra z domácej 8-bitovej scény vydaná pod Ultrasoft.",
-  "sources": ["https://scd.sk/hra/prva-akcia/"],
+  "summary": "Slovenská akčná hra pre ZX Spectrum z roku 1992 od Radoslava Marušu a DSA Computer Graphics, vydaná Ultrasoftom. Hráč ako mladý policajt zasahuje pri prepade banky, oslobodzuje rukojemníkov a likviduje gang.",
+  "storyMarkdown": "## Základné informácie\n\nPrvá Akcia je slovenská hra z roku 1992 pre ZX Spectrum 48K a 128K. Autorom je Radoslav Maruša, so hrou je spojené štúdio DSA Computer Graphics a vydavateľom bol Ultrasoft.\n\n## O čom hra je\n\nHra je zasadená do prepadnutej banky. Hráč vystupuje ako mladý policajt, ktorý má oslobodiť rukojemníkov a zneškodniť ozbrojených páchateľov.\n\n## Miesto v dobovom kontexte\n\nAkademický prehľad dejín slovenských hier zaraďuje Prvú Akciu medzi rané slovenské tituly a uvádza ju aj ako príklad dobového, neformálneho oslovovania hráča v slovenskom hernom texte.\n\n## Zachovanie a dokumentácia\n\nHra je dnes zdokumentovaná v archíve Slovenského centra dizajnu aj v špecializovaných ZX archívoch. Zachovali sa kópie hry aj sprievodné materiály vrátane obalu, loading screenu, inštrukcií, mapy a dobového plagátu.",
+  "cover": "/projects/prva-akcia-cover.jpg",
+  "coverAlt": "Archivovaný predný obal hry Prvá Akcia zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný sken obalu zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/prva-akcia/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
+  "sources": [
+    "https://scd.sk/hra/prva-akcia/",
+    "https://www.bridge.ff.ukf.sk/index.php/bridge/article/download/54/48",
+    "https://spectrumcomputing.co.uk/entry/3907",
+    "https://worldofspectrum.org/archive/software/games/prva-akcia-ultrasoft-2",
+    "https://www.mobygames.com/game/16599/prva-akcia/"
+  ],
   "company": "dsa-computer-graphics"
 }

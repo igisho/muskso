@@ -4,6 +4,7 @@ export interface Heritage {
   type: string;
   year_start: number;
   year_end?: number;
+  importance?: 1 | 2 | 3 | 4 | 5;
   authors: string[];
   tags: string[];
   status: "verified" | "draft" | "disputed";
@@ -11,6 +12,11 @@ export interface Heritage {
   summary: string;
   storyMarkdown?: string;
   cover?: string;
+  coverAlt?: string;
+  coverCredit?: string;
+  coverSourceUrl?: string;
+  coverOrigin?: "official" | "archive" | "own-capture" | "press" | "unknown";
+  coverLicense?: string;
   sources: string[];
   company?: string;
 }

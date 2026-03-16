@@ -6,11 +6,21 @@
   "authors": ["Martin Sústrik"],
   "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
   "status": "verified",
-  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
-  "summary": "Raná slovenská hra skupiny Sybilasoft z obdobia textových adventúr.",
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Plutonia je raná slovenská textová adventúra od Martina Sústrika z roku 1987 pre ZX Spectrum. Archívne zdroje ju spájajú so štúdiom Sybilasoft a SGDA ju neskôr sprístupnila aj v anglickej verzii.",
+  "storyMarkdown": "## Základné údaje\n\nPlutonia je slovenská textová adventúra z roku 1987. Archívne zdroje ju pripisujú Martinovi Sústrikovi a spájajú ju so štúdiom Sybilasoft, hoci v niektorých databázach sa objavuje aj zápis Sibylasoft.\n\n## Platforma a forma\n\nHra je evidovaná pre platformu ZX Spectrum. Slovenské centrum dizajnu uvádza kompatibilitu so ZX Spectrum 48K aj 128K, pôvodné médium kazeta a dobové zaradenie homebrew freeware.\n\n## Miesto v histórii\n\nAkademická literatúra ju radí medzi rané slovenské videohry. V štúdii o histórii slovenských hier slúži aj ako príklad textu bez diakritiky a neformálnej komunikácie s hráčom.\n\n## Neskoršie sprístupnenie\n\nPlutonia bola zaradená do projektu anglických lokalizácií raných slovenských hier, ktorý pripravila SGDA a partneri. Archívne databázy dnes evidujú aj neskoršiu anglickú verziu spojenú so Slovak Game Developers Association a Slovak Design Museum.",
+  "cover": "/projects/plutonia-cover.png",
+  "coverAlt": "Archivovaná loading obrazovka hry Plutonia zo ZX Spectrum databázy Spectrum Computing.",
+  "coverCredit": "Archivovaný loading screen zo Spectrum Computing.",
+  "coverSourceUrl": "https://spectrumcomputing.co.uk/entry/16704/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného záznamu Spectrum Computing, zdroj uvedený.",
   "sources": [
     "https://scd.sk/hra/plutonia/",
-    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+    "https://sgda.sk/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period/",
+    "https://www.bridge.ff.ukf.sk/index.php/bridge/article/download/54/48",
+    "https://spectrumcomputing.co.uk/entry/16704/",
+    "https://herniarcheolog.blogspot.com/2017/11/hra-132-plutonia-1987.html"
   ],
   "company": "sybilasoft"
 }

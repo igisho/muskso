@@ -1,0 +1,27 @@
+{
+  "id": "kros-cenkros",
+  "title": "CENKROS",
+  "type": "application",
+  "year_start": 1999,
+  "importance": 5,
+  "authors": ["KROS a.s."],
+  "tags": ["construction", "budgeting", "enterprise", "dos", "windows"],
+  "status": "draft",
+  "platform": "Windows",
+  "summary": "CENKROS je slovenský rozpočtový softvér firmy KROS pre stavebníctvo. Dostupné zdroje ho kladú do konca 90. rokov; firma vznikla v roku 1995 a neskoršie generácie produktu niesli názvy CENKROS plus a CENKROS 4.",
+  "storyMarkdown": "## Pôvod a firma\n\nCENKROS je slovenský softvér na rozpočty a kalkulácie v stavebníctve od firmy KROS. Verejne dostupné oficiálne zdroje potvrdzujú vznik firmy KROS v roku 1995, no priame potvrdenie roku 1999 pre CENKROS sa mi nepodarilo nájsť. Dátum je preto odvodený z neskorších výročných a produktových materiálov.\n\n## Začiatky produktu\n\nPodľa spoluzakladateľa Jaroslava Kulišku vznikal stavebný softvér najprv v prostredí DOS a neskôr vo Windows. KROS uvádza, že práve stavebný softvér bol prvým predávaným programom firmy a stal sa základom jej ďalšieho rastu.\n\n## Vývoj generácií\n\nDostupné zdroje spomínajú dve výrazné generačné zmeny: CENKROS plus od roku 2006 a CENKROS 4 od roku 2016. Súčasná produktová stránka opisuje CENKROS 4 ako riešenie pre rozpočty a kalkulácie s databázou CENEKON.\n\n## Súčasné postavenie\n\nKROS dnes prezentuje CENKROS 4 ako zavedený stavebný softvér pre stavebné firmy, investorov a verejnú správu. Okolo desktopového programu buduje aj webové a online nadväzujúce služby, napríklad online cenníkovú databázu a nástroje pre priebeh výstavby.",
+  "cover": "/projects/kros-cenkros-cover.png",
+  "coverAlt": "Hero sekcia oficiálnej stránky CENKROS 4 so screenshotom rozpočtového rozhrania a produktovým brandingom.",
+  "coverCredit": "Vlastný capture z oficiálnej produktovej stránky KROS pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.kros.sk/cenkros/",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture z oficiálnej stránky KROS s uvedením zdroja.",
+  "sources": [
+    "https://www.kros.sk/o-nas/",
+    "https://www.kros.sk/cenkros/",
+    "https://web.kros.sk/wp-content/uploads/2025/11/VS_2011.pdf",
+    "https://www.asb.sk/development/stavebny-softver-cenkros-4-oslavuje-25-rokov-precitajte-si-silny-pribeh-jeho-vzniku",
+    "https://www.asb.sk/aktualne/daniel-rigas-produkty-neustale-zdokonalujeme"
+  ],
+  "company": "kros"
+}

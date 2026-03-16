@@ -1,0 +1,25 @@
+{
+  "id": "starers-glasses",
+  "title": "STARERS",
+  "type": "application",
+  "year_start": 2023,
+  "authors": ["Igor Sovcik"],
+  "tags": ["3d-print", "open-source", "design", "product", "lenses", "generator"],
+  "status": "verified",
+  "platform": "Cross-platform",
+  "summary": "STARERS sú otvorené 3D tlačiteľné okuliarové rámy od slovenského autora, určené na lokálnu výrobu a doplnenie profesionálne zabrúsenými optickými šošovkami.",
+  "storyMarkdown": "## Čo je STARERS\n\nSTARERS je projekt otvorených 3D tlačiteľných okuliarových rámov. Používateľ si môže stiahnuť STL model rámu, vytlačiť ho lokálne a doplniť o profesionálne zabrúsené optické šošovky.\n\n## Ako projekt funguje\n\nOficiálny web popisuje postup po tlači: určenie typu šošoviek, materiálu, zmeranie PD, výber povrchovej úpravy a objednanie zabrúsenia u optika alebo online laboratória. Projekt spomína aj možnosť merania tvaru rámu cez zariadenie Briot Scan 8.\n\n## Verejne doložené stopy\n\nNajskoršie ľahko overiteľné verejné stopy, ktoré sa podarilo nájsť, sú z januára 2023. Model je publikovaný aj na platformách pre 3D tlač a na Cults3D je uvedený autor igisho a licencia GPL v3.\n\n## Slovenský kontext\n\nArchivované projektové stránky odkazujú na profil igor.showcheeks.sk a stránka Showcheeks identifikuje Igora Šovčíka ako tvorcu z Banskej Bystrice. To podporuje zaradenie projektu medzi slovenské digitálno-makerské projekty.",
+  "cover": "/projects/starers-glasses-cover.png",
+  "coverAlt": "Vlastný capture oficiálnej stránky STARERS s prezentáciou 3D tlačiteľných okuliarových rámov.",
+  "coverCredit": "Vlastný capture z oficiálneho webu STARERS pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.starers.eu/",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture z verejne dostupnej oficiálnej stránky s uvedením zdroja.",
+  "sources": [
+    "https://www.starers.eu/",
+    "https://web.archive.org/web/20230124122227/https://www.starers.eu/",
+    "https://web.archive.org/web/20240616070339/https://www.starers.eu/after-print",
+    "https://cults3d.com/en/3d-model/fashion/starers-glasses-for-masses",
+    "https://www.showcheeks.sk/o-nas/"
+  ]
+}

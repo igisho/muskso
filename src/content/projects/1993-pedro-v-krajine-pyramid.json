@@ -1,0 +1,25 @@
+{
+  "id": "pedro-v-krajine-pyramid",
+  "title": "Pedro v krajine pyramíd",
+  "type": "game",
+  "year_start": 1993,
+  "authors": ["Július Nagy", "Andrej Nagy", "Gold Storm"],
+  "tags": ["game", "slovakia", "retro", "adventure", "zx-spectrum", "pedro"],
+  "status": "verified",
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Slovenská ZX Spectrum hra od Júliusa a Andreja Nagya z Gold Storm, vydaná Ultrasoftom v roku 1993. Tretí diel série Pedro posiela hrdinu do Egypta, kde po únose Giny hľadá v Cheopsovej pyramíde vajce mimozemského tvora.",
+  "storyMarkdown": "## Vznik a vydanie\n\nPedro v krajine pyramíd je slovenská hra autorov Július Nagy a Andrej Nagy zo štúdia Gold Storm. Vydal ju Ultrasoft; archívne zdroje ju vedú ako titul pre ZX Spectrum 48K/128K z roku 1993.\n\n## Námet a hra\n\nIde o tretí diel série Pedro. Podľa dobových inštrukcií Pedro trávi dovolenku v Egypte s Ginou, ktorá je unesená. Aby ju získal späť, musí nájsť tajný vstup do Cheopsovej pyramídy a priniesť vajce nebezpečného mimozemského tvora.\n\n## Dobové prijatie\n\nHra mala dobovú recenziu v časopise BiT 02/94, kde získala hodnotenie 88 %. Databázy zároveň evidujú aj dobový preview v BiT 11/93.\n\n## Dochovanie\n\nHra je dnes doložená v inštitucionálnych a komunitných archívoch vrátane Slovenského centra dizajnu, Spectrum Computing a Herního archivu, kde sú dostupné skeny obalu, obrazovky aj záznam fyzickej kazety.",
+  "cover": "/projects/pedro-v-krajine-pyramid-cover.jpg",
+  "coverAlt": "Archivovaný predný obal hry Pedro v krajine pyramíd zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný sken obalu zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/pedro-v-krajine-pyramid/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
+  "sources": [
+    "https://scd.sk/hra/pedro-v-krajine-pyramid/",
+    "https://spectrumcomputing.co.uk/entry/13873",
+    "https://www.worldofspectrum.org/pub/sinclair/games-info/p/PedroVKrajinePyramid.txt",
+    "https://www.oldgames.sk/en/mag/bit-29/review/2741/",
+    "https://inventory.herniarchiv.cz/asset/5297?url=/asset/?page%3D23%26sort%3D2%26desc%3D1"
+  ]
+}

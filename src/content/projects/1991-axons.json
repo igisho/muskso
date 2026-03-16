@@ -1,0 +1,26 @@
+{
+  "id": "axons",
+  "title": "Axons",
+  "type": "game",
+  "year_start": 1991,
+  "authors": ["Ľubomír Salanci"],
+  "tags": ["game", "slovakia", "retro", "arcade", "zx-spectrum", "shmup"],
+  "status": "verified",
+  "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
+  "summary": "Axons je slovenská ZX Spectrum strieľačka od Ľubomíra Salanciho. Pôvodne vyšla v roku 1991 cez Software Saur, no v roku 1992 ju Ultrasoft znovu vydal a zaradil do kompilácie Megamix 1 s hrou Galactic Gunners.",
+  "storyMarkdown": "## Základné informácie\n\nAxons je slovenská hra pre ZX Spectrum od Ľubomíra Salanciho. Archívne zdroje ju uvádzajú ako akčnú strieľačku pre ZX Spectrum 48K a 128K, pre jedného hráča, so slovenským textom.\n\n## Vydanie a rok 1992\n\nPôvodné vydanie je doložené rokom 1991 pod značkou Software Saur. V roku 1992 nasledovalo slovenské znovuvydanie cez Ultrasoft.\n\n## Megamix 1\n\nUltrasoft zaradil Axons v roku 1992 do kompilácie Megamix 1 spolu s hrou Galactic Gunners. Pri tejto komerčnej verzii sa uvádza autor Axons Ľubomír Salanci a návrh obalu Marek Forray.\n\n## Autor\n\nĽubomír Salanci je v databáze Visiongame vedený ako československý vývojár z začiatku 90. rokov a zakladateľ Saursoftu.",
+  "cover": "/projects/axons-cover.png",
+  "coverAlt": "Archivovaná loading obrazovka hry Axons zo ZX Spectrum archívu Spectrum Computing.",
+  "coverCredit": "Archivovaný loading screen zo Spectrum Computing.",
+  "coverSourceUrl": "https://spectrumcomputing.co.uk/entry/356",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného herného archívu, zdroj uvedený.",
+  "sources": [
+    "https://spectrumcomputing.co.uk/entry/356",
+    "https://worldofspectrum.org/archive/software/games/axons-software-saur",
+    "https://www.mobygames.com/game/69839/megamix-1-axons-galactic-gunners/",
+    "https://www.mobygames.com/game/69839/megamix-1-axons-galactic-gunners/releases/zx-spectrum/",
+    "https://visiongame.cz/studio/lubomir-salanci/",
+    "https://herniarcheolog.blogspot.com/2021/03/hra-522-axons-1991.html"
+  ]
+}

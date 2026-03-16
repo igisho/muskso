@@ -1,0 +1,26 @@
+{
+  "id": "kliatba-noci",
+  "title": "Kliatba Noci",
+  "type": "game",
+  "year_start": 1993,
+  "authors": ["Radoslav Maruša", "DSA Computer Graphics", "Microtech Systems"],
+  "tags": ["game", "slovakia", "retro", "adventure", "zx-spectrum"],
+  "status": "verified",
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Kliatba Noci je slovenská akčná adventúra Radoslava Marušu pre ZX Spectrum, vydaná v roku 1993 firmou Ultrasoft. Hráč ako rytier skúma zakliaty zámok, zbiera predmety na elixír a usiluje sa prebudiť spiacu princeznú.",
+  "storyMarkdown": "## Základné údaje\n\nKliatba Noci je slovenská akčná adventúra od Radoslava Marušu. Dostupné spoľahlivé zdroje ju zhodne datujú do roku 1993, nie do roku 1990. Vyšla pre ZX Spectrum 48K/128K na kazete a distribuoval ju Ultrasoft.\n\n## Námet a hranie\n\nHráč vystupuje ako rytier, ktorý prechádza zakliatym zámkom, vyhýba sa nepriateľom alebo s nimi bojuje a zbiera predmety potrebné na prípravu elixíru. Cieľom je prebudiť spiacu princeznú a prelomiť kliatbu.\n\n## Spracovanie a dochovanie\n\nSlovenské centrum dizajnu označuje hru za jeden z technicky a výtvarne výrazných domácich titulov svojej doby a upozorňuje aj na efekty odrazov v zrkadlách. Hra sa zachovala v inštitucionálnych a scénových archívoch vrátane obalu, plagátu, in-game obrazoviek a neskorších reedícií.",
+  "cover": "/projects/kliatba-noci-cover.jpg",
+  "coverAlt": "Archivovaný predný obal hry Kliatba Noci zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný sken obalu zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/kliatba-noci/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
+  "sources": [
+    "https://scd.sk/hra/kliatba-noci/",
+    "https://www.bridge.ff.ukf.sk/index.php/bridge/article/download/54/48",
+    "https://spectrumcomputing.co.uk/entry/9365/ZX-Spectrum/Kliatba_Noci",
+    "https://worldofspectrum.org/archive/software/games/kliatba-noci-ultrasoft-2sintech",
+    "https://zxart.ee/eng/software/games/adventure/graphic/kliatba-noci/"
+  ],
+  "company": "dsa-computer-graphics"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "winiso",
+  "title": "WinISO",
+  "type": "utility",
+  "year_start": 2000,
+  "authors": ["WinISO Computing Inc."],
+  "tags": ["iso", "cd", "utility", "windows", "disputed-origin"],
+  "status": "disputed",
+  "platform": "Windows",
+  "summary": "WinISO je nástroj na tvorbu a úpravu obrazov diskov ISO. Dostupné oficiálne zdroje ho uvádzajú od roku 2000 a spájajú ho s WinISO Computing, MODIAC a Macgo, nie so slovenským pôvodom.",
+  "storyMarkdown": "## Základné fakty\n\nWinISO je utilita pre prácu s obrazmi optických diskov, najmä formátom ISO. Oficiálna stránka uvádza, že program bol prvýkrát predstavený v roku 2000.\n\n## Pôvod a vydavateľ\n\nStaršia oficiálna stránka uvádza, že WinISO Computing Inc. vznikla v roku 2001. Historické aj novšie oficiálne materiály spájajú produkt s entitami MODIAC INTERNATIONAL LIMITED a Macgo International Limited.\n\n## Väzba na Slovensko\n\nNepodarilo sa nájsť dôveryhodný dôkaz o slovenskom autorovi, slovenskej firme ani slovenskom vývoji. Slovenské weby a archívy dokladajú najviac lokálnu distribúciu alebo zrkadlenie programu, nie jeho slovenský pôvod.",
+  "cover": "/projects/winiso-cover.png",
+  "coverAlt": "Vlastný capture staršej oficiálnej stránky WinISO s historickým brandingom produktu.",
+  "coverCredit": "Vlastný capture z oficiálnej legacy stránky WinISO pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://v6.winiso.com/company.html",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture z verejne dostupnej oficiálnej stránky s uvedením zdroja.",
+  "sources": [
+    "https://winiso.com/",
+    "https://v6.winiso.com/company.html",
+    "https://www.macblurayplayer.com/about-us.htm",
+    "https://winiso.updatestar.com/",
+    "https://www.sac.sk/files.php?d=14&l="
+  ]
+}

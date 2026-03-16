@@ -9,7 +9,6 @@
   "type": "application",
   "year_start": 2024,
   "year_end": 2026,
-  "importance": 2,
   "authors": ["Igor Sovcik"],
   "tags": ["media", "ai"],
   "status": "draft",
@@ -17,11 +16,6 @@
   "summary": "Krátke zhrnutie pre výpisy a úvod detailu.",
   "storyMarkdown": "## Detailný popis\n\nDlhší text vo formáte Markdown.",
   "cover": "/projects/altky-media-platform-cover.png",
-  "coverAlt": "Popis cover obrázka v slovenčine.",
-  "coverCredit": "Kredit obrázka alebo capture.",
-  "coverSourceUrl": "https://altky.sk",
-  "coverOrigin": "own-capture",
-  "coverLicense": "Poznámka k licencii alebo použitiu.",
   "sources": ["https://altky.sk"],
   "company": "altky"
 }
@@ -31,9 +25,7 @@ Povinné polia: `id`, `title`, `type`, `year_start`, `authors`, `tags`, `status`
 
 Limit: `summary` max 300 znakov.
 
-Voliteľné polia: `year_end`, `importance`, `storyMarkdown`, `cover`, `coverAlt`, `coverCredit`, `coverSourceUrl`, `coverOrigin`, `coverLicense`, `company`
-
-Ak je vyplnene `cover`, musi byt vyplnene aj `coverAlt`, `coverCredit` a `coverOrigin`.
+Voliteľné polia: `year_end`, `storyMarkdown`, `cover`, `company`
 
 ## People JSON (`src/content/people/*.json`)
 

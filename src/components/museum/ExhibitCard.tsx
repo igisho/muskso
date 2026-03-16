@@ -23,7 +23,7 @@ const ExhibitCard = ({ item }: ExhibitCardProps) => {
           <div className="relative w-full h-full">
             <img
               src={item.cover}
-              alt={item.coverAlt ?? `${item.title} cover`}
+              alt={`${item.title} cover`}
               className="w-full h-full object-cover"
               loading="lazy"
               onError={() => setCoverLoadFailed(true)}

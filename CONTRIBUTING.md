@@ -45,21 +45,9 @@ Príklady:
 Pre projekty môžete pridať aj:
 
 - `cover` - cesta k obrázku v `public/` (napr. `/projects/moj-projekt-cover.png`),
-- `coverAlt` - alt text cover obrázka,
-- `coverCredit` - kredit obrázka alebo capture v slovenčine,
-- `coverOrigin` - pôvod obrázka (`official`, `archive`, `own-capture`, `press`, `unknown`),
-- `coverSourceUrl` - URL zdroja cover obrázka,
-- `coverLicense` - poznámka k licencii alebo použitiu,
-- `importance` - kurátorská priorita projektu (`1-5`),
 - `storyMarkdown` - dlhší formátovaný popis projektu v Markdowne.
 
 Poznámka: `summary` je krátke zhrnutie s limitom 300 znakov.
-
-Ak pridávate vlastný screenshot/capture:
-
-- orežte ho na čistý 16:9 formát,
-- preferujte `1600x900` alebo `1280x720`,
-- vždy doplňte kredit a zdroj.
 
 ## Lokálna validácia pred PR
 

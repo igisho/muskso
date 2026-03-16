@@ -55,7 +55,7 @@ const ProjectDetail = () => {
               {showCover ? (
                 <img
                   src={item.cover}
-                  alt={item.coverAlt ?? `${item.title} cover`}
+                  alt={`${item.title} cover`}
                   className="w-full h-full object-cover"
                   loading="lazy"
                   onError={() => setCoverLoadFailed(true)}

@@ -24,8 +24,6 @@
 - cover ukladaj do `public/projects/`,
 - v JSON pouzi `cover: "/projects/<nazov-suboru>.png"`,
 - pomer pre cover odporucany 16:9,
-- pri vlastnych screenshot/capture obrazkoch ciel na `1600x900` alebo `1280x720`,
-- pri cover dopln `coverAlt`, `coverCredit`, `coverOrigin` a ak vies aj `coverSourceUrl`,
 - v UI sa obrazok oreze cez `object-cover`.
 
 ## DO

@@ -55,7 +55,7 @@ const ProjectDetail = () => {
               {showCover ? (
                 <img
                   src={item.cover}
-                  alt={`${item.title} cover`}
+                  alt={item.coverAlt ?? `${item.title} cover`}
                   className="w-full h-full object-cover"
                   loading="lazy"
                   onError={() => setCoverLoadFailed(true)}
@@ -64,6 +64,22 @@ const ProjectDetail = () => {
                 <span className="font-display text-4xl font-semibold text-muted-foreground/50">{item.title}</span>
               )}
             </div>
+
+            {showCover && (item.coverCredit || item.coverSourceUrl || item.coverLicense || item.coverOrigin) && (
+              <div className="mb-6 border border-border bg-card px-4 py-3 text-xs text-muted-foreground space-y-1">
+                {item.coverCredit && <p><span className="font-mono uppercase tracking-wider text-[10px]">Kredit</span> {item.coverCredit}</p>}
+                {item.coverOrigin && <p><span className="font-mono uppercase tracking-wider text-[10px]">Pôvod</span> {item.coverOrigin}</p>}
+                {item.coverLicense && <p><span className="font-mono uppercase tracking-wider text-[10px]">Licencia</span> {item.coverLicense}</p>}
+                {item.coverSourceUrl && (
+                  <p>
+                    <span className="font-mono uppercase tracking-wider text-[10px]">Zdroj</span>{" "}
+                    <a href={item.coverSourceUrl} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline break-all">
+                      {item.coverSourceUrl}
+                    </a>
+                  </p>
+                )}
+              </div>
+            )}
 
             {/* Exhibit ID Card */}
             <ExhibitIdCard item={item} />

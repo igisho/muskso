@@ -42,6 +42,7 @@ npm run preview  # lokálny náhľad buildu
 npm run lint     # linting
 npm test         # testy (vitest)
 npm run validate:content # validácia dát archívu
+npm run audit:content    # backlog neúplných projektov podľa priority
 ```
 
 ## Štruktúra projektu
@@ -67,7 +68,18 @@ Konvencie kontroluje `npm run validate:content`.
 - `summary` slúži ako krátky text pre výpisy a úvod detailu projektu,
 - `summary` má limit 300 znakov,
 - voliteľné pole `storyMarkdown` slúži na dlhší formátovaný popis (Markdown) v detaile projektu,
+- voliteľné pole `importance` (`1-5`) určuje kurátorskú prioritu pri obohacovaní a výbere top exponátov,
+- ak je vyplnené `cover`, projekt musí mať aj `coverAlt`, `coverCredit` a `coverOrigin`,
+- `coverSourceUrl` a `coverLicense` sú odporúčané pre lepšiu provenienciu obrázka,
 - odporúčanie: `summary` držať stručné, detailnejší obsah písať do `storyMarkdown`.
+
+## Agentický enrichment workflow
+
+- project-local OpenCode subagenti sú v `.opencode/agents/`,
+- vstupný orchestrátor je `@exhibit-orchestrator`,
+- backlog neúplných projektov si viete vypísať cez `npm run audit:content`,
+- pre dynamické weby a captures je pripravený `browser-researcher`,
+- pri vlastných captures používajte rozumný crop na 16:9, ideálne `1600x900` alebo `1280x720`, a vždy uveďte kredit a zdroj.
 
 ## Ako prispieť cez PR
 

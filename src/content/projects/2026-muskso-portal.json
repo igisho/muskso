@@ -7,7 +7,18 @@
   "tags": ["archive", "open-source", "community", "react", "vite"],
   "status": "verified",
   "platform": "Web",
-  "summary": "Komunitný portál digitálneho archívu slovenského softvéru. Projekt prepája historické exponáty, ľudí, firmy a dokumentáciu pre prispievateľov.",
-  "sources": ["https://muskso.sk"],
+  "summary": "MUSKSO.sk je komunitný webový archív slovenského softvéru, verejne dostupný od roku 2026. Portál prepája záznamy o projektoch, ľuďoch, firmách, časovej osi a pravidlách prispievania cez GitHub pull requesty.",
+  "storyMarkdown": "## Základný opis\n\nMUSKSO.sk je verejne dostupný web s názvom Múzeum slovenského softvéru. Oficiálny web aj repozitár ho opisujú ako komunitný digitálny archív slovenského softvéru.\n\n## Funkcie portálu\n\nPortál sprístupňuje archív exponátov, profily ľudí a firiem, časovú os a dokumentáciu pre prispievateľov. Verejne dostupný je aj detail záznamu muskso-portal, ktorý projekt uvádza ako webovú aplikáciu z roku 2026.\n\n## Proveniencia a limity overenia\n\nDnes dostupné fakty pochádzajú najmä z oficiálneho webu muskso.sk a z verejného repozitára igisho/muskso. Nezávislé externé zdroje, ktoré by podrobnejšie potvrdzovali vznik a význam projektu, sa zatiaľ nepodarilo doložiť.",
+  "cover": "/projects/muskso-portal-cover.png",
+  "coverAlt": "Vlastný capture detailu projektu MUSKSO.sk na oficiálnom webe múzea slovenského softvéru.",
+  "coverCredit": "Vlastný capture z oficiálneho webu MUSKSO.sk pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://muskso.sk/project/muskso-portal",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture z verejne dostupnej oficiálnej stránky s uvedením zdroja.",
+  "sources": [
+    "https://muskso.sk/",
+    "https://muskso.sk/project/muskso-portal",
+    "https://github.com/igisho/muskso"
+  ],
   "company": "muskso"
 }

@@ -3,14 +3,25 @@
   "title": "Šatochin",
   "type": "game",
   "year_start": 1988,
-  "authors": ["Sybilasoft"],
+  "authors": ["Stanislav Hrda", "Pavol Čejka", "Michal Hlaváč", "Martin Sústrik"],
   "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
   "status": "verified",
-  "platform": "ZX Spectrum",
-  "summary": "Kľúčová slovenská textová adventúra z 8-bitovej éry, súčasť projektu anglických lokalizácií.",
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Textová adventúra Šatochin (Sybilasoft, 1988) patrí k raným slovenským hrám pre ZX Spectrum. Hrá sa s motívom sovietskeho majora proti Rambovi a dnes sa uvádza aj ako príklad dobovej satiry a zachovanej hernej histórie.",
+  "storyMarkdown": "## Základné údaje\n\nŠatochin je slovenská textová adventúra z roku 1988, vydaná pod značkou Sybilasoft. V archívnych záznamoch sa spája najmä so Stanislavom Hrdom; ďalšie databázové záznamy uvádzajú aj Pavla Čejku, Michala Hlaváča a Martina Sústrika.\n\n## Námet hry\n\nHra pracuje s motívom stretu sovietskeho majora Šatochina a postavy Ramba. Zdroje ju zasadzujú do vojenského prostredia Vietnamu a opisujú ju ako textovku, ktorá využíva akčné a politické odkazy populárnej kultúry 80. rokov.\n\n## Historický kontext\n\nOdborné aj kurátorské zdroje dnes Šatochin uvádzajú ako príklad toho, že domáce hry na konci 80. rokov nemuseli slúžiť iba na zábavu. V interpretáciách sa objavuje satirický tón a narážky na dobový režim či sovietsku vojenskú symboliku.\n\n## Zachovanie a prístupnosť\n\nHra je dnes evidovaná v archívoch slovenskej a spektristickej hernej histórie. V projekte SGDA a Slovenského múzea dizajnu bola zaradená aj medzi staršie slovenské hry, ktoré dostali anglickú lokalizáciu a nové sprístupnenie.",
+  "cover": "/projects/satochin-cover.png",
+  "coverAlt": "Archivovaná loading obrazovka hry Šatochin zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný loading screen zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/satochin/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
   "sources": [
     "https://scd.sk/hra/satochin/",
-    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+    "https://sgda.sk/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period/",
+    "https://www.bridge.ff.ukf.sk/index.php/bridge/article/download/54/48",
+    "https://worldofspectrum.net/item/0006923/",
+    "https://www.theverge.com/22882705/slovak-design-museum-classic-game-preservation-1980s",
+    "https://dennikn.sk/838368/zbieraju-pocitacove-hry-z-80-a-90-rokov-ktore-boli-niecim-zvlastne-a-vystavuju-ich/"
   ],
   "company": "sybilasoft"
 }

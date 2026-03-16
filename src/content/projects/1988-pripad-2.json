@@ -7,10 +7,21 @@
   "tags": ["game", "slovakia", "text-adventure", "zx-spectrum"],
   "status": "verified",
   "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
-  "summary": "Slovenská textová adventúra štúdia Shrap Software, súčasť prekladového projektu do angličtiny.",
+  "summary": "Slovenská textová adventúra pre ZX Spectrum z roku 1988 od Jozefa Záhumenského a Jula Kaliského (Shrap Software). Neskôr bola znovu sprístupnená aj v anglickej lokalizácii v projekte SGDA a Slovenského dizajnového múzea.",
+  "storyMarkdown": "## Základné údaje\n\nPrípad 2 je slovenská textová adventúra pre ZX Spectrum z roku 1988. Hru vytvorili Jozef Záhumenský a Julo Kaliský pod značkou Shrap Software.\n\n## Platforma a dochovanie\n\nArchívne databázy ju evidujú ako jednohráčovú textovú adventúru pre ZX Spectrum 48K; Slovenské centrum dizajnu uvádza aj kompatibilitu so ZX Spectrum 128K. Hra je dnes zachovaná v archívnych kópiách a dostupná aj cez múzejno-archívne stránky.\n\n## Neskoršia lokalizácia\n\nPrípad 2 bol zaradený aj do projektu hrateľných anglických lokalizácií slovenských digitálnych hier z konca 80. rokov. Reedícia vznikla v spolupráci Slovak Game Developers Association a Slovak Design Museum.\n\n## Námet a hranie\n\nPodľa dobového rozboru hráč vystupuje ako detektív Martin Kriegen a pohybuje sa v dome postavy Diany. Hranie je založené na krátkych príkazoch, manipulácii s predmetmi a plnení postupných úloh.",
+  "cover": "/projects/pripad-2-cover.png",
+  "coverAlt": "Archivovaná úvodná obrazovka hry Prípad 2 zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný loading screen zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/pripad-2/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
   "sources": [
     "https://scd.sk/hra/pripad-2/",
-    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period/",
+    "https://spectrumcomputing.co.uk/entry/6821",
+    "https://worldofspectrum.org/archive/software/games/pripad-ii-shrap-software",
+    "https://visiongame.cz/studio/shrap-software/",
+    "https://www.herniarcheolog.cz/2018/10/hra-254-pripad-2-1988.html"
   ],
   "company": "shrap-software"
 }

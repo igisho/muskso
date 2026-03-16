@@ -3,10 +3,24 @@
   "title": "Aquanoid",
   "type": "game",
   "year_start": 1992,
-  "authors": ["Ján Machaj"],
-  "tags": ["game", "breakout", "dos", "shareware"],
-  "status": "verified",
+  "authors": ["Stefan Heineke", "Karsten Finger"],
+  "tags": ["game", "breakout", "dos", "shareware", "disputed-origin"],
+  "status": "disputed",
   "platform": "MS-DOS",
-  "summary": "Populárna slovenská hra typu breakout/arkanoid pre MS-DOS. Bola šírená ako shareware a získala si obľubu po celom svete.",
-  "sources": ["https://www.mobygames.com/game/aquanoid"]
+  "summary": "Aquanoid (1992) je DOS shareware arkanoidovka pripisovaná Stefanovi Heinekemu a Karstenovi Fingerovi. Dobové aj archívne zdroje ju opisujú ako breakout klon s power-upmi; v tomto prieskume sa nepodarilo overiť slovenský pôvod.",
+  "storyMarkdown": "## Základné údaje\n\nAquanoid je DOS shareware hra vydaná v roku 1992. Databázy MobyGames a Internet Archive uvádzajú ako autorov Stefana Heinekeho a Karstena Fingera.\n\n## Hrateľnosť\n\nIde o variant Breakoutu alebo Arkanoidu: hráč ovláda pálku pri spodnom okraji obrazovky, odráža loptičku a ničí bloky. Zdroje spomínajú viac typov blokov a power-upov; shareware verzia sprístupňovala len časť obsahu.\n\n## Dobový kontext\n\nHra sa objavila aj v časopise Excalibur 25 (05/1994), kde bola evidovaná ako mini recenzia shareware titulu pre PC DOS.\n\n## Poznámka k pôvodu\n\nV overených zdrojoch z tohto prieskumu sa nepodarilo potvrdiť slovenský pôvod projektu. Dostupné záznamy ho viažu na autorov Heinekeho a Fingera a na DOS shareware kontext.",
+  "cover": "/projects/aquanoid-cover.jpg",
+  "coverAlt": "Archivovaný cover screenshot hry Aquanoid z Internet Archive.",
+  "coverCredit": "Archivovaný cover screenshot z Internet Archive.",
+  "coverSourceUrl": "https://archive.org/details/Aquanoid",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného archívneho záznamu, zdroj uvedený.",
+  "sources": [
+    "https://www.mobygames.com/game/1555/aquanoid/",
+    "https://www.classicdosgames.com/game/Aquanoid.html",
+    "https://archive.org/details/Aquanoid",
+    "https://archive.org/details/aquanoid-full-version",
+    "https://www.oldgames.sk/en/mag/excalibur-25/review/4249/",
+    "https://www.oldgames.sk/en/mag/excalibur-25/page/16/"
+  ]
 }

@@ -7,10 +7,21 @@
   "tags": ["game", "slovakia", "puzzle", "zx-spectrum"],
   "status": "verified",
   "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
-  "summary": "Slovenská puzzle hra (Jigsaw) z 8-bitovej éry domácej tvorby.",
+  "summary": "Skladačka je slovenská textová detektívna hra pre ZX Spectrum. Vydanie z roku 1992 vydal Ultrasoft; hráč ako detektív Arthur Brown skladá 8 dielov fotografie, ktorá vedie k koristi zo starej bankovej lúpeže.",
+  "storyMarkdown": "## Základné info\n\nSkladačka je slovenská textová detektívna hra pre ZX Spectrum. Archív Slovenského centra dizajnu uvádza vydanie z roku 1992, štúdio Delta Soft a vydavateľa Ultrasoft.\n\n## Námet\n\nHra vychádza z detektívky Eda McBaina. Hráč sa ujíma úlohy detektíva Arthura Browna z 87. obvodu v imaginárnom meste Delyork.\n\n## Hrateľnosť\n\nCieľom je získať osem častí rozstrihanej fotografie, ktorá má ukázať miesto ukrytej koristi zo starej bankovej lúpeže. Ovládanie je riešené menu systémom typu pull-down, nie voľným písaním príkazov.\n\n## Archívne poznámky\n\nViaceré databázy uvádzajú aj skorší pôvodný záznam z roku 1989 pri Deltasoft verzii, zatiaľ čo slovenský múzejný záznam dokumentuje vydanie Ultrasoft z roku 1992. Pri spracovaní je vhodné tieto dve dátové vrstvy odlíšiť.",
+  "cover": "/projects/skladacka-cover.jpg",
+  "coverAlt": "Archivovaný predný obal hry Skladačka zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný sken obalu zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/skladacka/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
   "sources": [
     "https://scd.sk/hra/skladacka/",
-    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+    "https://worldofspectrum.org/archive/software/text-adventures/skladacka-ultrasoft-2",
+    "https://www.worldofspectrum.org/pub/sinclair/games-info/s/Skladacka.txt",
+    "https://zxart.ee/rus/soft/games/interaktivnaja-literatura/text-only/skladacka/",
+    "https://spectrumcomputing.co.uk/entry/4548",
+    "https://www.oldgames.sk/mag/bit-39/review/816/"
   ],
   "company": "delta-soft"
 }

@@ -3,10 +3,24 @@
   "title": "Quadrax",
   "type": "game",
   "year_start": 1994,
+  "importance": 4,
   "authors": ["Marián Ferko", "David Ďurčák"],
-  "tags": ["game", "puzzle", "slovakia", "retro"],
+  "tags": ["game", "puzzle", "retro", "zx-spectrum", "cauldron"],
   "status": "verified",
-  "platform": "PC",
-  "summary": "Výrazná slovenská logická hra z 90. rokov, ktorá sa zaradila medzi známe domáce tituly.",
-  "sources": ["https://scd.sk/hra/quadrax/"]
+  "platform": "ZX Spectrum",
+  "summary": "Slovenská logická hra Quadrax vyšla v roku 1994 pre ZX Spectrum. David Ďurčák a Marián Ferko v nej postavili dvojicu postáv pred sériu chrámových hádaniek; neskôr sa dočkala úspešnej PC verzie spojenej so vznikom štúdia Cauldron.",
+  "storyMarkdown": "## Vznik\n\nQuadrax je slovenská logická hra autorov Davida Ďurčáka a Mariána Ferka. Pôvodná verzia vyšla v roku 1994 pre ZX Spectrum a predávala sa na kazete.\n\n## Hrateľnosť\n\nHra stavia na spolupráci dvoch postáv v uzavretých obrazovkách plných prepínačov, kameňov, dverí a plošín. Pôvodná verzia podporuje jedného aj dvoch hráčov.\n\n## Ďalší vývoj\n\nPodľa dobových a archívnych zdrojov vznikla o dva roky neskôr rozšírená PC verzia. Tá je spájaná so založením štúdia Cauldron a s výrazným úspechom značky na Slovensku aj v Česku.",
+  "cover": "/projects/quadrax-cover.jpg",
+  "coverAlt": "Sken obalu hry Quadrax zo ZX Spectrum archívu.",
+  "coverCredit": "Sken obalu z archívu Spectrum Computing / ZXDB.",
+  "coverSourceUrl": "https://spectrumcomputing.co.uk/entry/9403/ZX-Spectrum/Quadrax",
+  "coverOrigin": "archive",
+  "coverLicense": "Archívny sken prevzatý z verejného záznamu Spectrum Computing / ZXDB, zdroj uvedený.",
+  "sources": [
+    "https://scd.sk/hra/quadrax/",
+    "https://worldofspectrum.org/archive/software/games/quadrax-ultrasoft-2sintech",
+    "https://worldofspectrum.net/pub/sinclair/games-info/q/Quadrax(English).txt",
+    "https://ahd.avfx.sk/en/important-people-slovakia-still-dont-understand-games-and-demonize-them-says-game-development",
+    "https://spectrumcomputing.co.uk/entry/9403/ZX-Spectrum/Quadrax"
+  ]
 }

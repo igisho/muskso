@@ -7,7 +7,21 @@
   "tags": ["game", "slovakia", "retro", "action", "zx-spectrum"],
   "status": "verified",
   "platform": "ZX Spectrum 128K, ZX Spectrum 48K",
-  "summary": "Slovenská 8-bitová hra štúdia Bytepack, distribuovaná firmou Ultrasoft.",
-  "sources": ["https://scd.sk/hra/octopussy/"],
+  "summary": "Octopussy je slovenská hra pre ZX Spectrum z roku 1992 od Ultrasoftu. Na hre pracovali Milan Blažíček a Marek Forray. Ide o akčno-adventúrne spracovanie bondovky Octopussy, recenzované v BiT 8/1992.",
+  "storyMarkdown": "## Základné info\n\nOctopussy je hra pre ZX Spectrum vydaná v roku 1992 spoločnosťou Ultrasoft. Archívne databázy ju vedú ako titul pre 48K a 128K, pre jedného hráča, v žánri arcade a adventure.\n\n## Autori a podoba hry\n\nSo vznikom hry sa spájajú Milan Blažíček ako programátor a Marek Forray ako grafik. Dobové inštrukcie ju označujú ako akčnú plnografickú hru s prvkami adventure.\n\n## Námet\n\nHra čerpá z filmu Octopussy. Podľa inštrukcií sa dej začína po smrti agenta 009 a James Bond je vyslaný do Indie, aby objasnil prípad spojený so zlatým vajcom a falzifikátmi.\n\n## Dobový ohlas\n\nSlovenský časopis BiT zaradil Octopussy do čísla 08/1992. V archíve OldGames.sk je pri tejto recenzii evidované hodnotenie 87 %; rovnaké číslo obsahovalo aj plagát hry.",
+  "cover": "/projects/octopussy-cover.jpg",
+  "coverAlt": "Archivovaný predný obal hry Octopussy zo ZX Spectrum archívu Spectrum Computing.",
+  "coverCredit": "Archivovaný sken obalu zo Spectrum Computing / World of Spectrum.",
+  "coverSourceUrl": "https://spectrumcomputing.co.uk/entry/3487/ZX-Spectrum/Octopussy",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného herného archívu, zdroj uvedený.",
+  "sources": [
+    "https://worldofspectrum.org/archive/software/games/octopussy-ultrasoft-2",
+    "https://spectrumcomputing.co.uk/entry/3487/ZX-Spectrum/Octopussy",
+    "https://www.worldofspectrum.org/pub/sinclair/games-info/o/Octopussy.txt",
+    "https://www.oldgames.sk/en/mag/bit-11/review/4850/",
+    "https://www.mi6-hq.com/sections/games/octopussy_1992",
+    "https://zxart.ee/eng/authors/m/marek-forray/octopussy/"
+  ],
   "company": "bytepack"
 }

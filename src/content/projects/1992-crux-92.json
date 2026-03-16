@@ -3,11 +3,25 @@
   "title": "Crux 92",
   "type": "game",
   "year_start": 1992,
-  "authors": ["Stanz Software"],
-  "tags": ["game", "slovakia", "retro", "pc"],
+  "authors": ["Marek Trefný"],
+  "tags": ["game", "slovakia", "retro", "zx-spectrum", "logic", "sci-fi"],
   "status": "verified",
-  "platform": "PC",
-  "summary": "Slovenská hra z počiatku 90. rokov prezentovaná v archíve SCD Výstava 8-bit.",
-  "sources": ["https://scd.sk/hra/crux-92/"],
-  "company": "stanz-software"
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Crux 92 je logicko-akčná sci-fi hra pre ZX Spectrum, vydaná v roku 1992 firmou Ultrasoft. Hráč likviduje robotov navádzaním na míny a následne odpaľuje jednotlivé podlažia komplexu. Dobová recenzia v BiT jej dala 91 %.",
+  "storyMarkdown": "## Vydanie\n\nCrux 92 je hra pre ZX Spectrum vydaná v roku 1992. Autorom je Marek Trefný, vydavateľom a distribútorom bol Ultrasoft. Dobové archívne záznamy uvádzajú kazetové vydanie a cenu 89 Kčs.\n\n## Hrateľnosť\n\nIde o logicko-akčnú sci-fi hru. Hráč ovláda kozmonauta, ktorý musí na každom podlaží zničiť robotov navedením na míny a potom aktivovať autodeštrukciu. Hra podporuje jedného alebo dvoch striedajúcich sa hráčov.\n\n## Dobový kontext\n\nCrux 92 sa objavil aj v časopise BiT, kde získal hodnotenie 91 %. Archívne zdroje zachovali aj inštrukcie, reklamné materiály a rozhovor s autorom, ktorý spomínal, že príbeh hry mal pôvodne anglickú verziu.",
+  "cover": "/projects/crux-92-cover.jpg",
+  "coverAlt": "Archivovaný predný obal hry Crux 92 zo Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný sken obalu zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/crux-92/",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný sken z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
+  "sources": [
+    "https://scd.sk/hra/crux-92/",
+    "https://spectrumcomputing.co.uk/entry/1177",
+    "https://worldofspectrum.org/archive/software/games/crux-92-ultrasoft-2",
+    "https://www.worldofspectrum.org/pub/sinclair/games-info/c/Crux92.txt",
+    "https://www.oldgames.sk/mag/bit-12/review/5964/",
+    "https://www.oldgames.sk/mag/bit-14/review/6436/",
+    "https://archive.org/download/bit-sk/Bit_1993-02_djvu.txt"
+  ]
 }

@@ -3,11 +3,24 @@
   "title": "SOFIA",
   "type": "system",
   "year_start": 2001,
+  "importance": 4,
   "authors": ["Gratex International"],
   "tags": ["banking", "financial", "enterprise"],
-  "status": "verified",
-  "platform": "Java",
-  "summary": "Bankový informačný systém vyvinutý na Slovensku, ktorý sa používal vo viacerých bankách v strednej Európe.",
-  "sources": ["https://www.gratex.com"],
+  "status": "disputed",
+  "platform": "Neznáme",
+  "summary": "Oficiálne zdroje nepotvrdili bankový systém SOFIA od Gratexu z roku 2001. Gratex pri tomto roku uvádza Knowledge Office.NET; názov IS SOFIA je spoľahlivo doložený pri inom slovenskom projekte.",
+  "storyMarkdown": "## Čo sa podarilo overiť\n\nOficiálna história spoločnosti Gratex uvádza pri roku 2001 projekt Gratex Knowledge Office.NET. Názov SOFIA sa v overených firemných zdrojoch k tomuto roku nepotvrdil.\n\n## Bankový kontext Gratexu\n\nGratex má v oficiálnej časovej osi doložené bankové projekty, napríklad workflow automatizáciu pre VÚB v roku 1992 a systém PIS pre Eximbanku v roku 2004. Firma zároveň uvádza dlhodobé pôsobenie vo finančnom a bankovom sektore.\n\n## Poznámka k názvu SOFIA\n\nNázov IS SOFIA je dnes spoľahlivo doložený pri inom slovenskom projekte: ide o centrálny finančný informačný systém pre verejné vysoké školy na báze SAP. Tento projekt je vedený mimo Gratexu a jeho prvá inštalácia je datovaná do roku 2004.",
+  "cover": "/projects/gratex-sofia-cover.png",
+  "coverAlt": "Capture firemnej časovej osi Gratex s časťou okolo roku 2001, kde je uvedený projekt Gratex Knowledge Office.NET.",
+  "coverCredit": "Vlastný capture z oficiálnej stránky Gratex Story ako kontextový vizuál k spornému záznamu.",
+  "coverSourceUrl": "https://www.gratex.com/about-us/gratex-story.html",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture použitého zdroja pre dokumentačné účely s uvedením URL.",
+  "sources": [
+    "https://www.gratex.com/about-us/gratex-story.html",
+    "https://www.gratex.com/about-us/about-company.html",
+    "https://www.gratex.com/customers.html",
+    "https://www.axians.sk/use-case/centralny-financny-informacny-system-pre-verejne-vysoke-skoly-is-sofia/"
+  ],
   "company": "gratex"
 }

@@ -3,14 +3,24 @@
   "title": "Tria",
   "type": "game",
   "year_start": 1987,
-  "authors": ["Sybilasoft"],
+  "authors": ["Martin Sústrik", "Stanislav Hrda", "Michal Hlaváč"],
   "tags": ["game", "text-adventure", "slovakia", "zx-spectrum"],
   "status": "verified",
-  "platform": "ZX Spectrum",
-  "summary": "Slovenský 8-bitový titul zo zoznamu historických hier preložených do angličtiny.",
+  "platform": "ZX Spectrum 48K, ZX Spectrum 128K",
+  "summary": "Tria je slovenská textová adventúra pre ZX Spectrum od Martina Sústrika, Stanislava Hrdu a Michala Hlaváča. Vyšla v roku 1987 pod značkou Sybilasoft a v roku 2022 sa dočkala anglickej reedície v projekte SGDA a Slovenského múzea dizajnu.",
+  "storyMarkdown": "## O hre\n\nTria je slovenská textová adventúra pre počítače ZX Spectrum z roku 1987. Ako autori sa v archívnych zdrojoch uvádzajú Martin Sústrik, Stanislav Hrda a Michal Hlaváč; hra sa spája so štúdiom Sybilasoft.\n\n## Námet\n\nHráč sa ujíma postavy Stensona. Podľa zachovaných popisov a priebehu hry rieši hrozbu mimozemskej invázie, prechádza sériou miestností, zbiera predmety a postupne sa dostáva k zostrojeniu a použitiu fotónového torpéda.\n\n## Zachovanie a reedícia\n\nHra sa zachovala v archívoch Slovenského centra dizajnu, Spectrum Computing a World of Spectrum. V roku 2022 bola v spolupráci Slovak Game Developers Association a Slovak Design Museum sprístupnená aj anglická reedícia, ktorá rozšírila dostupnosť diela pre výskum a medzinárodné publikum.",
+  "cover": "/projects/tria-cover.png",
+  "coverAlt": "Archivovaná loading obrazovka hry Tria z inštitucionálneho archívu Slovenského centra dizajnu.",
+  "coverCredit": "Archivovaný loading screen zo Slovenského centra dizajnu.",
+  "coverSourceUrl": "https://scd.sk/hra/tria",
+  "coverOrigin": "archive",
+  "coverLicense": "Archivovaný screenshot z verejného záznamu Slovenského centra dizajnu, zdroj uvedený.",
   "sources": [
-    "https://scd.sk/hra/tria/",
-    "https://scd.sk/clanky/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period"
+    "https://scd.sk/hra/tria",
+    "https://sgda.sk/playable-english-localizations-of-slovak-digital-games-from-the-late-80s-period/",
+    "https://spectrumcomputing.co.uk/index.php?cat=96&id=7136",
+    "https://worldofspectrum.org/archive/software/text-adventures/tria-sybilasoft",
+    "https://www.herniarcheolog.cz/2018/01/hra-154-tria-1987.html"
   ],
   "company": "sybilasoft"
 }

@@ -1,11 +1,18 @@
 import type { Heritage } from "@/data/types";
+import { Link } from "react-router-dom";
+import { Github } from "lucide-react";
+import { companies } from "@/data/repository";
+import { githubLabel } from "@/lib/github";
 import StatusBadge from "./StatusBadge";
 
 interface FactsPanelProps {
   item: Heritage;
 }
 
-const FactsPanel = ({ item }: FactsPanelProps) => (
+const FactsPanel = ({ item }: FactsPanelProps) => {
+  const company = item.company ? companies.find((c) => c.id === item.company) : undefined;
+
+  return (
   <div className="bg-card border border-border p-6">
     <h3 className="font-mono text-xs uppercase tracking-widest text-muted-foreground mb-4">
       Údaje exponátu
@@ -24,10 +31,47 @@ const FactsPanel = ({ item }: FactsPanelProps) => (
         <span className="facts-label">Platforma</span>
         <span className="facts-value">{item.platform}</span>
       </div>
+      {item.github && (
+        <div className="facts-row">
+          <span className="facts-label">GitHub</span>
+          <a
+            href={item.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="facts-value inline-flex items-center gap-1 max-w-[65%] text-primary hover:underline"
+          >
+            <Github size={13} className="shrink-0" />
+            <span className="truncate">{githubLabel(item.github)}</span>
+          </a>
+        </div>
+      )}
+      {!item.github && company?.github && (
+        <div className="facts-row">
+          <span className="facts-label">GitHub firmy</span>
+          <a
+            href={company.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="facts-value inline-flex items-center gap-1 max-w-[65%] text-primary hover:underline"
+            title={`GitHub organizácie ${company.name}`}
+          >
+            <Github size={13} className="shrink-0" />
+            <span className="truncate">{githubLabel(company.github)}</span>
+          </a>
+        </div>
+      )}
       <div className="facts-row">
         <span className="facts-label">Autori</span>
         <span className="facts-value">{item.authors.join(", ")}</span>
       </div>
+      {company && (
+        <div className="facts-row">
+          <span className="facts-label">Firma</span>
+          <Link to={`/company/${company.id}`} className="facts-value text-primary hover:underline text-right">
+            {company.name}
+          </Link>
+        </div>
+      )}
       <div className="facts-row">
         <span className="facts-label">Status</span>
         <StatusBadge status={item.status} size="md" />
@@ -63,6 +107,7 @@ const FactsPanel = ({ item }: FactsPanelProps) => (
       </div>
     )}
   </div>
-);
+  );
+};
 
 export default FactsPanel;

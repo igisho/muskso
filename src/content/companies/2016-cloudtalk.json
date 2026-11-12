@@ -1,6 +1,7 @@
 {
   "id": "cloudtalk",
   "name": "CloudTalk",
+  "github": "https://github.com/CloudTalk",
   "overview": "Slovenská SaaS firma založená v Bratislave v roku 2016. Vyvíja cloudovú telefonickú platformu pre obchodné a zákaznícke tímy; produkt používa viac ako 5 500 firiem v 100+ krajinách.",
   "founded": 2016,
   "milestones": [

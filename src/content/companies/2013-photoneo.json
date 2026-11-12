@@ -1,6 +1,7 @@
 {
   "id": "photoneo",
   "name": "Photoneo",
+  "github": "https://github.com/photoneo",
   "overview": "Bratislavská firma založená v roku 2013, ktorá vyvíja 3D skenery a softvér pre robotické videnie a priemyselnú automatizáciu. V roku 2025 sa stala súčasťou Zebra Technologies.",
   "founded": 2013,
   "milestones": [

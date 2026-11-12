@@ -1,0 +1,11 @@
+{
+  "id": "cloudtalk",
+  "name": "CloudTalk",
+  "overview": "Slovenská SaaS firma založená v Bratislave v roku 2016. Vyvíja cloudovú telefonickú platformu pre obchodné a zákaznícke tímy; produkt používa viac ako 5 500 firiem v 100+ krajinách.",
+  "founded": 2016,
+  "milestones": [
+    { "year": 2016, "event": "Založenie firmy v Bratislave Martinom Malychom a Viktorom Vanekom" },
+    { "year": 2024, "event": "Series B v objeme približne 36 miliónov dolárov, investori KPN Ventures a Lead Ventures" }
+  ],
+  "projects": ["cloudtalk"]
+}

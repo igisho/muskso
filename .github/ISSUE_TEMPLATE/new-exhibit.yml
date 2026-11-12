@@ -1,0 +1,73 @@
+name: Nový exponát
+description: Navrhnite softvér, osobu alebo firmu do archívu MUSKSO
+title: "[Exponát] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ďakujeme za podnet. Vyplňte, čo viete — chýbajúce údaje doplníme pri overovaní.
+        Záznam sa do archívu dostane až po kontrole zdrojov.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Typ záznamu
+      options:
+        - Softvérový projekt
+        - Osoba
+        - Firma alebo štúdio
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Názov
+      placeholder: Napr. CloudTalk, Softip Profit, Meno osoby
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Rok vzniku alebo vydania
+      placeholder: "2016"
+    validations:
+      required: true
+
+  - type: input
+    id: origin
+    attributes:
+      label: Slovenský pôvod
+      description: Kto softvér vyvinul a kde? Firma, tím alebo autor.
+      placeholder: Bratislava, Slovensko
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Čo to je a prečo je dôležité
+      description: Stručne, 2–5 viet. Bez marketingových tvrdení.
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Zdroje
+      description: Jeden odkaz na riadok. Oficiálna stránka, archív, rozhovor, článok.
+      placeholder: |
+        https://example.sk
+        https://web.archive.org/web/...
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Kontakt (nepovinné)
+      description: E-mail alebo profil, ak sa chceme dopýtať.
+    validations:
+      required: false

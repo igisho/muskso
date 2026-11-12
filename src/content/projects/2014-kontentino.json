@@ -1,0 +1,34 @@
+{
+  "id": "kontentino",
+  "title": "Kontentino",
+  "type": "application",
+  "year_start": 2014,
+  "importance": 3,
+  "authors": [
+    "Marek Mrázik"
+  ],
+  "tags": [
+    "saas",
+    "social-media",
+    "marketing",
+    "collaboration",
+    "b2b",
+    "web"
+  ],
+  "status": "verified",
+  "platform": "Web",
+  "summary": "Slovenský nástroj na plánovanie, schvaľovanie a publikovanie obsahu na sociálnych sieťach. Vznikol pre potreby reklamných agentúr a dnes ho používajú tímy vo viac ako 75 krajinách.",
+  "cover": "/projects/kontentino-cover.png",
+  "coverAlt": "Domovská stránka Kontentina s modrým pozadím a náhľadom plánovacieho kalendára.",
+  "storyMarkdown": "## Vznik\n\nKontentino založil v roku 2014 v Bratislave Marek Mrázik, ktorý zároveň viedol reklamnú agentúru TRIAD. Nástroj vznikol z konkrétnej potreby: agentúry potrebovali jedno miesto, kde klient schvaľuje príspevky a tím ich následne publikuje bez chaosu v e-mailoch a tabuľkách.\n\n## Čo produkt robí\n\nKontentino pokrýva celý workflow obsahu na sociálnych sieťach:\n\n- plánovanie príspevkov na kalendári,\n- interné a klientske schvaľovanie,\n- publikovanie na viaceré platformy,\n- komentáre a spoluprácu viacerých rolí,\n- reporting a prehľad výkonu.\n\nProdukt je postavený na predplatnom modeli a cieli primárne na agentúry, marketingové tímy a značky, ktoré spravujú obsah pre viacerých klientov.\n\n## Význam\n\nKontentino patrí medzi málo slovenských SaaS produktov, ktoré si od začiatku držia vlastnú cestu bez veľkých investičných kôl. Ukazuje, že slovenský softvér sa dokáže presadiť v úzko špecializovanom segmente, kde rozhoduje kvalita workflow, nie veľkosť marketingu.\n\n## Prečo je v archíve\n\nJe to reprezentant slovenskej marketingovej SaaS generácie, ktorá vznikla po roku 2010 a stála na prenose agentúrnej praxe do produktu.",
+  "sources": [
+    "https://kontentino.com",
+    "https://getlatka.com/companies/kontentino",
+    "https://tracxn.com/d/companies/kontentino"
+  ],
+  "company": "kontentino",
+  "coverCredit": "Vlastný capture z webu kontentino.com pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://kontentino.com",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely."
+}

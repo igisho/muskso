@@ -1,0 +1,36 @@
+{
+  "id": "slido",
+  "title": "Slido",
+  "type": "application",
+  "year_start": 2012,
+  "importance": 5,
+  "authors": [
+    "Peter Komorník"
+  ],
+  "tags": [
+    "saas",
+    "events",
+    "meetings",
+    "polls",
+    "q-a",
+    "web",
+    "acquisition"
+  ],
+  "status": "verified",
+  "platform": "Web",
+  "summary": "Slovenská platforma pre interakciu s publikom na stretnutiach a podujatiach. Prešla z univerzitného nápadu na globálny produkt a v roku 2021 ju prevzal Cisco.",
+  "cover": "/projects/slido-cover.png",
+  "coverAlt": "Domovská stránka Slida s výzvou The easiest way to make your meetings interactive.",
+  "storyMarkdown": "## Vznik\n\nSlido vzniklo v Bratislave v roku 2012. Pôvodný nápad bol jednoduchý: dať študentom a účastníkom prednášok možnosť klásť otázky a hlasovať bez toho, aby museli vystúpiť pred plnú sálu. Z univerzitného experimentu sa stal produkt pre konferencie a firemné stretnutia.\n\n## Čo produkt robí\n\nSlido rieši interakciu s publikom v reálnom čase:\n\n- zber otázok a hlasovanie o najdôležitejších,\n- live ankety a kvízy,\n- word clouds a ďalšie formáty zapojenia,\n- integrácie s prezentačnými a videokonferenčnými nástrojmi.\n\nPlatforma sa používa na podujatiach od malých tímových porúch až po konferencie s tisíckami účastníkov.\n\n## Rast a akvizícia\n\nPodľa oficiálnych údajov má za sebou viac ako 8 miliónov interaktívnych stretnutí a 240 miliónov zapojených účastníkov. V roku 2021 Slido prevzal Cisco a integroval ho do Webexu; produkt zostal dostupný aj samostatne.\n\n## Prečo je v archíve\n\nSlido je jeden z najvýraznejších slovenských softvérových exportov. Ukazuje cestu od lokálneho nápadu cez globálny SaaS až po akvizíciu veľkým technologickým hráčom.",
+  "sources": [
+    "https://www.slido.com/about",
+    "https://blog.slido.com/slido-cisco-announcement",
+    "https://www.crn.com/news/networking/cisco-closes-slido-deal-for-inclusive-webex-meetings",
+    "https://www.investing.com/analysis/cisco-csco-announces-the-buyouts-of-slido-and-imimobile-200547321"
+  ],
+  "company": "slido",
+  "coverCredit": "Vlastný capture z webu slido.com pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.slido.com",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "kontentino",
+  "name": "Kontentino s.r.o.",
+  "overview": "Bratislavská softvérová firma založená v roku 2014. Vyvíja SaaS na plánovanie, schvaľovanie a publikovanie obsahu na sociálnych sieťach pre agentúry a marketingové tímy.",
+  "founded": 2014,
+  "milestones": [
+    { "year": 2014, "event": "Založenie firmy Marekom Mrázikom v Bratislave" }
+  ],
+  "projects": ["kontentino"]
+}

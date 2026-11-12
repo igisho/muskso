@@ -6,13 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node scripts/generate-sitemap.mjs",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:content": "node scripts/validate-content.mjs",
-    "audit:content": "node scripts/content-backlog.mjs"
+    "audit:content": "node scripts/content-backlog.mjs",
+    "new:exhibit": "node scripts/new-exhibit.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

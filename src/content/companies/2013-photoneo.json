@@ -1,0 +1,13 @@
+{
+  "id": "photoneo",
+  "name": "Photoneo",
+  "overview": "Bratislavská firma založená v roku 2013, ktorá vyvíja 3D skenery a softvér pre robotické videnie a priemyselnú automatizáciu. V roku 2025 sa stala súčasťou Zebra Technologies.",
+  "founded": 2013,
+  "milestones": [
+    { "year": 2013, "event": "Založenie firmy Jánom Žižkom, Tomášom Kovačovským a Michalom Malým" },
+    { "year": 2016, "event": "Prvý komerčný produkt PhoXi 3D Scanner" },
+    { "year": 2018, "event": "Vydanie Bin Picking Studio" },
+    { "year": 2025, "event": "Vstup do Zebra Technologies" }
+  ],
+  "projects": ["photoneo-bin-picking-studio"]
+}

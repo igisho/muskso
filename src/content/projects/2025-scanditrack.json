@@ -1,0 +1,22 @@
+{
+  "id": "scanditrack",
+  "title": "ScandiTrack",
+  "type": "application",
+  "year_start": 2025,
+  "authors": ["Marian Figula"],
+  "tags": ["web", "automation", "e-commerce", "price-tracking", "nextjs"],
+  "status": "draft",
+  "platform": "Web",
+  "summary": "ScandiTrack je webová aplikácia, ktorá sleduje ceny vybraných produktov na stránkach IKEA a e-mailom upozorní používateľa, keď cena klesne pod ním zvolenú hranicu.",
+  "storyMarkdown": "## Čo je ScandiTrack\n\nScandiTrack je webová aplikácia na sledovanie cien produktov IKEA. Používateľ vloží odkaz na produkt, zvolí cieľovú cenu a zadá e-mail.\n\n## Ako funguje\n\n- aplikácia raz denne skontroluje aktuálne ceny sledovaných produktov,\n- keď cena klesne pod zvolenú hranicu, odošle používateľovi e-mail,\n- sledovanie sa spravuje cez odkazy v e-mailoch,\n- ak produkt zmizne z ponuky, používateľ dostane upozornenie.\n\n## Proveniencia a limity overenia\n\nÚdaje pochádzajú od autora a z verejne dostupnej stránky aplikácie. Zdrojový kód nie je verejný.",
+  "cover": "/projects/scanditrack-cover.png",
+  "coverAlt": "Vlastný capture úvodnej stránky aplikácie ScandiTrack s poľom na vloženie odkazu na produkt IKEA a prehľadom funkcií.",
+  "coverCredit": "Vlastný capture z webu ScandiTrack pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://scanditrack.vercel.app/",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture autora aplikácie, zverejnený pre dokumentačné účely.",
+  "sources": [
+    "https://scanditrack.vercel.app/",
+    "https://web.archive.org/web/20261017060328/https://scanditrack.vercel.app/"
+  ]
+}

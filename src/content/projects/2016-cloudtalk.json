@@ -1,0 +1,36 @@
+{
+  "id": "cloudtalk",
+  "title": "CloudTalk",
+  "type": "application",
+  "year_start": 2016,
+  "importance": 4,
+  "authors": [
+    "Martin Malych",
+    "Viktor Vanek"
+  ],
+  "tags": [
+    "saas",
+    "voip",
+    "call-center",
+    "ai",
+    "crm",
+    "b2b",
+    "cloud"
+  ],
+  "status": "verified",
+  "platform": "Web",
+  "summary": "Slovenská cloudová telefonická platforma pre call centrá a obchodné tímy. Z Bratislavy sa rozšírila do viac ako 100 krajín a patrí medzi najrýchlejšie rastúce slovenské SaaS firmy.",
+  "cover": "/projects/cloudtalk-cover.png",
+  "coverAlt": "Domovská stránka CloudTalk s nápisom Every call answered, 24/7 a panelom AI voice agenta.",
+  "storyMarkdown": "## Začiatky\n\nCloudTalk vznikol v roku 2016 v Bratislave. Zakladatelia Martin Malych a Viktor Vanek chceli zjednodušiť firemnú telefonickú komunikáciu: namiesto ústredne na hardvéri ponúkli cloudovú platformu, ktorú firma zapne bez inštalácie.\n\n## Čo produkt robí\n\nPlatforma spája telefonovanie s CRM a helpdesk systémami. Okrem samotných hovorov rieši reportovanie, analytiku, nahrávanie a vyhodnocovanie konverzácií a v novších verziách aj AI hlasových agentov pre prichádzajúce a odchádzajúce hovory.\n\nProdukt cieli na malé a stredné firmy, ktoré nechcú budovať vlastnú telekomunikačnú infraštruktúru. Kľúčová je integrácia s nástrojmi, ktoré firmy už používajú — CRM, helpdesk a ďalšie obchodné systémy.\n\n## Rast a financovanie\n\nCloudTalk sa z regionálneho nástroja stal globálnym produktom. Podľa oficiálnych údajov ho používa viac ako 5 500 firiem v 100+ krajinách. Firma získala približne 36 miliónov dolárov investícií; v roku 2024 uzavrela Series B, ktoré viedli KPN Ventures a Lead Ventures.\n\n## Prečo je v archíve\n\nCloudTalk je príkladom slovenskej B2B SaaS firmy, ktorá nevyrastala z herného ani bezpečnostného priemyslu, ale z podnikovej komunikácie. Patrí k najviditeľnejším slovenským technologickým produktom druhej dekády 21. storočia.",
+  "sources": [
+    "https://www.cloudtalk.io/our-story",
+    "https://www.cloudtalk.io",
+    "https://www.failory.com/startups/slovakia"
+  ],
+  "company": "cloudtalk",
+  "coverCredit": "Vlastný capture z webu cloudtalk.io pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.cloudtalk.io",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely."
+}

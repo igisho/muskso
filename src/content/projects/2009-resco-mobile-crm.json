@@ -1,0 +1,35 @@
+{
+  "id": "resco-mobile-crm",
+  "title": "Resco Mobile CRM",
+  "type": "application",
+  "year_start": 2009,
+  "importance": 4,
+  "authors": [
+    "Resco"
+  ],
+  "tags": [
+    "crm",
+    "mobile",
+    "offline",
+    "field-service",
+    "microsoft",
+    "salesforce",
+    "b2b"
+  ],
+  "status": "verified",
+  "platform": "Android, iOS, Windows",
+  "summary": "Slovenská mobilná platforma pre prácu s CRM a terénnymi službami bez pripojenia. Používa sa v Microsoft Dynamics aj Salesforce ekosystéme, vrátane registrácie utečencov pre UNHCR.",
+  "cover": "/projects/resco-mobile-crm-cover.png",
+  "coverAlt": "Domovská stránka Resco s fialovým pozadím a platformou pre Dynamics 365 a Salesforce.",
+  "storyMarkdown": "## Vznik\n\nResco pôsobí na slovenskom trhu od roku 1999, keď začalo vydávať produktivitu pre vreckové počítače. Už v roku 2000 prišlo s prvou mobilnou aplikáciou na zadávanie objednávok v teréne. Samostatná mobilná CRM aplikácia pre prvú líniu vyšla v roku 2009 a o rok neskôr sa rozšírila na konfigurovateľnú platformu.\n\n## Čo produkt robí\n\nResco Mobile CRM je offline-first vrstva nad podnikovými systémami. Obchodník alebo technik môže pracovať s dátami aj bez signálu a synchronizácia prebehne, keď sa pripojenie obnoví. To je kľúčové pri terénnych službách, v skladoch, v odľahlých lokalitách a v humanitárnych operáciách.\n\nPlatforma sa integruje s Microsoft Dynamics 365 a Salesforce. Súčasťou je konfigurátor, ktorým si firma prispôsobí formuláre, procesy a obrazovky bez vlastného vývoja.\n\n## Dopad\n\nResco je členom Microsoft ekosystému od roku 2000 a Salesforce partnerom od roku 2017. V roku 2018 si UNHCR vybralo technológiu Resco ako základ registračnej aplikácie RApp pre utečencov v Brazílii; projekt sa rozšíril do viac ako 15 krajín.\n\n## Prečo je v archíve\n\nResco je dlhoveký slovenský B2B produkt, ktorý sa presadil v dvoch najväčších podnikových ekosystémoch. V archíve zastupuje kategóriu mobilných podnikových aplikácií a offline synchronizácie.",
+  "sources": [
+    "https://www.resco.net/about-us/",
+    "https://www.resco.net",
+    "https://appsource.microsoft.com/en-us/product/dynamics-365/resco.resco_collect"
+  ],
+  "company": "resco",
+  "coverCredit": "Vlastný capture z webu resco.net pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.resco.net",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely."
+}

@@ -11,7 +11,7 @@
 4. Dodrz nazov suboru: `YYYY-slug.json` alebo `YYYY-MM-slug.json`.
 5. Over, ze `slug` v nazve sa rovna `id` v obsahu.
 6. Spusti lokalne validacie.
-7. Otvor PR do `main` s popisom zmien a zdrojov.
+7. Otvor PR do `master` s popisom zmien a zdrojov.
 
 ## PR checklist
 

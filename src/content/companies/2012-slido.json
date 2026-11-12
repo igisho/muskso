@@ -1,0 +1,11 @@
+{
+  "id": "slido",
+  "name": "Slido s.r.o.",
+  "overview": "Slovenská softvérová firma založená v Bratislave v roku 2012. Vyvinula platformu na interakciu s publikom na stretnutiach a podujatiach; od roku 2021 je súčasťou Cisco.",
+  "founded": 2012,
+  "milestones": [
+    { "year": 2012, "event": "Založenie firmy a spustenie platformy v Bratislave" },
+    { "year": 2021, "event": "Akvizícia spoločnosťou Cisco" }
+  ],
+  "projects": ["slido"]
+}

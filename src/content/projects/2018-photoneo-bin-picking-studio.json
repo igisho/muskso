@@ -1,0 +1,36 @@
+{
+  "id": "photoneo-bin-picking-studio",
+  "title": "Photoneo Bin Picking Studio",
+  "type": "application",
+  "year_start": 2018,
+  "importance": 4,
+  "authors": [
+    "Ján Žižka",
+    "Tomáš Kovačovský",
+    "Michal Malý"
+  ],
+  "tags": [
+    "robotics",
+    "computer-vision",
+    "3d",
+    "industrial",
+    "ai",
+    "automation"
+  ],
+  "status": "verified",
+  "platform": "Windows",
+  "summary": "Slovenský softvér pre robotické bin picking, ktorý spája 3D videnie Photoneo s plánovaním pohybu robota. Nasadený v priemyselných inštaláciách po celom svete.",
+  "cover": "/projects/photoneo-bin-picking-studio-cover.png",
+  "coverAlt": "Domovská stránka Photoneo s 3D senzormi a nápisom Introducing the Next Generation of Blue Laser 3D Sensors.",
+  "storyMarkdown": "## Kontext\n\nPhotoneo vzniklo v roku 2013 v Bratislave. Zakladatelia Ján Žižka, Tomáš Kovačovský a Michal Malý sa poznali z Univerzity Komenského, kde sa venovali počítačovému videniu, fyzike a AI. Firma najprv vyvinula 3D skener PhoXi a neskôr softvér, ktorý z nasnímaných dát robí robotickú akciu.\n\n## Čo Bin Picking Studio robí\n\nBin picking je priemyselná úloha, pri ktorej robot vyberá diely z neusporiadanej kopy. Bin Picking Studio spracuje 3D dáta, rozpozná objekty, naplánuje uchopenie a odovzdá robotu trajektóriu. Softvér musí zvládnuť rôzne tvary, lesklé povrchy, prekrývajúce sa diely a kolísajúce svetlo.\n\nProdukt je úzko previazaný s hardvérom Photoneo, ale ako softvérová vrstva je samostatnou inžinierskou prácou: lokalizácia objektov, plánovanie pohybu a integrácia s priemyselnými robotmi.\n\n## Dopad\n\nPodľa oficiálnych údajov majú inštalácie Photoneo za sebou viac ako 50 miliónov robotických pick-and-place operácií a skenery vykonali viac ako miliardu 3D skenov. Firma získala ocenenia ako Vision Award 2018 a v roku 2025 sa stala súčasťou Zebra Technologies.\n\n## Prečo je v archíve\n\nJe to príklad slovenského priemyselného softvéru, ktorý nie je spotrebiteľskou aplikáciou ani hrou, ale súčasťou globálnej automatizácie. V archíve dopĺňa chýbajúcu kategóriu robotiky a počítačového videnia.",
+  "sources": [
+    "https://www.photoneo.com/about-us/",
+    "https://www.photoneo.com",
+    "https://www.forbes.sk/startupom-roka-je-photoneo-kto-vyhra-na-cesawards-suboj-o-najlepsi-coworking-ci-zensky-idol/"
+  ],
+  "company": "photoneo",
+  "coverCredit": "Vlastný capture z webu photoneo.com pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.photoneo.com",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely."
+}

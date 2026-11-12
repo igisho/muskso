@@ -1,0 +1,8 @@
+{
+  "id": "jan-zizka",
+  "name": "Ján Žižka",
+  "bio": "Spoluzakladateľ a CEO spoločnosti Photoneo, ktorá vyvíja 3D videnie a softvér pre priemyselnú robotiku.",
+  "roles": ["Spoluzakladateľ", "CEO"],
+  "periods": ["2013–súčasnosť"],
+  "projects": ["photoneo-bin-picking-studio"]
+}

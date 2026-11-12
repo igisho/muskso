@@ -1,0 +1,14 @@
+{
+  "id": "resco",
+  "name": "Resco, s.r.o.",
+  "overview": "Slovenská softvérová firma pôsobiaca od roku 1999. Vyvíja mobilnú platformu pre podnikové aplikácie, CRM a terénne služby s dôrazom na prácu offline.",
+  "founded": 1999,
+  "milestones": [
+    { "year": 1999, "event": "Začiatok vývoja produktivity pre vreckové počítače" },
+    { "year": 2000, "event": "Prvá mobilná aplikácia na zadávanie objednávok v teréne" },
+    { "year": 2009, "event": "Spustenie mobilnej CRM aplikácie pre prvú líniu" },
+    { "year": 2017, "event": "Stali sa Salesforce partnerom" },
+    { "year": 2018, "event": "UNHCR nasadilo Resco ako základ registračnej aplikácie RApp" }
+  ],
+  "projects": ["resco-mobile-crm"]
+}

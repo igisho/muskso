@@ -45,7 +45,12 @@ Príklady:
 Pre projekty môžete pridať aj:
 
 - `cover` - cesta k obrázku v `public/` (napr. `/projects/moj-projekt-cover.png`),
-- `storyMarkdown` - dlhší formátovaný popis projektu v Markdowne.
+- `storyMarkdown` - dlhší formátovaný popis projektu v Markdowne,
+- `github` - URL repozitára alebo projektového GitHub účtu (`https://github.com/...`).
+
+Pre firmy môžete pridať:
+
+- `github` - firemný alebo organizačný GitHub účet. Použi ho len vtedy, keď účet patrí firme, nie konkrétnemu produktu.
 
 Poznámka: `summary` je krátke zhrnutie s limitom 300 znakov.
 

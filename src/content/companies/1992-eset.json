@@ -1,6 +1,7 @@
 {
   "id": "eset",
   "name": "ESET, spol. s r.o.",
+  "github": "https://github.com/eset",
   "overview": "Slovenská spoločnosť zaoberajúca sa kybernetickou bezpečnosťou, založená v roku 1992. Dnes globálna firma s pobočkami po celom svete.",
   "founded": 1992,
   "milestones": [

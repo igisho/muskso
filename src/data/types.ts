@@ -18,6 +18,7 @@ export interface Heritage {
   coverOrigin?: "official" | "archive" | "own-capture" | "press" | "unknown";
   coverLicense?: string;
   sources: string[];
+  github?: string;
   company?: string;
 }
 
@@ -38,6 +39,7 @@ export interface Company {
   dissolved?: number;
   milestones: { year: number; event: string }[];
   projects: string[];
+  github?: string;
 }
 
 export interface TimelineEvent {

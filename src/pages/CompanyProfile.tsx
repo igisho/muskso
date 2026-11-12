@@ -1,6 +1,8 @@
 import { useParams, Link } from "react-router-dom";
+import { Github } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import { companies, heritageItems } from "@/data/repository";
+import { githubLabel } from "@/lib/github";
 
 const CompanyProfile = () => {
   const { id } = useParams();
@@ -31,7 +33,20 @@ const CompanyProfile = () => {
         </nav>
 
         <h1 className="font-display text-4xl font-semibold mb-4">{company.name}</h1>
-        <p className="text-muted-foreground leading-relaxed text-lg max-w-3xl mb-10">{company.overview}</p>
+        <p className={`text-muted-foreground leading-relaxed text-lg max-w-3xl ${company.github ? "mb-4" : "mb-10"}`}>{company.overview}</p>
+        {company.github && (
+          <a
+            href={company.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm text-primary hover:underline mb-10"
+          >
+            <Github size={16} />
+            <span>GitHub</span>
+            <span className="text-muted-foreground">·</span>
+            <span>{githubLabel(company.github)}</span>
+          </a>
+        )}
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div>

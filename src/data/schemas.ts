@@ -20,6 +20,9 @@ export const heritageSchema = z.object({
   coverOrigin: z.enum(["official", "archive", "own-capture", "press", "unknown"]).optional(),
   coverLicense: z.string().min(1).optional(),
   sources: z.array(z.string().url()),
+  github: z.string().url().refine((value) => value.startsWith("https://github.com/"), {
+    message: "GitHub URL must start with https://github.com/",
+  }).optional(),
   company: z.string().optional(),
 });
 
@@ -45,4 +48,7 @@ export const companySchema = z.object({
     })
   ),
   projects: z.array(z.string().min(1)),
+  github: z.string().url().refine((value) => value.startsWith("https://github.com/"), {
+    message: "GitHub URL must start with https://github.com/",
+  }).optional(),
 });

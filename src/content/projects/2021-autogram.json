@@ -1,0 +1,41 @@
+{
+  "id": "autogram",
+  "title": "Autogram",
+  "type": "application",
+  "year_start": 2021,
+  "importance": 4,
+  "authors": [
+    "Jakub Ďuraš",
+    "Slovensko.Digital",
+    "CRYSTAL CONSULTING, s.r.o.",
+    "Solver IT, s.r.o."
+  ],
+  "tags": [
+    "open-source",
+    "security",
+    "eid",
+    "eid-as",
+    "desktop",
+    "public-sector",
+    "slovakia"
+  ],
+  "status": "verified",
+  "platform": "Cross-platform",
+  "summary": "Autogram je open-source nástroj od Slovensko.Digital na kvalifikované elektronické podpisovanie občianskym preukazom s čipom. Beží na Windows, macOS aj Linuxe, dopĺňa ho rozšírenie do prehliadača a API pre integráciu do informačných systémov.",
+  "storyMarkdown": "## Čo je Autogram\n\nAutogram je desktopová aplikácia na vytváranie a overovanie kvalifikovaných elektronických podpisov v súlade s európskym nariadením eIDAS. Je napísaná v Jave (JavaFX) a funguje na Windows, macOS aj Linuxe. Okrem samotného podpisovania zvládne overovanie podpisov a hromadné podpisovanie desiatok či stoviek súborov naraz.\n\n## Vznik a autori\n\nProjekt vznikol v prostredí občianskeho združenia Slovensko.Digital. Podľa oficiálneho webu vychádza z otvoreného projektu Octosign White Label od Jakuba Ďuraša; pôvodnými autormi sú Jakub Ďuraš, Slovensko.Digital, CRYSTAL CONSULTING, s.r.o. a Solver IT, s.r.o. Vývoj financovali Slovensko.Digital a CRYSTAL CONSULTING, pričom najväčší rozvoj prebehol v rámci eurofondového projektu v spolupráci so Solver IT. Projekt dnes prevádzkuje firma Služby Slovensko.Digital, s.r.o., ktorú výhradne vlastní občianske združenie.\n\n## Časová os\n\n- apríl 2021: vznik verejného repozitára na GitHube,\n- september 2021: Živé.sk informuje o pripravovanom nástroji Slovensko.Digital s otvoreným zdrojovým kódom,\n- október 2021: prvé verejné alpha vydania v sekcii Releases,\n- november 2023: vydanie verzie 2.0, ktorá nadviazala na dovtedajší vývoj,\n- od verzie 2.8 sa Windows verzia distribuuje cez Microsoft Store, aktuálna vetva je 2.9.x.\n\n## Ako funguje\n\nPoužívateľ otvorí dokument, vyberie podpisový certifikát z občianskeho preukazu s čipom, zadá bezpečnostný kód a podpisový PIN. Podpis sa vytvára lokálne na počítači. Aplikáciu možno ovládať aj cez HTTP API alebo z príkazového riadka, čo je vhodné na dávkové podpisovanie. Autogram rozpozná slovenský eID, českú eObčanku, karty I.CA SecureStore, MONET+ ProID+Q a Gemalto IDPrime 940, s ďalšími čítačkami komunikuje cez PKCS#11.\n\n## Význam\n\nAutogram je bezplatná alternatíva k štátnemu balíku klientskych aplikácií D.Suite/eIDAS. Je vydaný pod licenciou EUPL-1.2 a je dostupný na súkromné aj komerčné použitie. Ukazuje, že občianska iniciatíva dokáže dodať nástroj, ktorý bežnému človeku sprístupní kvalifikovaný elektronický podpis bez čítačky, bez inštalácie štátneho softvéru a bez poplatkov.",
+  "cover": "/projects/autogram-cover.png",
+  "coverAlt": "Oficiálna stránka Autogramu s nadpisom, textom o podpisovaní občianskym preukazom a náhľadmi okna aplikácie.",
+  "coverCredit": "Vlastný capture z oficiálnej stránky Autogramu (sluzby.slovensko.digital) pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://sluzby.slovensko.digital/autogram",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture z verejne dostupnej oficiálnej stránky s uvedením zdroja.",
+  "sources": [
+    "https://sluzby.slovensko.digital/autogram",
+    "https://github.com/slovensko-digital/autogram",
+    "https://zive.aktuality.sk/clanok/ds0cmwz/skdigital-vyvija-nahradu-e-podpisovaca-od-statu-pozrite-si-ukazku/",
+    "https://zive.aktuality.sk/clanok/ThyAoCg/na-e-podpis-uz-netreba-softver-od-statu-skdigital-ponuka-bezplatnu-alternativu/",
+    "https://zive.aktuality.sk/clanok/9pkIiwB/e-podpis-zvladnete-uz-len-s-mobilom-mimovladka-predbehla-stat-a-vydala-vlastnu-aplikaciu/"
+  ],
+  "github": "https://github.com/slovensko-digital/autogram",
+  "company": "slovensko-digital"
+}

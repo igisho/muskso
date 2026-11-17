@@ -1,0 +1,24 @@
+{
+  "id": "slovensko-digital",
+  "name": "Slovensko.Digital",
+  "github": "https://github.com/slovensko-digital",
+  "overview": "Občianske združenie založené v roku 2016, ktoré sa venuje kvalite digitálnych služieb štátu na Slovensku. Popri watchdogových projektoch (Red Flags, Lepší eGovernment) vyvíja vlastné open-source nástroje pre komunikáciu so štátom – najmä Autogram a GovBox – a prevádzkuje ich cez dcérsku firmu Služby Slovensko.Digital, s.r.o.",
+  "founded": 2016,
+  "milestones": [
+    {
+      "year": 2016,
+      "event": "Registrácia občianskeho združenia Slovensko.Digital (29. január 2016)."
+    },
+    {
+      "year": 2021,
+      "event": "Vznik a prvé verejné alpha vydania nástroja Autogram na elektronické podpisovanie (GitHub, apríl až október 2021)."
+    },
+    {
+      "year": 2023,
+      "event": "Autogram v mobile pre iOS a Android – podpisovanie občianskym preukazom cez NFC bez čítačky."
+    }
+  ],
+  "projects": [
+    "autogram"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "zoznam-sk",
+  "title": "Zoznam.sk",
+  "type": "application",
+  "year_start": 1997,
+  "importance": 4,
+  "authors": ["Ivan Debnár", "Ivo Lukačovič"],
+  "tags": ["web", "portal", "search", "internet", "media", "slovakia"],
+  "status": "verified",
+  "platform": "Web",
+  "summary": "Zoznam.sk vznikol v roku 1997 v Banskej Bystrici ako katalóg a vyhľadávač slovenských webov. Až do septembra 2008 bol najnavštevovanejším slovenským webom.",
+  "storyMarkdown": "## Vznik\n\nZoznam.sk vznikol v roku 1997 v Banskej Bystrici. Založili ho Ivan Debnár a Ivo Lukačovič, ktorý je zároveň majiteľom českého portálu Seznam.cz. Podľa Wikipédie išlo o vôbec prvý slovenský webový vyhľadávač a jednu z prvých stránok na slovenskom internete.\n\nFiremná kronika portálu datuje založenie www.zoznam.sk do roku 1997 a označuje ho za „prvú stránku slovenského internetu“. Vznik spoločnosti Zoznam, s.r.o. so sídlom v Banskej Bystrici kronika uvádza k roku 1998.\n\n## Prvé roky\n\n- 1999 – portál spúšťa mapovú službu\n- 2000 – presun firmy z Banskej Bystrice do Bratislavy; do spoločnosti vstupuje švédska Scandinavia Online ako 50 % vlastník\n- 2001 – vznik freemailovej služby Zmail; portál prekračuje 100-tisíc unikátnych návštevníkov mesačne\n\n## Jednotka slovenského internetu\n\nV roku 2003 získal Zoznam.sk podľa agentúry GFK titul najlepšej značky slovenského internetu a jeho podiel na všetkých slovenských používateľoch internetu dosiahol 64 %. V júli 2003 portál prvýkrát prekonal 400-tisíc unikátnych užívateľov mesačne; denník Pravda k roku 2003 uvádza, že ho denne navštívili až dve tretiny pripojených Slovákov.\n\nPodľa Wikipédie bol Zoznam.sk najnavštevovanejšou slovenskou webstránkou od založenia až do septembra 2008, keď ho predbehol portál Azet.sk.\n\n## Vlastnícke zmeny\n\nV roku 1999 portál odkúpila firma Abeles & Braun patriaca Borisovi Zelenému a Lukášovi Alnerovi; Alner sa stal riaditeľom a Ivan Debnár pôsobil ako CTO. V roku 2004 spustil Zoznam.sk spolu s denníkom Nový Čas spravodajský server Bleskovky.sk, ktorý sa po spore s vydavateľstvom Ringier v roku 2008 premenoval na Topky.sk.\n\nV polovici 2000-tych rokov portál prevzal Slovak Telekom. Wikipédia uvádza kúpu 90 % podielu v auguste 2005 a zvyšných 10 % v júli 2006, firemná kronika portálu však vstup do skupiny Slovak Telekom radí k roku 2008 – v tomto bode sa zdroje rozchádzajú.\n\nV roku 2019 sa 100 % vlastníkom spoločnosti stal dovtedajší CEO Martin Mác.\n\n## Súčasnosť\n\nPortál dnes funguje ako katalóg slovenských webov doplnený o spravodajstvo a internetovú televíziu. Firemná kronika pripomína 20. narodeniny portálu v roku 2017.",
+  "cover": "/projects/zoznam-sk-cover.png",
+  "coverAlt": "Domovská stránka portálu Zoznam.sk s vyhľadávaním, katalógom a spravodajstvom.",
+  "coverCredit": "Vlastný capture z webu zoznam.sk pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.zoznam.sk/",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely.",
+  "sources": [
+    "https://sk.wikipedia.org/wiki/Zoznam.sk",
+    "https://media.zoznam.sk/",
+    "https://www.zoznam.sk/",
+    "http://vat.pravda.sk/komunikacia/clanok/296927-kratky-pohlad-do-internetoveho-stredoveku/"
+  ]
+}

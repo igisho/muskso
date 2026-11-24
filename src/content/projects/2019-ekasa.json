@@ -1,0 +1,24 @@
+{
+  "id": "ekasa",
+  "title": "eKasa",
+  "type": "application",
+  "year_start": 2019,
+  "importance": 4,
+  "authors": ["Finančná správa SR"],
+  "tags": ["public-sector", "tax", "fiscalization", "enterprise", "web", "slovakia"],
+  "status": "verified",
+  "platform": "Web",
+  "summary": "eKasa je systém Finančnej správy SR na online evidenciu tržieb. Od 1. júla 2019 musia byť naň povinne napojené všetky pokladnice podnikateľov na Slovensku.",
+  "storyMarkdown": "## Kontext\n\nSlovensko malo do roku 2019 elektronické registračné pokladnice (ERP) podľa zákona o elektronických registračných pokladniciach a popri nich dobrovoľný systém virtuálnej registračnej pokladnice (VRP). Finančná správa SR dlhodobo upozorňovala na daňovú medzeru na DPH v sektoroch hotelov, reštaurácií, kaviarní, maloobchodu a služieb, ktorá len za rok 2014 dosahovala 491 miliónov eur.\n\n## Zavedenie\n\neKasa je projekt online napojenia všetkých pokladníc na portál finančnej správy. Harmonogram bol postupný:\n\n- od 1. apríla 2019 sa museli pripojiť všetky novovzniknuté prevádzky a nové pokladnice,\n- ostatné subjekty postupne do 30. júna 2019,\n- od 1. júla 2019 je napojenie na eKasu povinné pre všetkých podnikateľov.\n\nZ elektronických registračných pokladníc sa tak stali online registračné pokladnice (ORP).\n\n## Ako to funguje\n\nPokladnicou nemusí byť len klasická ERP – finančná správa pripúšťa tablet, mobil, počítač aj virtuálnu registračnú pokladnicu. Výrobcovia pokladničných riešení musia získať certifikáciu finančnej správy a pokladnica komunikuje s chráneným dátovým úložiskom a portálom finančnej správy v reálnom čase. Súčasťou ekosystému sú aj služby Over doklad a ePeňaženka.\n\nAutorsky je systém dielom štátu: projekt zaviedla a prevádzkuje ho Finančná správa SR. Konkrétnych dodávateľov jednotlivých častí systému štát verejne neuvádza, preto ich záznam nešpecifikuje.\n\n## Dopady podľa finančnej správy\n\nFinančná správa pripisuje svojim opatreniam proti daňovým podvodom zníženie daňovej medzery zo 41 % na 26 % a približne 3,7 miliardy eur príjmov do štátnej pokladnice. Ide o súhrn desiatok opatrení od roku 2012 (daňová kobra, kontrolný výkaz DPH, obmedzenie platieb v hotovosti a ďalšie), nie výlučne o efekt eKasy.\n\n## Kritika\n\nV roku 2019 otestovalo Investigatívne centrum Jána Kuciaka spolu s firmou Nethemba zabezpečenie systému. Etickí hackeri obišli zariadenie komunikujúce s finančnou správou jednoduchým programom; Pavol Lupták z Nethemby vtedy pre ICJK uviedol, že nový systém má podľa neho fatálnu chybu v dizajne a že pôvodná požiadavka na šifrovanú komunikáciu s chráneným úložiskom bola z podmienok certifikácie vypustená.\n\n## Ďalší vývoj\n\nOd roku 2026 platí nový zákon č. 384/2025 Z. z. o evidencii tržieb. Finančná správa pripravuje nový systém SAFE, ktorého zavedenie sa nepredpokladá v roku 2026, a s ním súvisiacu povinnosť elektronickej faktúry od 1. januára 2027.",
+  "cover": "/projects/ekasa-cover.png",
+  "coverAlt": "Stránka eKasa na portáli Finančnej správy SR s informáciami pre predávajúcich.",
+  "coverCredit": "Vlastný capture z webu financnasprava.sk pripravený pre MUSKSO.",
+  "coverSourceUrl": "https://www.financnasprava.sk/sk/podnikatelia/dane/ekasa",
+  "coverOrigin": "own-capture",
+  "coverLicense": "Vlastný capture pre dokumentačné účely.",
+  "sources": [
+    "https://www.financnasprava.sk/sk/podnikatelia/dane/ekasa",
+    "https://www.financnasprava.sk/en/financial-administration/process-digitalisation",
+    "https://hnonline.sk/finweb/ekonomika/2035446-hackeri-naburali-ekasu-sami-boli-prekvapeni-ake-jednoduche-to-bolo"
+  ]
+}
